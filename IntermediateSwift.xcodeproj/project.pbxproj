@@ -20,6 +20,7 @@
 		090505FD2591FDB500DA6F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090506002591FDB500DA6F8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		090506022591FDB500DA6F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0905060A2591FF0E00DA6F8E /* 1_TypeProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TypeProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		090505F82591FDB000DA6F8E /* IntermediateSwift */ = {
 			isa = PBXGroup;
 			children = (
+				090506092591FDC700DA6F8E /* COURSE1_IntermediateSwift */,
 				090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */,
 				090505FB2591FDB000DA6F8E /* ContentView.swift */,
 				090505FD2591FDB500DA6F8E /* Assets.xcassets */,
@@ -67,6 +69,22 @@
 				090506002591FDB500DA6F8E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		090506092591FDC700DA6F8E /* COURSE1_IntermediateSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0905060C259206B700DA6F8E /* CHAPTER1_Properties */,
+			);
+			path = COURSE1_IntermediateSwift;
+			sourceTree = "<group>";
+		};
+		0905060C259206B700DA6F8E /* CHAPTER1_Properties */ = {
+			isa = PBXGroup;
+			children = (
+				0905060A2591FF0E00DA6F8E /* 1_TypeProperties.playground */,
+			);
+			path = CHAPTER1_Properties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
