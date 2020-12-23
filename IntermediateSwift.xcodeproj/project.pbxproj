@@ -16,6 +16,7 @@
 /* Begin PBXFileReference section */
 		0901A30925922B7000114E2A /* 2_ComputedProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ComputedProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A30B25933DB900114E2A /* 3_ReadingModes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ReadingModes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0901A30D2593CEB100114E2A /* 4_LazyStoredProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_LazyStoredProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505F62591FDB000DA6F8E /* IntermediateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftApp.swift; sourceTree = "<group>"; };
 		090505FB2591FDB000DA6F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				0905060A2591FF0E00DA6F8E /* 1_TypeProperties.playground */,
 				0901A30925922B7000114E2A /* 2_ComputedProperties.playground */,
 				0901A30B25933DB900114E2A /* 3_ReadingModes.playground */,
+				0901A30D2593CEB100114E2A /* 4_LazyStoredProperties.playground */,
 			);
 			path = CHAPTER1_Properties;
 			sourceTree = "<group>";

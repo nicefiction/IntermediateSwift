@@ -55,6 +55,7 @@ enum ReadingMode {
     
     
     var dateColor: UIColor {
+        
         switch self {
         case .day , .evening : return UIColor(red : 132/255.0 ,
                                               green : 132/255.0 ,
