@@ -157,16 +157,16 @@ struct Rectangle4 {
     
     var center: Point2 {
         get {
-            let centerX = origin.x / 2
-            let centerY = origin.y / 2
+            let centerX = origin.x/2
+            let centerY = origin.y/2
             
             return Point2(x : centerX ,
                           y : centerY)
         }
         
         set (centerValue) {
-            origin.x = centerValue.x + ( size.width / 2 )
-            origin.y = centerValue.y + ( size.height / 2 )
+            origin.x = centerValue.x + size.width/2
+            origin.y = centerValue.y + size.height/2
         }
     }
 }
@@ -225,7 +225,7 @@ struct Rectangle4 {
  and we can print the rectangle's centre . So , we'll say ,
  */
 var rectangle2 = Rectangle4()
-print("Original size : \(rectangle2.center)")
+print("Original center : \(rectangle2.center)") // prints Point2(x : 0 , y : 0)
 /**
  You'll see ,
  initially ,
@@ -233,17 +233,22 @@ print("Original size : \(rectangle2.center)")
  we get a point back for the center saying 0 , 0 .
  Now , we are going to assign a new center .
  */
-rectangle2.size = Size(width : 20 ,
-                       height : 15)
+rectangle2.size = Size(width : 20 , height : 16)
+rectangle2.center.x
+rectangle2.center.y
+rectangle2.origin.x
+rectangle2.origin.y
+print("New center : \(rectangle2.center)") // prints Point2(x : 0 , y : 0)
 
-print("New size : \(rectangle2.center)")
-
-rectangle2.origin = Point2(x : 10 ,
-                           y : 15)
+rectangle2.origin = Point2(x : 10 , y : 16)
+rectangle2.center.x
+rectangle2.center.y
+rectangle2.origin.x
+rectangle2.origin.y
 /**
  And now if we print out the rect.centre ,
  */
-print("After changing the origin , the new center is \(rectangle2.center)")
+print("After changing the origin , the new center is \(rectangle2.center)") // prints Point2(x : 5 , y : 7)
 /**
  even though it is calculated dynamically , it feels like we assigned it .
  It feels like a stored property , but you'll also notice
@@ -254,3 +259,5 @@ print("After changing the origin , the new center is \(rectangle2.center)")
  Because Swift automatically binds this to a constant named `newValue` .
  So you can simply use newValue here . But I feel like centreValue reads better .
  */
+
+print("Solves bug in XCode")
