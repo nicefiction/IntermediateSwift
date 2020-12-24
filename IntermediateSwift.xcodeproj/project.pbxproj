@@ -18,6 +18,7 @@
 		0901A30B25933DB900114E2A /* 3_ReadingModes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ReadingModes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A30D2593CEB100114E2A /* 4_LazyStoredProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_LazyStoredProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A30F2594867800114E2A /* 5_PropertyObservers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_PropertyObservers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0901A3122594A5D400114E2A /* 1_InitialisationRecap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_InitialisationRecap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505F62591FDB000DA6F8E /* IntermediateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftApp.swift; sourceTree = "<group>"; };
 		090505FB2591FDB000DA6F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0901A3112594A59500114E2A /* CHAPTER2_ObjectInitialisation */ = {
+			isa = PBXGroup;
+			children = (
+				0901A3122594A5D400114E2A /* 1_InitialisationRecap.playground */,
+			);
+			path = CHAPTER2_ObjectInitialisation;
+			sourceTree = "<group>";
+		};
 		090505ED2591FDB000DA6F8E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +87,7 @@
 		090506092591FDC700DA6F8E /* COURSE1_IntermediateSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0901A3112594A59500114E2A /* CHAPTER2_ObjectInitialisation */,
 				0905060C259206B700DA6F8E /* CHAPTER1_Properties */,
 			);
 			path = COURSE1_IntermediateSwift;
