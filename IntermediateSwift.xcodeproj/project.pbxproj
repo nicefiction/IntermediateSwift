@@ -26,6 +26,7 @@
 		090506002591FDB500DA6F8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		090506022591FDB500DA6F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0905060A2591FF0E00DA6F8E /* 1_TypeProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TypeProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		092514872594A92500345B77 /* 2_FailableAndThrowingInitialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FailableAndThrowingInitialisers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				0901A3122594A5D400114E2A /* 1_InitialisationRecap.playground */,
+				092514872594A92500345B77 /* 2_FailableAndThrowingInitialisers.playground */,
 			);
 			path = CHAPTER2_ObjectInitialisation;
 			sourceTree = "<group>";
