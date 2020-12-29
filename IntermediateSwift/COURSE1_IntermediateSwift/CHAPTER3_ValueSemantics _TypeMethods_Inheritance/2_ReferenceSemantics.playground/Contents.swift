@@ -95,3 +95,61 @@ thirdRobot.model = "T4_000"
  We are going to look at in the next video .
  Join me there .
  */
+
+
+
+// OLIVIER :
+
+struct ValueType {
+    
+    var x: Int
+    var y: Int
+    let z: Int
+}
+
+
+class ReferenceType {
+    
+    var x: Int
+    var y: Int
+    let z: Int
+    
+    
+    init(x: Int ,
+         y: Int ,
+         z: Int) {
+        
+        self.x = x
+        self.y = y
+        self.z = z
+    }
+}
+
+/* VALUE TYPES :
+ * * * * * * * */
+
+var value1 = ValueType(x : 1 ,
+                       y : 2 ,
+                       z : 3)
+
+let value2 = value1
+
+value1.x = 10
+// value2.x = 11 // ERROR : Cannot assign to property: 'value2' is a 'let' constant .
+// value1.z = 33 // ERROR : Cannot assign to property: 'z' is a 'let' constant .
+print("value1 = \(value1.x) , value2 = \(value2.x)")
+
+
+/* REFERENCETYPES :
+ * * * * * * * * */
+
+var reference1 = ReferenceType(x : 4 ,
+                               y : 5 ,
+                               z : 6)
+
+let reference2 = reference1
+
+reference1.x = 44
+reference2.x = 22
+// reference1.z = 66 // ERROR : Cannot assign to property: 'z' is a 'let' constant .
+print("reference1 = \(reference1.x) , reference2 = \(reference2.x)")

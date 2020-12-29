@@ -214,6 +214,27 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>3_MixedSemantics (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>3_MixedSemantics (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>3_MixedSemantics (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>3_ReadingModes (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
