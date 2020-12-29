@@ -37,6 +37,10 @@ class AnotherClass: SomeClass {
         fatalError("init() has not been implemented")
     }
 }
+
+
+//let anotherClass = AnotherClass(test : "TEST") // OLIVIER
+//print(anotherClass) // OLIVIER
 /**
  We'll get an error . And if we hit enter , it goes ahead and puts
  `required init() {`
