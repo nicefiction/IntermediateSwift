@@ -34,6 +34,7 @@
 		09251492259B280600345B77 /* 1_ValueSemantics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ValueSemantics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09251494259B3D0E00345B77 /* 2_ReferenceSemantics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ReferenceSemantics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09251496259B410400345B77 /* 3_MixedSemantics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_MixedSemantics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09251498259C6C0600345B77 /* 4_TypeMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_TypeMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				09251492259B280600345B77 /* 1_ValueSemantics.playground */,
 				09251494259B3D0E00345B77 /* 2_ReferenceSemantics.playground */,
 				09251496259B410400345B77 /* 3_MixedSemantics.playground */,
+				09251498259C6C0600345B77 /* 4_TypeMethods.playground */,
 			);
 			path = "CHAPTER3_ValueSemantics _TypeMethods_Inheritance";
 			sourceTree = "<group>";

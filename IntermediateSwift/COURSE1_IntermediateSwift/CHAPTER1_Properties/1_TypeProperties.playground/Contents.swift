@@ -42,6 +42,7 @@ import Foundation
  we learned about storing values in properties .
  */
 struct Account {
+    
     let userName: String
     let password: String
 }
@@ -71,6 +72,7 @@ someAccount.userName
  we can also have type properties that are associated with the type itself .
  */
 struct Point {
+    
     let x: Int
     let y: Int
 }
@@ -79,6 +81,7 @@ struct Point {
  Now to model this space , this map , let's define a Struct called Map :
  */
 struct Map {
+    
     static let origin: Point = Point(x : 0 ,
                                      y : 0)
 }
@@ -108,6 +111,7 @@ Map.origin
  So , we'll change this to var , ...
  */
 struct Map2 {
+    
     static var origin: Point = Point(x : 0 ,
                                      y : 0)
 }
