@@ -26,6 +26,7 @@
 		090506002591FDB500DA6F8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		090506022591FDB500DA6F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0905060A2591FF0E00DA6F8E /* 1_TypeProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TypeProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09093C1D259F042D0043EFD6 /* 1_WritingRepetitiveCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WritingRepetitiveCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514872594A92500345B77 /* 2_FailableAndThrowingInitialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FailableAndThrowingInitialisers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514892595D0AA00345B77 /* 3_InitializerDelegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_InitializerDelegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925148B2597275700345B77 /* 4_DesignatedAndConvenienceInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DesignatedAndConvenienceInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -82,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				090506092591FDC700DA6F8E /* COURSE1_IntermediateSwift */,
+				09093C1B259F037B0043EFD6 /* COURSE5_Generics */,
 				090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */,
 				090505FB2591FDB000DA6F8E /* ContentView.swift */,
 				090505FD2591FDB500DA6F8E /* Assets.xcassets */,
@@ -119,6 +121,22 @@
 				0901A30F2594867800114E2A /* 5_PropertyObservers.playground */,
 			);
 			path = CHAPTER1_Properties;
+			sourceTree = "<group>";
+		};
+		09093C1B259F037B0043EFD6 /* COURSE5_Generics */ = {
+			isa = PBXGroup;
+			children = (
+				09093C1C259F03C20043EFD6 /* CHAPTER1_GenericFunctionsParametersAndConstraints */,
+			);
+			path = COURSE5_Generics;
+			sourceTree = "<group>";
+		};
+		09093C1C259F03C20043EFD6 /* CHAPTER1_GenericFunctionsParametersAndConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				09093C1D259F042D0043EFD6 /* 1_WritingRepetitiveCode.playground */,
+			);
+			path = CHAPTER1_GenericFunctionsParametersAndConstraints;
 			sourceTree = "<group>";
 		};
 		09251491259B27B600345B77 /* CHAPTER3_ValueSemantics _TypeMethods_Inheritance */ = {
