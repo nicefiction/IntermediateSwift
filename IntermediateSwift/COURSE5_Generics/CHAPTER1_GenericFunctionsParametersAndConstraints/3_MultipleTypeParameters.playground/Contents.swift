@@ -223,3 +223,76 @@ transform(5 ,
  In the next few videos
  let's examine what else we can do with generic functions .
  */
+
+
+
+/* CHALLENGE :
+ In the editor
+ define a function named map
+ with two generic type parameters , T and U .
+ The function takes two arguments
+ - array of type [T] ,
+ and transformation of type (T) -> U .
+ The function returns an array of type U .
+ The goal of the function is
+ to apply the transformation operation on the array passed in
+ as argument to return a new array containing the values transformed .
+ For example given the array [ 1 , 2 , 3 , 4 , 5 ] as first argument ,
+ and a square function as the transformation argument ,
+ the result should be [ 1 , 4 , 9 , 16 , 25 ] .
+ */
+func map< T , U>(array: [T] ,
+                 transformation: (T) -> U)
+-> [U] {
+    
+    var squaredArray: [U] = Array<U>()
+    
+    for number in array {
+        let squaredNumber = transformation(number)
+        squaredArray.append(squaredNumber)
+    }
+    
+    return squaredArray
+}
+
+
+func squared(number: Int)
+-> Int {
+    
+    return number * number
+}
+
+
+let array1 = [
+    1 , 2 , 3 , 4 , 5
+]
+
+map(array: array1 ,
+    transformation: squared)
+/* Claire Worrmald via Treehouse :
+ The two generic types are T and U,
+ they can be
+ any type
+ and
+ the same
+ if you want
+ but I believe they were trying to make you use different ones
+ to prove a point that you can have as many type parameters as you wish.
+ What they were trying to show you is
+ the flexibility of generics,
+ so rather having to change the map function
+ to cater for every type you can pass in any closure/function
+ that conforms to transformation parameter and it will produce the required result.
+ Here is an example of a function returning square numbers
+ that are of type Double and another one summing the values.
+ Its a bit of a confusing question
+ but hopefully I've helped lift some of the mystery behind it.
+ */
+func squaredToDouble(number: Int)
+-> Double {
+    
+    return Double(number * number)
+}
+
+map(array: array1 ,
+    transformation: squaredToDouble)
