@@ -30,6 +30,7 @@
 		09093C1F259F27000043EFD6 /* 2_WritingGenericFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_WritingGenericFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2125A069290043EFD6 /* 3_MultipleTypeParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_MultipleTypeParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2625A1BAB10043EFD6 /* 4_ProtocolBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ProtocolBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09093C2925A1D7FD0043EFD6 /* 5_ClassBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ClassBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514872594A92500345B77 /* 2_FailableAndThrowingInitialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FailableAndThrowingInitialisers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514892595D0AA00345B77 /* 3_InitializerDelegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_InitializerDelegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925148B2597275700345B77 /* 4_DesignatedAndConvenienceInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DesignatedAndConvenienceInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -141,6 +142,7 @@
 				09093C1F259F27000043EFD6 /* 2_WritingGenericFunctions.playground */,
 				09093C2125A069290043EFD6 /* 3_MultipleTypeParameters.playground */,
 				09093C2625A1BAB10043EFD6 /* 4_ProtocolBasedTypeConstraints.playground */,
+				09093C2925A1D7FD0043EFD6 /* 5_ClassBasedTypeConstraints.playground */,
 			);
 			path = CHAPTER1_GenericFunctionsParametersAndConstraints;
 			sourceTree = "<group>";
