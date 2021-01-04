@@ -31,6 +31,7 @@
 		09093C2125A069290043EFD6 /* 3_MultipleTypeParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_MultipleTypeParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2625A1BAB10043EFD6 /* 4_ProtocolBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ProtocolBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2925A1D7FD0043EFD6 /* 5_ClassBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ClassBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09093C2C25A307EB0043EFD6 /* 1_GenericTypesInTheStandardLibrary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_GenericTypesInTheStandardLibrary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514872594A92500345B77 /* 2_FailableAndThrowingInitialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FailableAndThrowingInitialisers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514892595D0AA00345B77 /* 3_InitializerDelegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_InitializerDelegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925148B2597275700345B77 /* 4_DesignatedAndConvenienceInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DesignatedAndConvenienceInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -131,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				09093C1C259F03C20043EFD6 /* CHAPTER1_GenericFunctionsParametersAndConstraints */,
+				09093C2B25A307B40043EFD6 /* CHAPTER2_GenericTypes */,
 			);
 			path = COURSE5_Generics;
 			sourceTree = "<group>";
@@ -145,6 +147,14 @@
 				09093C2925A1D7FD0043EFD6 /* 5_ClassBasedTypeConstraints.playground */,
 			);
 			path = CHAPTER1_GenericFunctionsParametersAndConstraints;
+			sourceTree = "<group>";
+		};
+		09093C2B25A307B40043EFD6 /* CHAPTER2_GenericTypes */ = {
+			isa = PBXGroup;
+			children = (
+				09093C2C25A307EB0043EFD6 /* 1_GenericTypesInTheStandardLibrary.playground */,
+			);
+			path = CHAPTER2_GenericTypes;
 			sourceTree = "<group>";
 		};
 		09251491259B27B600345B77 /* CHAPTER3_ValueSemantics _TypeMethods_Inheritance */ = {
