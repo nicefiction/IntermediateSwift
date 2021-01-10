@@ -298,6 +298,27 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>3_LinkedListOperations (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
+		<key>3_LinkedListOperations (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>3_LinkedListOperations (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>3_MixedSemantics (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -560,7 +581,7 @@
 		<key>IntermediateSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolBasedTypeConstraints (Playground) 1.xcscheme</key>
 		<dict>
