@@ -44,6 +44,7 @@
 		0925149A259C746A00345B77 /* 5_FinalClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_FinalClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24D25A84E5400127166 /* 2_LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_LinkedLists.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24F25A863DB00127166 /* 3_LinkedListOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_LinkedListOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 			children = (
 				09093C1C259F03C20043EFD6 /* CHAPTER1_GenericFunctionsParametersAndConstraints */,
 				09093C2B25A307B40043EFD6 /* CHAPTER2_GenericTypes */,
+				09CB8AAE25AB14A400F8C799 /* CHAPTER3_GenericsAndProtocols */,
 			);
 			path = COURSE5_Generics;
 			sourceTree = "<group>";
@@ -171,6 +173,14 @@
 				0925149A259C746A00345B77 /* 5_FinalClasses.playground */,
 			);
 			path = "CHAPTER3_ValueSemantics _TypeMethods_Inheritance";
+			sourceTree = "<group>";
+		};
+		09CB8AAE25AB14A400F8C799 /* CHAPTER3_GenericsAndProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */,
+			);
+			path = CHAPTER3_GenericsAndProtocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

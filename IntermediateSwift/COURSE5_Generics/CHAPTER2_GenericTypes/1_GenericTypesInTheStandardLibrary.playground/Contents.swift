@@ -9,12 +9,13 @@ import Foundation
  Generic types provide the backbone
  on which many of Swift's foundational types are built .
  Over the next few videos
- we are going to
- look at
- how the Standard Library
+ we are going to look at
+ how
+ the Standard Library
  uses
  generic types
- to create data structures
+ to create
+ data structures
  and attempt to build one ourselves as well .
  */
 
