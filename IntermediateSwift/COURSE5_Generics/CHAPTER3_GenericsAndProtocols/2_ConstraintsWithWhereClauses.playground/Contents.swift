@@ -81,7 +81,7 @@ struct Checkout<Item> {
  And in the type , all we are going to do , is ,
  create a new variable of type Dictionary :
  `var cart = [Item : Int]()`
- When we assign a Dictionary of type Item to Int , we get an error
+ When we assign a `Dictionary` of type `Item` to `Int` , we get an error
  `// ERROR : Generic struct 'Dictionary' requires that 'Item' conform to 'Hashable' .`
  because we are not providing any information about what `Item` will be .
  And this violates one of the requirements of the `Dictionary` type :
@@ -106,48 +106,51 @@ struct Checkout1<Item: Hashable> {
  but none of these — Integer or a String — are shopping items .
  We need to introduce an additional constraint here
  and say that only Items that conform to the `ShoppingItem` protocol are acceptable as keys :
- So how do we do this ?
+ _So how do we do this ?_
  Well , we know that we can define additional type parameters by comma separating
  inside the angle brackets . So let's try that to add another constraint ,
  and say that Item should also conform to `ShoppingItem` :
  */
 /*
-struct Checkout2<Item: Hashable , Item: ShoppingItem> { // ERROR : Definition conflicts with previous v
+struct Checkout<Item: Hashable , Item: ShoppingItem> { // ERROR : Definition conflicts with previous value .
     
-    var cart = Dictionary<Item , Price>() // ERROR : 'Item' is ambiguous for type lookup in this context
+    var cart = Dictionary<Item , Price>() // ERROR : 'Item' is ambiguous for type lookup in this context .
 }
 */
 /**
  This doesn't work
  because the compiler thinks
  that we want to define two separate type parameters .
- `struct Checkout2<Item: Hashable , Item: ShoppingItem> {  ... }`
+ `struct Checkout<Item: Hashable , Item: ShoppingItem> {  ... }`
  The compiler is complaining
  because the type parameters conflict .
- They are both named the same .
+ They are both named the same — `Item`.
  Well , fair enough , this is a valid complaint .
  Okay , how can we do this ?
  One way is to rely on a feature of protocols — multiple inheritance .
- We create a new protocol , HashableShoppingItem :
+ We create a new protocol , `HashableShoppingItem` :
  */
 protocol HashableShoppingItem: Hashable , ShoppingItem { }
 /**
- The HashableShoppingItem protocol conforms to both ShoppingItem and Hashable .
- We are not providing any additional requirements to the HashableShoppingItem protocol .
+ The `HashableShoppingItem` protocol conforms to both `ShoppingItem` and `Hashable` .
+ We are not providing any additional requirements to the `HashableShoppingItem` protocol .
  */
 struct Checkout3<Item: HashableShoppingItem> {
     
     var cart = Dictionary<Item , Int>()
 }
 /**
- Using the HashableShoppingItem protocol , we can specify a single requirement to Item ,
+ Using the `HashableShoppingItem` protocol ,
+ we can specify a single requirement to `Item` ,
+ 
  `struct Checkout3<Item: HashableShoppingItem> { ... }`
+ 
  and now , this works . We are guaranteeing that `Item` in here
  will be both `Hashable` , and a `ShoppingItem` . This works ,
  but it necessitates creating this new empty `HashableShoppingItem` type
  purely for the purpose of creating a type constraint , which is needless . Not a good thing .
  There is another feature of protocols that we can use : `Protocol composition` .
- Using protocol composition ,
+ Using `protocol composition` ,
  you can combine multiple protocols
  into a single requirement on the fly , without creating a new type .
  You simply list as many protocols as you need to
@@ -167,13 +170,13 @@ struct Checkout4<Item: ShoppingItem & Hashable> {
 }
 /**
  `NOTE` that this is different from the `&&` operator — which uses double ampersands .
- `NOTE` that you can use protocol composition like this anywhere you need — like ,
- as function arguments , for example .
+ `NOTE` that you can use `protocol composition` like this anywhere you need
+ — like , as function arguments , for example .
  
  Now , this works
  and if we want to improve readability ,
  and have a single name at this constraint definition point ,
- we can even create a type alias :
+ we can even create a `typealias` :
  */
 typealias HashableShoppingItemAlias = ShoppingItem & Hashable
 
@@ -217,12 +220,12 @@ struct Animator<T> {}
  With multiple protocol constraints ,
  we could combine the two either at the point of constraint definition
  using a new protocol or using protocol composition .
- ( ! ) But we can't combine a class and protocol , though .
- For example , I can't create a typealias to combine
+ ⚠️ But we cannot combine a `class` and `protocol` , though .
+ For example , I can't create a `typealias` to combine
  both the fact that we want it to be a Shape , and we want it to be Hashable .
  So what do we do here ?
  We can specify additional requirements on type parameters
- — and even on associated types —
+ — and even on associatedtypes —
  by including a generic `where` clause
  right before the opening curly brace of a type or function’s body .
  The generic `where` clause consists of the `where` keyword ,
@@ -241,13 +244,14 @@ struct Animator2<T: Shape> where T: Hashable {}
  that are `Shape` instances or `Shape` subclasses .
  So , the first requirement is that `T` is a subclass of `Shape` .
  And then ,
- for the next requirement — which we call T as well —
- has to be Hashable ,
+ for the next requirement — which we call `T` as well —
+ has to be `Hashable` ,
  right before the ending or the opening brace , say `where`
  and we can add in the rest of our requirements .
  So here ,
  `struct Animator<T: Shape> where T: Hashable { ... }`
  I say `T` also needs to be `Hashable` .
+ 
  `where` clauses can seem like syntactic sugar
  for expressing constraints on type parameters as we have done here .
  For example , we can move `T` conforming to `Shape`
@@ -263,25 +267,31 @@ struct Animator4<T> where T: Shape , T: Hashable { }
  because the compiler knows
  that in a `where` clause ,
  we are referring to types already defined here .
+ `struct Animator<T> where ...`
  We can't define any new types here ,
- `struct     Animator<  T    > where T: Shape , T: Hashable {}`
- We can't define any new types here ,
- `struct Animator<T> where      T: Shape ,      T: Hashable {}`
+ `... where T: Shape , T: Hashable {}`
  so there aren't any conflicts .
  
  So this is how you start to build more requirements into your type constraints .
  Even when its protocols
  — typically the way to go is
  not how we have done here ,
+ 
  `typealias HashableShoppingItem = ShoppingItem & Hashable`
  
  `struct Checkout<Item: HashableShoppingItem> { ... }`
- through protocol composition ,
+ 
+ through `protocol composition` ,
  — but to use a `where` clause instead ,
  because it lists everything out at the point of the generic definition . So here ,
- we know that `Animator` accepts a type `T` .
- And `T` is both `Hashable` and a `Shape` subclass :
+ 
  `struct Animator<T> where T: Shape , T: Hashable { ... }`
+ 
+ we know that `Animator` accepts a type `T` .
+ And `T` is both `Hashable` and a `Shape` subclass .
+ 
+ 
+ 
  
  `where` clauses can do much more though ,
  so let's take a break here .
