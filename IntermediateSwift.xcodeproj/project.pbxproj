@@ -45,6 +45,10 @@
 		0945E24D25A84E5400127166 /* 2_LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_LinkedLists.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24F25A863DB00127166 /* 3_LinkedListOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_LinkedListOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD2E25CFDEF3002BEA48 /* 2_ConstraintsWithWhereClauses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ConstraintsWithWhereClauses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095FCD3025D12E20002BEA48 /* 3_ConstrainingAssociatedtypes_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095FCD3325D198BF002BEA48 /* 3_ConstrainingAssociatedtypes_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095FCD3525D1A355002BEA48 /* 3_ConstrainingAssociatedtypes_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095FCD3925D1D093002BEA48 /* 3_ConstrainingAssociatedtypes_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -181,6 +185,10 @@
 			children = (
 				09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */,
 				095FCD2E25CFDEF3002BEA48 /* 2_ConstraintsWithWhereClauses.playground */,
+				095FCD3025D12E20002BEA48 /* 3_ConstrainingAssociatedtypes_Part1.playground */,
+				095FCD3325D198BF002BEA48 /* 3_ConstrainingAssociatedtypes_Part2.playground */,
+				095FCD3525D1A355002BEA48 /* 3_ConstrainingAssociatedtypes_Part3.playground */,
+				095FCD3925D1D093002BEA48 /* 3_ConstrainingAssociatedtypes_Part4.playground */,
 			);
 			path = CHAPTER3_GenericsAndProtocols;
 			sourceTree = "<group>";

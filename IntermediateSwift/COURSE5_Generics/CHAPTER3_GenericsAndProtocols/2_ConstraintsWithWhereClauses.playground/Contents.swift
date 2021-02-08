@@ -298,3 +298,14 @@ struct Animator4<T> where T: Shape , T: Hashable { }
  And in the next video ,
  let's continue our exploration of generics and protocols .
  */
+
+
+
+// OLIVIER :
+
+struct Animator_1<T> where T: Hashable & ShoppingItem {} // Protocol & Protocol
+struct Animator_2<T> where T: Hashable & Shape {} // Protocol & Class
+struct Animator_3<T> where T: Hashable , T: ShoppingItem {}
+struct Animator_4<T> where T: Hashable , T: Shape {}
+struct Animator_5<T: Hashable & ShoppingItem> {} // Protocol & Protocol
+struct Animator_6<T: Hashable & Shape> {} // Protocol & Class

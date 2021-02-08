@@ -33,8 +33,8 @@ import Foundation
  But what about the internals of a protocol ?
  Can we define a protocol where the requirements themselves are generic ?
  We can , but not in the same way as we have seen so far .
- With protocols , we have a different concept called associated types .
- So , open a new playground page
+ With protocols , we have a different concept called associatedtype .
+    So , open a new playground page
  and we are going to model a new data structure in this video .
  Except , we are not going to provide a full implementation like we just did .
  We'll start by defining an interface through a protocol :
