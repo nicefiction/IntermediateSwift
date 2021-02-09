@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- Constraining associatedtypes : PART 2
+ `3 Constraining Associated Types` PART 2 of 4
  */
 /**
  One way we can go about this , is ,

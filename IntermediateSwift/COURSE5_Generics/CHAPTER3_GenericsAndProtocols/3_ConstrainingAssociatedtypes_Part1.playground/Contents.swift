@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `3 Constraining Associated Types`
+ `3 Constraining Associated Types` PART 1 of 4
  INTRO — In addition to constraining generic type parameters ,
  constraining associated types is a pretty common use case .
  In this video , let's figure out how we can do that .
