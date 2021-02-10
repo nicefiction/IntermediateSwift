@@ -49,7 +49,8 @@ class ViewController<View: ConfigurableView ,
     
     func start() {
         
-        let object = data.object(atIndex : 0)
+        // let object = data.object(atIndex : 0)
+        let _ = data.object(atIndex : 0)
         
         // view.configure(with : object) // ERROR : Cannot convert value of type 'DataSource.Object' to expected argument type 'View.Data' .
     }

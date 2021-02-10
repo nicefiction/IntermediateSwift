@@ -53,6 +53,8 @@
 		095FCD3E25D2931A002BEA48 /* 4_GenericsAndAssociatedTypes_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD4025D29BD9002BEA48 /* 4_GenericsAndAssociatedTypes_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD4325D2A0FD002BEA48 /* 4_GenericsAndAssociatedTypes_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		096BDD3525D3D5BE0023228A /* 5_ExtendingGenericTypes.playground_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -121,9 +123,9 @@
 		090506092591FDC700DA6F8E /* COURSE1_IntermediateSwift */ = {
 			isa = PBXGroup;
 			children = (
-				09251491259B27B600345B77 /* CHAPTER3_ValueSemantics _TypeMethods_Inheritance */,
-				0901A3112594A59500114E2A /* CHAPTER2_ObjectInitialisation */,
 				0905060C259206B700DA6F8E /* CHAPTER1_Properties */,
+				0901A3112594A59500114E2A /* CHAPTER2_ObjectInitialisation */,
+				09251491259B27B600345B77 /* CHAPTER3_ValueSemantics _TypeMethods_Inheritance */,
 			);
 			path = COURSE1_IntermediateSwift;
 			sourceTree = "<group>";
@@ -197,6 +199,8 @@
 				095FCD3E25D2931A002BEA48 /* 4_GenericsAndAssociatedTypes_Part2.playground */,
 				095FCD4025D29BD9002BEA48 /* 4_GenericsAndAssociatedTypes_Part3.playground */,
 				095FCD4325D2A0FD002BEA48 /* 4_GenericsAndAssociatedTypes_Part4.playground */,
+				096BDD3525D3D5BE0023228A /* 5_ExtendingGenericTypes.playground_Part1.playground */,
+				096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */,
 			);
 			path = CHAPTER3_GenericsAndProtocols;
 			sourceTree = "<group>";
