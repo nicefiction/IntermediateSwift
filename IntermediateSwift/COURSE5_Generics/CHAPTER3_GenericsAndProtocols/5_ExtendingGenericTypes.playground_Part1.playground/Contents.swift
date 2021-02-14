@@ -114,7 +114,9 @@ let thursdayWeather = Weather(temperature : 63 ,
                               sunrise : Date() ,
                               sunset : Date())
 
+
 let weeklyWeather: [Weather] = [
+    
     currentWeather , tuesdayWeather , wednesdayWeather , thursdayWeather
 ]
  
@@ -261,7 +263,7 @@ let numbersArray = [ 1 , 2 ]
  
     `associatedtype Element where Self.Element == Self.Iterator.Element`
  
-    `associatedtype Iterator : IteratorProtocol`
+    `associatedtype Iterator: IteratorProtocol`
     `...`
  `}`
 
@@ -317,5 +319,5 @@ extension Sequence where Iterator.Element == Weather {
 }
 
 /**
-👉 Continue in PART 4
+👉 Continue in PART 2
 */
