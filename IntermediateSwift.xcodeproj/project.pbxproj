@@ -33,6 +33,7 @@
 		09093C2925A1D7FD0043EFD6 /* 5_ClassBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ClassBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2C25A307EB0043EFD6 /* 1_GenericTypesInTheStandardLibrary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_GenericTypesInTheStandardLibrary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A125D8FB150087D565 /* 1_ExtendingANativeType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ExtendingANativeType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		090F11A325D8FF3E0087D565 /* 2_ProtocolConformanceUsingExtensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ProtocolConformanceUsingExtensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514872594A92500345B77 /* 2_FailableAndThrowingInitialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FailableAndThrowingInitialisers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514892595D0AA00345B77 /* 3_InitializerDelegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_InitializerDelegation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925148B2597275700345B77 /* 4_DesignatedAndConvenienceInitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DesignatedAndConvenienceInitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -180,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				090F11A125D8FB150087D565 /* 1_ExtendingANativeType.playground */,
+				090F11A325D8FF3E0087D565 /* 2_ProtocolConformanceUsingExtensions.playground */,
 			);
 			path = CHAPTER4_ExtensionsAndProtocols;
 			sourceTree = "<group>";
