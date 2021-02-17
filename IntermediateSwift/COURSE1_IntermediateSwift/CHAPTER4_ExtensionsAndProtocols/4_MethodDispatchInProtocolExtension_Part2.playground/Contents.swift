@@ -195,7 +195,7 @@ for person in people {
 
 /**
  When the playground executes ,
- you will now see that we get different implementations at the bottom for a for loop :
+ you will now see that we get different implementations at the bottom for a `for loop` :
  */
 
 // CONSOLE :
@@ -222,12 +222,13 @@ for person in people {
  ( 1 ) If it is a protocol ,
  then you need to worry about :
  Is that method defined in the original protocol
- or is it only in an extension ?
+ or is it only in an `extension` ?
  That is where we start to differ .
  ( 2 ) And the last case , again , is ,
  if the inferred type is the type itself
  and not the protocol .
  In that case , the type’s implementation is always called .
+ 
  If you look at `dorothy` ,
  
  `let dorothy = Human(firstName : "Dorothy" ,`
@@ -236,13 +237,11 @@ for person in people {
 
 dorothy.fullName // returns "Dorothy 🌈 Gale"
 
-
-
 /**
  where the inferred type is `Human` ,
  when we call `greeting()`
  
- dorothy.greeting() // "Welcome home Dorothy 🏵"
+ `dorothy.greeting() // "Welcome home Dorothy 🏵"`
  
  we get the implementation provided by the type , and not the protocol .
  
@@ -272,7 +271,7 @@ dorothy.fullName // returns "Dorothy 🌈 Gale"
  — and not seen by the compiler as `Person` —
  then you can guarantee the implementation provided by `Human`
  will be called the one you intended default .
- Default implementation in an extension or not .
+ Default implementation in an `extension` or not .
  */
 
 
@@ -292,3 +291,43 @@ dorothy.fullName // returns "Dorothy 🌈 Gale"
  So remember these rules , play around with it , and get familiar with them .
  It certainly might help you avoid creating a tricky bug for yourself .
  */
+
+
+/**
+ `QUIZ :`
+ */
+
+protocol SomeProtocol {
+    
+    func someMethod() -> Int
+}
+
+
+extension SomeProtocol {
+    
+    func someMethod()
+    -> Int {
+        
+        return 1
+    }
+}
+
+
+struct SomeStruct: SomeProtocol {
+    
+    func someMethod()
+    -> Int {
+        
+        return 2
+    }
+}
+
+
+let b: SomeProtocol = SomeStruct()
+b.someMethod() // returns 2
+
+let a: SomeStruct = SomeStruct()
+a.someMethod() // returns 2
+
+
+print("Debug")

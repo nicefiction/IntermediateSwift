@@ -60,6 +60,7 @@
 		095FCD4325D2A0FD002BEA48 /* 4_GenericsAndAssociatedTypes_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096BDD3525D3D5BE0023228A /* 5_ExtendingGenericTypes.playground_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_FunctionsAsData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -108,6 +109,7 @@
 			children = (
 				090506092591FDC700DA6F8E /* COURSE1_IntermediateSwift */,
 				09093C1B259F037B0043EFD6 /* COURSE5_Generics */,
+				09892DE025DC734E008C6216 /* COURSE6_Closures */,
 				090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */,
 				090505FB2591FDB000DA6F8E /* ContentView.swift */,
 				090505FD2591FDB500DA6F8E /* Assets.xcassets */,
@@ -202,6 +204,22 @@
 				0925149A259C746A00345B77 /* 5_FinalClasses.playground */,
 			);
 			path = "CHAPTER3_ValueSemantics _TypeMethods_Inheritance";
+			sourceTree = "<group>";
+		};
+		09892DE025DC734E008C6216 /* COURSE6_Closures */ = {
+			isa = PBXGroup;
+			children = (
+				09892DE125DC7369008C6216 /* CHAPTER1_FirstClassFunctions */,
+			);
+			path = COURSE6_Closures;
+			sourceTree = "<group>";
+		};
+		09892DE125DC7369008C6216 /* CHAPTER1_FirstClassFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */,
+			);
+			path = CHAPTER1_FirstClassFunctions;
 			sourceTree = "<group>";
 		};
 		09CB8AAE25AB14A400F8C799 /* CHAPTER3_GenericsAndProtocols */ = {
