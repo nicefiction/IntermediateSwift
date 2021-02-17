@@ -844,6 +844,27 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>4_ReturningFunctions (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
+		<key>4_ReturningFunctions (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
+		<key>4_ReturningFunctions (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
 		<key>4_TypeMethods (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
