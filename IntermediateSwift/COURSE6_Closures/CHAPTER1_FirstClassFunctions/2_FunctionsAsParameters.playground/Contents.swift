@@ -26,7 +26,7 @@ import Foundation
  Since functions themselves are first-class citizens ,
  this means that we can use one function as a parameter to another function .
  So , let’s take a look at this .
- The first thing we did earlier was to create the `printString( )` function ,
+ The first thing we did earlier was to create the `printString()` function ,
  */
 
 func printString(_ string: String) {
@@ -57,7 +57,7 @@ stringPrinterFunction("hello world")
  */
 
 /*
-func displayFunction(usingFunction function: (String) -> Void) {}
+func displayString(usingFunction function: (String) -> Void) {}
  */
 
 /**
@@ -68,12 +68,12 @@ func displayFunction(usingFunction function: (String) -> Void) {}
  But like we have the `stringPrinterFunction` constant that we wrote earlier ,
  `function` is also a constant that we are simply assigning another function to .
  Function parameters require types specified , so here ,
- we need to specify the same type as the `printString( )` function that we defined earlier
+ we need to specify the same type as the `printString()` function that we defined earlier
  
  `func printString(_ string: String) { ... }`
  
  because we'd like to pass this function — `printString` — in
- as an argument to the `displayString( )` function .
+ as an argument to the `displayString()` function .
  The type we want — that we inspected earlier — is `String to Void` ,
  
  `(String) -> Void`
@@ -98,12 +98,12 @@ func displayFunction(usingFunction function: (String) -> Void) {}
  it is a little bit confusing . So , I am actually using the word `Void` .
  So now we have a `function` here
  that takes another function as a parameter .
- Inside the `displayString( )` function ,
+ Inside the `displayString()` function ,
  we are going to call the function that we are passing in as an argument ,
  which is represented by this constant — `function` .
  Remember ,
  this is just like when we assigned the function to a constant .
- So we can call it — the call the one that is passed in as an argument —
+ So we can call it — call the one that is passed in as an argument —
  by using the name and just calling it :
  */
 
@@ -118,20 +118,22 @@ func displayString(usingFunction function: (String) -> Void) {
  And then we provide some value for its arguments .
  Since this is a `function` that accepts a `String` , we pass in a `String` .
  Now , nothing is going to happen yet , of course ,
- because we need to call `displayString()` .
- So , when we call `displayString()`
- and then provide some argument for this parameter ,
- it is going to then pass this `String` into whatever function we provide
- and defer that work . So for example ,
- if I call `displayString()` — just like any other function — ,
- and for the argument I provide the `printString()` function we defined earlier :
+ because we need to call `displayString()` ;
  */
 
 displayString(usingFunction : printString)
 
 /**
- You see at the bottom that this `String` is now passed as an argument
+ So , when we call `displayString()`
+ and then provide some argument for this parameter ,
+ it is going to then pass this `string` into whatever function we provide
+ and defer that work . So for example ,
+ if I call `displayString()` — just like any other function — ,
+ and for the argument I provide the `printString()` function we defined earlier .
+ You see at the bottom that this `string` is now passed as an argument
  to whatever is assigned to `function`
+ 
+ `func printString(_ string: String) { ... }`
  
  `func displayString(usingFunction function: (String) -> Void) { ... }`
  
@@ -144,7 +146,7 @@ displayString(usingFunction : printString)
  `}`
 
  you'll see that whatever is passed in as an argument
- is printed in this `string` right here using String Interpolation .
+ is printed in this `string` right here using `String Interpolation` .
  So , as expected , it says
  
  `" Printing the string passed in as an argument : I am a function inside a function . " ,`

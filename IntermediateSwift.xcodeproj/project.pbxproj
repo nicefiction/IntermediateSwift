@@ -62,6 +62,7 @@
 		096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_FunctionsAsData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FunctionsAsParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ExtendingTheIntType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -220,6 +221,7 @@
 			children = (
 				09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */,
 				09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */,
+				09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */,
 			);
 			path = CHAPTER1_FirstClassFunctions;
 			sourceTree = "<group>";
