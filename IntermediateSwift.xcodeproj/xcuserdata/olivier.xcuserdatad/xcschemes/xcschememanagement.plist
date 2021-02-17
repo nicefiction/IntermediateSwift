@@ -298,6 +298,27 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>2_FunctionsAsParameters (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>2_FunctionsAsParameters (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>2_FunctionsAsParameters (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
 		<key>2_LinkedLists (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
