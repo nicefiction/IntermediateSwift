@@ -64,6 +64,7 @@
 		09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FunctionsAsParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ExtendingTheIntType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE825DD6F29008C6216 /* 4_ReturningFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ReturningFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09892DEA25DD7DA3008C6216 /* 5_CapturingVariables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_CapturingVariables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -224,6 +225,7 @@
 				09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */,
 				09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */,
 				09892DE825DD6F29008C6216 /* 4_ReturningFunctions.playground */,
+				09892DEA25DD7DA3008C6216 /* 5_CapturingVariables.playground */,
 			);
 			path = CHAPTER1_FirstClassFunctions;
 			sourceTree = "<group>";
