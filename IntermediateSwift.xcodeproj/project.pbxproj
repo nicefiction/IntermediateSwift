@@ -32,6 +32,7 @@
 		09093C2625A1BAB10043EFD6 /* 4_ProtocolBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ProtocolBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2925A1D7FD0043EFD6 /* 5_ClassBasedTypeConstraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ClassBasedTypeConstraints.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09093C2C25A307EB0043EFD6 /* 1_GenericTypesInTheStandardLibrary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_GenericTypesInTheStandardLibrary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		090DB33F25DEADD600E9FC1C /* 1_AQuickRecap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AQuickRecap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A125D8FB150087D565 /* 1_ExtendingANativeType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ExtendingANativeType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A325D8FF3E0087D565 /* 2_ProtocolConformanceUsingExtensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ProtocolConformanceUsingExtensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A525D903670087D565 /* 3_ProtocolExtensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolExtensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -186,6 +187,14 @@
 			path = CHAPTER2_GenericTypes;
 			sourceTree = "<group>";
 		};
+		090DB33E25DEADAA00E9FC1C /* CHAPTER2_ClosureExpressions */ = {
+			isa = PBXGroup;
+			children = (
+				090DB33F25DEADD600E9FC1C /* 1_AQuickRecap.playground */,
+			);
+			path = CHAPTER2_ClosureExpressions;
+			sourceTree = "<group>";
+		};
 		090F11A025D8FAC40087D565 /* CHAPTER4_ExtensionsAndProtocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				09892DE125DC7369008C6216 /* CHAPTER1_FirstClassFunctions */,
+				090DB33E25DEADAA00E9FC1C /* CHAPTER2_ClosureExpressions */,
 			);
 			path = COURSE6_Closures;
 			sourceTree = "<group>";

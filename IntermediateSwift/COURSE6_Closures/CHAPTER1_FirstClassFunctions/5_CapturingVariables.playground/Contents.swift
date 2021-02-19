@@ -16,7 +16,50 @@ import Foundation
  and add a local variable in here :
  */
 
+/*
 typealias IntegerFunction = (Int) -> Void
+
+ 
+ 
+func gameCounter()
+-> IntegerFunction {
+    
+    var localCounter: Int = 0
+    
+    
+    func increment(_ i: Int) {
+        
+        print("The value of the local counter is : \(localCounter)")
+    }
+    
+    
+    return increment
+}
+ 
+ let counter = gameCounter()
+ counter(1)
+*/
+
+/**
+ Back when we first learned about functions , objects , and the like ,
+ we talked about scope :
+ A variable declared inside of a function exists only inside that function .
+ It goes out of scope when the function finishes execution .
+ Given that information ,
+ we know that the `localCounter` variable we just declared
+ — being a local variable —
+ will go out of scope
+ after the call to `gameCounter()` is made and finished .
+ Okay , tuck that knowledge away .
+ Now inside of the `increment()` function ,
+ let's increment the `localCounter`
+ by the amount of the value passed in — `i` —
+ as an argument to `increment` :
+ */
+
+typealias IntegerFunction = (Int) -> Void
+
+
 
 func gameCounter()
 -> IntegerFunction {
@@ -40,34 +83,13 @@ let counter = gameCounter()
 counter(1)
 
 /**
- Back when we first learned about functions , objects , and the like ,
- we talked about scope :
- A variable declared inside of a function exists only inside that function .
- It goes out of scope when the function finishes execution .
- Given that information ,
- we know that the `localCounter` variable we just declared
- — being a local variable —
- will go out of scope
- after the call to `gameCounter` is made and finished .
- Okay , tuck that knowledge away .
- Now inside of the `increment()` function ,
- let's increment the `localCounter` by the amount of the value passed in
- as an argument to increment :
-
- `func increment(_ i: Int) {`
- 
-    `localCounter += i`
- 
-    `print("The value of the local counter is : \(localCounter)"))`
- `}`
- 
  If we take a look at the function that we have written ,
  this is how we would expect it to work :
  We call the `gameCounter()` method  
  
  `let counter = gameCounter()`
  
- The function creates a local variable — `localCounter` —
+ The `gameCounter()` function creates a local variable — `localCounter` —
  with a value initialised to `0` .
  
  `var localCounter: Int = 0`
@@ -98,32 +120,6 @@ counter(1)
  and has been logged ,
  and gone out of scope since this is finish execution .
  So , next ,
- 
- `typealias IntegerFunction = (Int) -> Void`
- 
- 
- 
- `func gameCounter()`
- `-> IntegerFunction {`
- 
-    `var localCounter: Int = 0`
- 
- 
-    `func increment(_ i: Int) {`
- 
-        `localCounter += i`
- 
-        `print("The value of the local counter is : \(localCounter)")`
-    `}`
- 
- 
-    `return increment`
- `}`
-
-
- `let counter = gameCounter()`
- `counter(1)`
- 
  down here , `gameCounter()`
  returns `increment` , we know that so far .
  And in the next line of code ,
@@ -232,6 +228,14 @@ counter(1)
  the value is `1` .
  
  Now that we execute the `increment()` function down here ,
+ 
+ `func increment(_ i: Int) {`
+
+     `localCounter += i`
+
+     `print("The value of the local counter is : \(localCounter)")`
+ `}`
+ 
  you would think that , again ,
  because now that we have actually called the `increment()` function
  and `localCounter` is in here , we have called it ,
@@ -491,6 +495,21 @@ anotherCounter(60)
  let's see if we can build up a set of useful higher order functions
  using the concepts that we have just learned .
  */
+/**
+ `QUIZ`
+ `Q1`: `(Int , String) -> [String]`
+ `Q2`
+ Functions in Swift are first class citizens because :
+ 1. They can be assigned to constants and variables .
+ 2. They can be assigned as parameters to functions .
+ 3. They can be returned from functions .
+ `Q4`
+ A combination of a function and an environment of captured variables is called a `closure` .
+ `Q5`
+ */
+
+
+
 
 
 
