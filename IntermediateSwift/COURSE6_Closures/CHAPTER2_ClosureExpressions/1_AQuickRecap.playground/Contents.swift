@@ -76,7 +76,7 @@ func gameCounter()
         
         localCounter += i
         
-        print("The value of the loacal counter is \(localCounter) .")
+        print("The value of the local counter is \(localCounter) .")
     }
     
     

@@ -50,6 +50,7 @@
 		0925149A259C746A00345B77 /* 5_FinalClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_FinalClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24D25A84E5400127166 /* 2_LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_LinkedLists.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24F25A863DB00127166 /* 3_LinkedListOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_LinkedListOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		094C3DFF25DF881000432889 /* 2_ClosureExpressionSyntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ClosureExpressionSyntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD2E25CFDEF3002BEA48 /* 2_ConstraintsWithWhereClauses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ConstraintsWithWhereClauses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3025D12E20002BEA48 /* 3_ConstrainingAssociatedtypes_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3325D198BF002BEA48 /* 3_ConstrainingAssociatedtypes_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -191,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				090DB33F25DEADD600E9FC1C /* 1_AQuickRecap.playground */,
+				094C3DFF25DF881000432889 /* 2_ClosureExpressionSyntax.playground */,
 			);
 			path = CHAPTER2_ClosureExpressions;
 			sourceTree = "<group>";
