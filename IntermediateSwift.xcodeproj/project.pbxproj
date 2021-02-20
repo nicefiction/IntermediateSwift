@@ -52,6 +52,7 @@
 		0945E24F25A863DB00127166 /* 3_LinkedListOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_LinkedListOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		094C3DFF25DF881000432889 /* 2_ClosureExpressionSyntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ClosureExpressionSyntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		094C3E0125DF97C500432889 /* 3_ClosureExpressionShorthand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ClosureExpressionShorthand.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		094C3E0525DFB36300432889 /* 1_Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD2E25CFDEF3002BEA48 /* 2_ConstraintsWithWhereClauses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ConstraintsWithWhereClauses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3025D12E20002BEA48 /* 3_ConstrainingAssociatedtypes_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3325D198BF002BEA48 /* 3_ConstrainingAssociatedtypes_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -223,11 +224,20 @@
 			path = "CHAPTER3_ValueSemantics _TypeMethods_Inheritance";
 			sourceTree = "<group>";
 		};
+		094C3E0425DFB33400432889 /* CHAPTER3_BuildingStandardLibraryFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				094C3E0525DFB36300432889 /* 1_Map.playground */,
+			);
+			path = CHAPTER3_BuildingStandardLibraryFunctions;
+			sourceTree = "<group>";
+		};
 		09892DE025DC734E008C6216 /* COURSE6_Closures */ = {
 			isa = PBXGroup;
 			children = (
 				09892DE125DC7369008C6216 /* CHAPTER1_FirstClassFunctions */,
 				090DB33E25DEADAA00E9FC1C /* CHAPTER2_ClosureExpressions */,
+				094C3E0425DFB33400432889 /* CHAPTER3_BuildingStandardLibraryFunctions */,
 			);
 			path = COURSE6_Closures;
 			sourceTree = "<group>";

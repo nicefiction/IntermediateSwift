@@ -44,7 +44,7 @@ let tripledNumbers = numbers.map({ (number: Int) -> Int in
 
 /**
  This time — instead of passing in a `triple()` function that we haven't defined —
- e are going to use a `closure expression` .
+ we are going to use a `closure expression` .
  To write a `closure expression` ,
  we first start with a set of braces .
  Inside the braces ,
