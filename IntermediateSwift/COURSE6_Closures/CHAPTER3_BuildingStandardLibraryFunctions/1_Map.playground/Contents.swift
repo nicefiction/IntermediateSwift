@@ -32,11 +32,11 @@ import Foundation
  there are two primary reasons
  you iterate over a collection
  using a loop :
- ( 1 ) One , to use the elements in the array for some computation .
+ (`1`) One , to use the elements in the array for some computation .
  Lets say you have an array of names ,
  and for every name in the array
  you want to use it to print out a string of some sort .
- ( 2 ) The second case is when you want to transform the elements in the array .
+ (`2`) The second case is when you want to transform the elements in the array .
  Let's say you have an array of numbers ,
  and you want to double each value in the array .
  You could do it like this :
@@ -141,30 +141,32 @@ print(tripledNumbers)
  and getting an immutable new array back
  that does not mutate the original data set .
  So , that is the second major difference .
- Here , we are not mutating any array ,
+ Here ,
  
  `var originalNumbers: [Int] = [`
      `1 , 3 , 5 , 7 , 9`
  `]`
  
+ we are not mutating any array .
  So , _what does this have to do with closures ?_
  Well — as you can see —
  
  `originalNumbers.map(transform: (Int) throws -> T)`
  
  the `map()` function takes a `transformation function`
- in the form of a closure expression that it then applies to each element :
+ in the form of a `closure expression` that it then applies to each element :
  
+ `// CLOSURE EXPRESSION` RULE #1 :
  `let doubledNumbers = originalNumbers.map { (number: Int) -> Int in`
  
     `return number * 2`
  `}`
  
- 
+ `// CLOSURE EXPRESSION` RULE #6 :
  `let tripledNumbers = originalNumbers.map { $0 * 3 }`
  
  Along with `map()` ,
- there are few other functions in swift that allow you to program
+ there are few other functions in Swift that allow you to program
  in a more declarative style with less mutation .
  To truly understand how they work though
  — rather than just showing you how to use them —
@@ -177,7 +179,7 @@ print(tripledNumbers)
     So the first function we are going to build , is ,
  the `map()` function .
  We are going to declare the `map()` function
- as part of the array type
+ as part of the `Array` type
  so let's do this in an `extension` :
  */
 
@@ -199,6 +201,9 @@ extension Int {
 /**
  ... we had a parameter that was essentially the transformation function
  except that it was hard coded to accept only integer values .
+ 
+ `operation: (Int) -> Int`
+ 
  The `map()` function doesn't work that way ,
  instead
  the signature of the transformation function
@@ -221,7 +226,7 @@ extension Int {
  depends on the collection that we are calling `map()` on .
  If you can `map()` on an array of strings for example ,
  it expects that the transformation function takes a `String` as an argument .
- What about the return type ?
+ _What about the return type ?_
  Well , the return type depends on what you actually do in the transformation function .
  For example ,
  
@@ -277,6 +282,7 @@ extension Array {
  `transform: (Element) -> T`
  
  refers to the `type parameter` defined in `Array` .
+ — OLIVIER : If you COMMAND Click on Array to go to its definition —
  
  `@frozen public struct Array<Element> { ... }`
  
@@ -468,6 +474,7 @@ struct Formatter {
     -> Date? {
         
         formatter.dateFormat = "d MMM yyyy"
+        
         return formatter.date(from : string)
     }
 }
@@ -478,9 +485,12 @@ let dateStrings = [
 ]
 
 /**
- So here , I have just created a tiny struct ,
+ So here , I have just created a tiny `struct` — `Formatter` ,
  with a `static` method
  that accepts a `string`containing a date in a particular format ,
+ 
+`formatter.dateFormat = "d MMM yyyy"`
+ 
  and returns an optional instance of `Date` :
  
  `static func date(from string: String)`
