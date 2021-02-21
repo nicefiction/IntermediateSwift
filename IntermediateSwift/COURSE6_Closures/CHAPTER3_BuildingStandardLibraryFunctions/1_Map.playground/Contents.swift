@@ -76,7 +76,7 @@ print(numbersDoubled)
  Take the following example :
  */
 
-// OPTION 1 :
+// CLOSURE EXPRESSION Longform Olivier :
 
 let doubledNumbers = originalNumbers.map { (number: Int) -> Int in
     
@@ -84,7 +84,7 @@ let doubledNumbers = originalNumbers.map { (number: Int) -> Int in
 }
 
 
-// OPTION 2 :
+// CLOSURE EXPRESSION Shortform :
 
 let tripledNumbers = originalNumbers.map { $0 * 3 }
 
