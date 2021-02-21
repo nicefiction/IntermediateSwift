@@ -65,9 +65,18 @@ print("Content strings : \(contentStrings)")
  and try to transform the strings :
  */
 
+// LONGFORM :
+let blogTagsLongform = blogPosts.map { (blogPost: BlogPost) -> [String] in
+    
+    return blogPost.tags
+}
+
+// SHORTFORM :
 let blogTags = blogPosts.map { $0.tags }
 
-print(blogTags) // Prints [["first", "programming"], ["general"]]
+
+print("Blog tags longform : \(blogTagsLongform)")
+print("Blog tags shortform: \(blogTags)") // Prints [["first", "programming"], ["general"]]
 
 /**
  Here , I am not making the strings uppercase
@@ -107,9 +116,30 @@ print(blogTags) // Prints [["first", "programming"], ["general"]]
  So if we change the function name here to `flatMap( )` ,
  */
 
+// SHORTFORM :
 let flattenedTagArray = blogPosts.flatMap { $0.tags }
 
 print("flattenedTagArray = \(flattenedTagArray)")
+
+
+// LONGFORM :
+ let flattenedTagArrayLongForm =
+    blogPosts.flatMap { (blogPost: BlogPost) -> [String] in
+ 
+        return blogPost.tags
+ } // returns [String]
+
+/* LONGFORM :
+ let blogTagsLongform = blogPosts.map { (blogPost: BlogPost) -> [String] in
+ 
+    return blogPost.tags
+ } // returns [[String]]
+ */
+
+
+ 
+ print("flattenedTagArrayLongForm : \(flattenedTagArrayLongForm)")
+
 
 // OLIVIER :
 let tagsUppercased = flattenedTagArray.map { $0.uppercased() }
@@ -334,6 +364,7 @@ let allUsers = [
  and you want the billing addresses :
  */
 
+// SHORTFORM :
 let validBillingAddresses = allUsers.compactMap { $0.billingAddress }
 
 /* WARNING Apple :
@@ -342,7 +373,16 @@ let validBillingAddresses = allUsers.compactMap { $0.billingAddress }
  * for the case where closure returns an optional value
  */
 
+// LONGFORM :
+let validBillingAddressesLongForm =
+    allUsers.compactMap { (userAccount: Account) -> String? in
+    
+        return userAccount.billingAddress
+}
+
+
 print("Valid billing addresses : \(validBillingAddresses)")
+print("Valid billing addresses Long Form : \(validBillingAddressesLongForm)")
 
 /**
  We pass in a closure .
@@ -438,3 +478,50 @@ print(transformedAddresses)
  As we use `map()` and `flatMap()` in our code more and more ,
  it should be more clear on where we should use what , `map()` or a `for loop` .
  */
+
+
+
+
+/**
+ OLIVIER :
+ */
+
+let numbersOlivier = [
+    1 , 2 , 3 , 4 , 5
+]
+
+
+let stringNumbers = numbersOlivier.map { (number: Int) -> String in
+        
+    return String(number)
+}
+
+
+print("String numbers : \(stringNumbers)") // prints ["1", "2", "3", "4", "5"]
+
+
+let wordsOlivier = [
+    ["hello" , "world"] ,
+    ["hi" , "again"] ,
+    ["Emerald" , "City" , "of" , "Oz"]
+]
+
+
+let wordsArray = wordsOlivier.flatMap { (words: [String]) -> [String] in
+    
+    return words.map {(word: String) in
+        
+        return word.uppercased()
+    }
+}
+
+print("Words array 1 : \(wordsArray)")
+
+
+let wordsArray2 = wordsOlivier.compactMap { (words: [String]) -> Int in
+    
+    return words.count
+}
+
+print("Words Olivier : \(wordsOlivier)")
+print("Words array 2 : \(wordsArray2)")
