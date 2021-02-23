@@ -417,5 +417,4 @@ print("Identifier Short form : \(identifierShortform)")
  Well now that stuff is like second nature .
  So don't worry ,
  you’ll get there with closures too .
- 
  */

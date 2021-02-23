@@ -214,6 +214,27 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>1_ThrowingFromInsideAClosure (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>57</integer>
+		</dict>
+		<key>1_ThrowingFromInsideAClosure (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>58</integer>
+		</dict>
+		<key>1_ThrowingFromInsideAClosure (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
 		<key>1_TypeProperties (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1267,7 +1288,7 @@
 		<key>IntermediateSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolBasedTypeConstraints (Playground) 1.xcscheme</key>
 		<dict>

@@ -63,6 +63,7 @@
 		095FCD4025D29BD9002BEA48 /* 4_GenericsAndAssociatedTypes_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD4325D2A0FD002BEA48 /* 4_GenericsAndAssociatedTypes_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0966E6C525E268D000C86795 /* 4_Reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0966E6C825E29A6700C86795 /* 1_ThrowingFromInsideAClosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ThrowingFromInsideAClosure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096BDD3525D3D5BE0023228A /* 5_ExtendingGenericTypes.playground_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_FunctionsAsData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -238,12 +239,21 @@
 			path = CHAPTER3_BuildingStandardLibraryFunctions;
 			sourceTree = "<group>";
 		};
+		0966E6C725E29A1800C86795 /* CHAPTER4_ErrorHandlingAndMemoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				0966E6C825E29A6700C86795 /* 1_ThrowingFromInsideAClosure.playground */,
+			);
+			path = CHAPTER4_ErrorHandlingAndMemoryManagement;
+			sourceTree = "<group>";
+		};
 		09892DE025DC734E008C6216 /* COURSE6_Closures */ = {
 			isa = PBXGroup;
 			children = (
 				09892DE125DC7369008C6216 /* CHAPTER1_FirstClassFunctions */,
 				090DB33E25DEADAA00E9FC1C /* CHAPTER2_ClosureExpressions */,
 				094C3E0425DFB33400432889 /* CHAPTER3_BuildingStandardLibraryFunctions */,
+				0966E6C725E29A1800C86795 /* CHAPTER4_ErrorHandlingAndMemoryManagement */,
 			);
 			path = COURSE6_Closures;
 			sourceTree = "<group>";
