@@ -287,7 +287,7 @@ do {
         if $1 == 0 {
             throw MathError.dividebByZero
         } else {
-            return $0 / $0
+            return $0 / $1
         }
     }
 } catch {
@@ -302,7 +302,7 @@ do {
      `if $1 == 0 {`
          `throw MathError.dividebByZero(message: "Undivisable by zero .")`
      `} else {`
-         `return $0 / $0`
+         `return $0 / $1`
      `}`
  `}`
  
