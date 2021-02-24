@@ -71,8 +71,14 @@ import Foundation
  when you created an instance of an object ,
  you allocated space in memory
  and increased its reference count .
+ 
+ `Reference Count = 1`
+ 
  When you were done with the object
  you decrease the reference count .
+ 
+ `Reference Count = 0`
+ 
  If an object had a reference count greater than zero ,
  the system kept it alive ,
  otherwise it de-allocated the object .
@@ -82,8 +88,10 @@ import Foundation
  This allowed Apps to work well
  on the early iPhone models that had low memory .
  You could carefully ensure that your memory footprint was quite small .
- If you _claimed ownership_ of an object more times than you released it ,
- you'd end up with a `memory leak` that can crash your app .
+ If you _claimed ownership_ of an object
+ more times than you released it ,
+ you'd end up with a `memory leak`
+ that can crash your app .
  On the other hand ,
  if you _release the object_ too many times
  you end up with what was called
