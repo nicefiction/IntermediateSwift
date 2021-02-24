@@ -78,6 +78,9 @@
 		09C8500225E13F85004EA214 /* 2_FlatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FlatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CA639E25E64C9100D8D530 /* 2_AutomaticReferenceCounting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_AutomaticReferenceCounting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CA63A025E658DA00D8D530 /* 3_MemoryLeaks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_MemoryLeaks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CA63A225E660CE00D8D530 /* 4_WeakReferences_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CA63A525E66B1500D8D530 /* 4_WeakReferences_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CA63A725E6A96200D8D530 /* 4_WeakReferences_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -251,6 +254,9 @@
 				0952E77A25E55B7200A13783 /* 1_ManualRetainRelease.playground */,
 				09CA639E25E64C9100D8D530 /* 2_AutomaticReferenceCounting.playground */,
 				09CA63A025E658DA00D8D530 /* 3_MemoryLeaks.playground */,
+				09CA63A225E660CE00D8D530 /* 4_WeakReferences_Part1.playground */,
+				09CA63A525E66B1500D8D530 /* 4_WeakReferences_Part2.playground */,
+				09CA63A725E6A96200D8D530 /* 4_WeakReferences_Part3.playground */,
 			);
 			path = CHAPTER5_MemoryManagementInSwift;
 			sourceTree = "<group>";
