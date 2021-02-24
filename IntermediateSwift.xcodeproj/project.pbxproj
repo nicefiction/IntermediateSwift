@@ -54,6 +54,8 @@
 		094C3E0125DF97C500432889 /* 3_ClosureExpressionShorthand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ClosureExpressionShorthand.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		094C3E0525DFB36300432889 /* 1_Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0952E77425E541C300A13783 /* 2_Rethrowing an Error.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2_Rethrowing an Error.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0952E77725E55A5700A13783 /* 3_EscapingWeakAndUnowned.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_EscapingWeakAndUnowned.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0952E77A25E55B7200A13783 /* 1_ManualRetainRelease.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ManualRetainRelease.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD2E25CFDEF3002BEA48 /* 2_ConstraintsWithWhereClauses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ConstraintsWithWhereClauses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3025D12E20002BEA48 /* 3_ConstrainingAssociatedtypes_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3325D198BF002BEA48 /* 3_ConstrainingAssociatedtypes_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -147,6 +149,7 @@
 				0901A3112594A59500114E2A /* CHAPTER2_ObjectInitialisation */,
 				09251491259B27B600345B77 /* CHAPTER3_ValueSemantics _TypeMethods_Inheritance */,
 				090F11A025D8FAC40087D565 /* CHAPTER4_ExtensionsAndProtocols */,
+				0952E77925E55B3100A13783 /* CHAPTER5_MemoryManagementInSwift */,
 			);
 			path = COURSE1_IntermediateSwift;
 			sourceTree = "<group>";
@@ -240,11 +243,20 @@
 			path = CHAPTER3_BuildingStandardLibraryFunctions;
 			sourceTree = "<group>";
 		};
+		0952E77925E55B3100A13783 /* CHAPTER5_MemoryManagementInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0952E77A25E55B7200A13783 /* 1_ManualRetainRelease.playground */,
+			);
+			path = CHAPTER5_MemoryManagementInSwift;
+			sourceTree = "<group>";
+		};
 		0966E6C725E29A1800C86795 /* CHAPTER4_ErrorHandlingAndMemoryManagement */ = {
 			isa = PBXGroup;
 			children = (
 				0966E6C825E29A6700C86795 /* 1_ThrowingFromInsideAClosure.playground */,
 				0952E77425E541C300A13783 /* 2_Rethrowing an Error.playground */,
+				0952E77725E55A5700A13783 /* 3_EscapingWeakAndUnowned.playground */,
 			);
 			path = CHAPTER4_ErrorHandlingAndMemoryManagement;
 			sourceTree = "<group>";
