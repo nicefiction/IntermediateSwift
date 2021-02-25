@@ -5,6 +5,9 @@ import Foundation
  `4 Weak References` PART 3 OF 3
  `NOTE` OLIVIER : This part may be deprecated code . Instead , have a look at :
  👉 https://useyourloaf.com/blog/class-only-protocols-in-swift-4/
+   You can limit protocol adoption to class types
+   ( and not structures or enumerations )
+   by adding the `AnyObject` protocol to a protocol’s inheritance list .
  */
 /**
  Now , if I were to define a Struct ...
@@ -75,9 +78,9 @@ class Person {
  
  `protocol Residence {`
  
- `DEPRECATED CODE !`
- `weak var address: Address { get set }`
- `// ERROR : 'weak' cannot be applied to a property declaration in a protocol`
+    `DEPRECATED CODE !`
+    `weak var address: Address { get set }`
+    `// ERROR : 'weak' cannot be applied to a property declaration in a protocol`
  `}`
  
  You will see that this fails
@@ -93,10 +96,7 @@ class Person {
  we can specify them as the type for a property requirement .
  So let me get rid of everything I just did ,
  I'll undo it , ...
- 
- 
- 
- 
+
  `protocol Residence {`
  
     `// weak var address: Address { get set }`
@@ -130,8 +130,6 @@ class Person {
  
  `// struct Address {}`
  */
-
-
 /**
  We want to indicate that a protocol based type
  might need to be a `weak` property .
@@ -151,7 +149,7 @@ class Person {
  */
 
 /*
-class BankCustomer: Loan {
+class BankCustomer {
     
     weak var loan: Loan? // ERROR : 'weak' must not be applied to non-class-bound 'Loan'; consider adding a protocol conformance that has a class bound .
 }
@@ -187,7 +185,7 @@ class BankCustomer: Loan {
  because the `Loan` also contains a reference to a potential `BankCustomer` .
  And if we add the `weak` keyword here , ...
  
- `class BankCustomer: Loan {`
+ `class BankCustomer {`
  
     `weak var loan: Loan? // ERROR : 'weak' must not be applied to non-class-bound 'Loan'; consider adding a protocol conformance that has a class bound .`
 `}`
@@ -202,11 +200,11 @@ class BankCustomer: Loan {
  because it is a value type .
  What we need , is ,
  a way to indicate
- that the instances we assign to this stored property
+ that the instances we assign to this stored property ...
 
  `var loan: Loan?`
  
- . . . are always going to be types that conform to the `Loan` ,
+ ... are always going to be types that conform to the `Loan` ,
  but are only reference types .
  So they both need to ( 1 ) conform to the `Loan` protocol
  and ( 2 ) they need to be a `class` .
@@ -232,17 +230,13 @@ protocol Loan: class {
  and now , ...
  */
 
-class BankCustomer: Loan {
+class BankCustomer {
     
-    var payee: BankCustomer // Added by Olivier .
-    weak var loan: Loan? // ERROR : 'weak' must not be applied to non-class-bound 'Loan'; consider adding a protocol conformance that has a class bound .`
-    
-    
-    init(payee: BankCustomer) {
-        
-        self.payee = payee
-    } // Added by Olivier .
+    weak var loan: Loan?
 }
+
+
+let bankCustomer = BankCustomer()
 
 /**
  ... our errors go away .
@@ -253,17 +247,27 @@ class BankCustomer: Loan {
  
  and saying that only classes can conform to it ,
  we can guarantee
- that anything assigned to this stored property
- will be a reference type .
+ that anything assigned to this stored property ...
+ 
+ `var payee: BankCustomer { get set }`
+ 
+ ... will be a reference type .
  Therefore , it can be a `weak` relationship :
  
+ `class BankCustomer {`
+ 
+    `weak var loan: Loan?`
+ `}`
  
  Keep this in mind ,
  you don't have to understand it completely just yet .
  But as we learn more about patterns in Swift
  — particularly `delegate pattern` —
  this will be crucial to understanding how it works .
- We have spent quite a bit of time on memory management .
+    We have spent quite a bit of time on memory management .
  Let's cover one last topic , and wrap it up .
  On to the next video .
  */
+
+
+print("Debug")

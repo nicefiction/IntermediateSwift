@@ -92,7 +92,7 @@ class Apartment: Residence {
  `class Apartment: Residence {`
  
     `// weak var tenant: Person?`
-    `weak var tenant: Person?`
+    `var tenant: Person?`
     `...`
  `}`
  */
@@ -118,7 +118,7 @@ apartment = nil
  We can simply add the `weak` keyword in the property declaration :
  */
 
-/* DEPRECATED CODE
+/* DEPRECATED CODE :
  
  protocol Residence {
      
@@ -135,5 +135,8 @@ apartment = nil
  
  This makes sense ,
  because you can only hold a weak reference to a reference type .
+ */
+/**
+ 👉 Continue in PART 3
  */
 
