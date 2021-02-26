@@ -56,6 +56,7 @@
 		0952E77425E541C300A13783 /* 2_Rethrowing an Error.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2_Rethrowing an Error.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0952E77725E55A5700A13783 /* 3_EscapingWeakAndUnowned_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_EscapingWeakAndUnowned_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0952E77A25E55B7200A13783 /* 1_ManualRetainRelease.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ManualRetainRelease.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095E5AEC25E8ECEA00981427 /* 2_DefiningAccessLevels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_DefiningAccessLevels.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD2E25CFDEF3002BEA48 /* 2_ConstraintsWithWhereClauses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ConstraintsWithWhereClauses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3025D12E20002BEA48 /* 3_ConstrainingAssociatedtypes_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD3325D198BF002BEA48 /* 3_ConstrainingAssociatedtypes_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ConstrainingAssociatedtypes_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -321,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				09D24FDB25E7F2320051652D /* 1_UnderstandingAccessLevels.playground */,
+				095E5AEC25E8ECEA00981427 /* 2_DefiningAccessLevels.playground */,
 			);
 			path = CHAPTER6_AccessControl;
 			sourceTree = "<group>";
