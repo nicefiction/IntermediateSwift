@@ -277,6 +277,27 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>1_UnderstandingAccessLevels (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
+		<key>1_UnderstandingAccessLevels (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>71</integer>
+		</dict>
+		<key>1_UnderstandingAccessLevels (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>69</integer>
+		</dict>
 		<key>1_ValueSemantics (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1505,7 +1526,7 @@
 		<key>IntermediateSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolBasedTypeConstraints (Playground) 1.xcscheme</key>
 		<dict>

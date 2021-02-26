@@ -83,6 +83,7 @@
 		09CA63A725E6A96200D8D530 /* 4_WeakReferences_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3_EscapingWeakAndUnowned_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_EscapingWeakAndUnowned_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09D24FDB25E7F2320051652D /* 1_UnderstandingAccessLevels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_UnderstandingAccessLevels.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +157,7 @@
 				09251491259B27B600345B77 /* CHAPTER3_ValueSemantics _TypeMethods_Inheritance */,
 				090F11A025D8FAC40087D565 /* CHAPTER4_ExtensionsAndProtocols */,
 				0952E77925E55B3100A13783 /* CHAPTER5_MemoryManagementInSwift */,
+				09D24FDA25E7F1E80051652D /* CHAPTER6_AccessControl */,
 			);
 			path = COURSE1_IntermediateSwift;
 			sourceTree = "<group>";
@@ -313,6 +315,14 @@
 				096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */,
 			);
 			path = CHAPTER3_GenericsAndProtocols;
+			sourceTree = "<group>";
+		};
+		09D24FDA25E7F1E80051652D /* CHAPTER6_AccessControl */ = {
+			isa = PBXGroup;
+			children = (
+				09D24FDB25E7F2320051652D /* 1_UnderstandingAccessLevels.playground */,
+			);
+			path = CHAPTER6_AccessControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

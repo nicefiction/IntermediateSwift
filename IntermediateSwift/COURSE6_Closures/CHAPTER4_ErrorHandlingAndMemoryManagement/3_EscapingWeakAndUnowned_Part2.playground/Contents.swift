@@ -588,3 +588,21 @@ unowned = nil
  all in the near future .
  Until then , happy coding .
  */
+/**
+ `QUIZ`
+ (`1`) All Closures are `escaping` by default . `FALSE`
+ (`2`) The `rethrows` keyword indicates to the compiler
+ that the outer function is a throwing function
+ only if the closure passed in
+ throws an error that is propagated to the current scope .
+ (`3`) If the body of the closure throws an error ,
+ but the outer function isn't throwing ,
+ we need to handle the error
+ from inside the closure itself .
+ `TRUE`
+ (`4`) To throw from inside a closure ,
+ which of the following
+ needs to contain the `throws` keyword
+ in its signature ?
+ `B. The parameter that accepts the closure .`
+ */
