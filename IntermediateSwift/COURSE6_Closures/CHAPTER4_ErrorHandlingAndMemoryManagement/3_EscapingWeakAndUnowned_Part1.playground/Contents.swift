@@ -143,8 +143,8 @@ class NetworkSessionManager {
  Otherwise , we get an error , which is what you see here .
  And to do this ,
  to allow the closure to escape ,
- we add the keyword `@escaping` r
- ight before the closure signature
+ we add the keyword `@escaping`
+ right before the closure signature
  before that argument type :
  */
 
@@ -184,3 +184,6 @@ class NetworkSessionManager {
  you will understand more
  about how escaping closures come into play .
  */
+/**
+👉 Continues in PART 2
+*/

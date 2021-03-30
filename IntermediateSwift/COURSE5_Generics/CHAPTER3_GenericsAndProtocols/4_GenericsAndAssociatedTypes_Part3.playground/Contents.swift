@@ -179,5 +179,5 @@ let controller = ViewController(view : IntView() ,
  `}`
  */
 /**
-👉 Continue in PART 4
+👉 Continues in PART 4
 */

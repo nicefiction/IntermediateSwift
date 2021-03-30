@@ -160,5 +160,5 @@ class Wolf<FoodType: AnimalFood>: Animal {
 // let thirdWolf = Wolf<Int>() // ERROR : Type 'Int' does not conform to protocol 'AnimalFood' .
 
 /**
- 👉 Continue in PART 3
+ 👉 Continues in PART 3
  */

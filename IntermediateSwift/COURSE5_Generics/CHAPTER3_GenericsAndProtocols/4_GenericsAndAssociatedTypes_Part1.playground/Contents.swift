@@ -225,5 +225,5 @@ class ViewController<View: ConfigurableView ,
  
  */
 /**
- 👉 Continue in PART 2
+ 👉 Continues in PART 2
  */

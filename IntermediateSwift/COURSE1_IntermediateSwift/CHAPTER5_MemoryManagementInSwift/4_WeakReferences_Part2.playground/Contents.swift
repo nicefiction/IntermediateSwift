@@ -137,6 +137,6 @@ apartment = nil
  because you can only hold a weak reference to a reference type .
  */
 /**
- 👉 Continue in PART 3
+ 👉 Continues in PART 3
  */
 

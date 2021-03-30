@@ -245,5 +245,5 @@ let thirdWolf = Wolf<Int>()
  and this satisfies the requirements .
  */
 /**
- 👉 Continue in PART 2
+ 👉 Continues in PART 2
  */

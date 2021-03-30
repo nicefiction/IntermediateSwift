@@ -480,5 +480,5 @@ glinda3.fullName // returns of Oz ✋ Glinda ⭐️
  `}`
  */
 /**
-👉 Continue in PART 2
+👉 Continues in PART 2
 */

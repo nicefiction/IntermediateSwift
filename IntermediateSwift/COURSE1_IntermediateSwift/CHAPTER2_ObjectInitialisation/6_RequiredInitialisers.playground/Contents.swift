@@ -13,13 +13,13 @@ import UIKit
 /**
  Let's spend some time talking about
  the last topic in initialisation .
- And that is required initialisers .
+ And that is `required initialisers` .
  Sometimes we want all subclasses of a particular superclass
  to implement a certain initialiser .
  For that we have another keyword , `required` .
- By adding required to an init( ) method ,
+ By adding required to an `init()` method ,
  we are indicating that all subclasses must provide
- an implementation for this particular init( ) method .
+ an implementation for this particular `init()` method .
  For example ,
  */
 class SomeClass {
@@ -39,8 +39,9 @@ class AnotherClass: SomeClass {
 }
 
 
-//let anotherClass = AnotherClass(test : "TEST") // OLIVIER
-//print(anotherClass) // OLIVIER
+ let anotherClass = AnotherClass(test : "TEST") // OLIVIER
+ print(anotherClass) // OLIVIER
+
 /**
  We'll get an error . And if we hit enter , it goes ahead and puts
  `required init() {`
@@ -56,7 +57,7 @@ class AnotherClass: SomeClass {
  So where does this kind of initialiser come into play
  and why is it necessary ?
  It can be hard to imagine without any context
- but a good example is the UIViewController class from the UIKit framework in iOS :
+ but a good example is the `UIViewController class` from the `UIKit framework` in iOS :
  */
 /*
 class ViewController: UIViewController {
@@ -67,12 +68,13 @@ class ViewController: UIViewController {
 }
  */
 /**
- The moment we add a custom init( ) method ,
+ The moment we add a custom `init()` method ,
  we again get a compiler error
  saying that the required initialiser has not been implemented .
  Let's click that automatic fix this time ,
  and see what that required initialiser is :
  */
+
 class ViewController: UIViewController {
     
     // init() {} // ERROR : 'super.init' isn't called on all paths before returning from initializer .
@@ -82,6 +84,7 @@ class ViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
 /**
  UIViewController's required initialiser
  accepts an instance of NSCoder
@@ -91,10 +94,10 @@ class ViewController: UIViewController {
  When you use your app in iOS ,
  the system saves its state at different points .
  To handle this archiving and unarchiving ,
- UIViewController conforms to an NSCoder protocol that determines
+ `UIViewController` conforms to an `NSCoder protocol` that determines
  how it is saved and retrieved .
  The required init coder initialiser
- allows an archived ViewController
+ allows an archived `ViewController`
  to be unarchived
  by providing an object — aDecoder — that will handle the process :
  `required init?(coder: NSCoder) { ... }`
@@ -115,7 +118,7 @@ class ViewController: UIViewController {
  If we define this class all in code for example rather than from a UI file ,
  this initialiser is completely unnecessary .
  Unfortunately there is no way around this , because it is a required initialiser .
- If you add stored properties to a ViewController ,
+ If you add stored properties to a `ViewController` ,
  you need to add the required init coder initialiser method :
  `required init?(coder: NSCoder) {`
     `fatalError("init(coder:) has not been implemented")`
@@ -137,6 +140,7 @@ class ViewController: UIViewController {
  `init() {} // ERROR : 'super.init' isn't called on all paths before returning from initializer .`
  by calling super.init ,
  */
+
 class ViewController2: UIViewController {
     
     init() {
@@ -149,6 +153,7 @@ class ViewController2: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
 /**
  so you see here that ,
  because init( ) that I have defined for the ViewController subclass
@@ -156,19 +161,27 @@ class ViewController2: UIViewController {
  I need to go ahead
  and call a designated initialiser in the base class — UIViewController . So , I call
  super.init with nibName — one of the designated initialisers in the UIViewController class :
+ 
  `init() {`
+ 
     `super.init(nibName : nil , bundle : nil)`
-`}`
+ `}`
+ 
  And now we should get rid of our warnings .
  The initialisers we have added
  — both the custom one
+ 
  `init() {`
     `super.init(nibName : nil , bundle : nil)`
-`}`
+ `}`
+ 
  and the required init coder — ...
+ 
  `required init?(coder: NSCoder) {`
+ 
     `fatalError("init(coder:) has not been implemented")`
  `}`
+ 
  ... are designated initialisers for the ViewController subclass .
  Remember that a class can contain more than one designated initialiser .
  In your case , you'll mostly run into it
@@ -179,6 +192,7 @@ class ViewController2: UIViewController {
  we could initialise a superclass by calling super.init coder ,
  and passing that same decoder through :
  */
+
 class ViewController3: UIViewController {
     
     init() {
@@ -209,3 +223,87 @@ class ViewController3: UIViewController {
     CHAPTER 3 — Creating the User Interface Programmatically
         -> 1 Page Controllers
  */
+
+
+
+// EPILOGUE OLIVIER :
+
+protocol Do_able {
+    
+    var list: String { get set }
+    func doSomething() -> Void
+    init(list: String)
+}
+
+
+
+struct ToDoStruct: Do_able {
+    
+    var list: String
+
+
+    func doSomething() {
+        
+        print("Doing something with the struct .")
+    }
+    
+    
+    init(list: String) {
+        
+        self.list = list
+    }
+    
+    
+//    convenience init() {
+//        self.init(list: "To do Struct list .")
+//    } // ERROR : Delegating initializers in structs are not marked with 'convenience' .
+    
+    init() {
+        
+        self.init(list: "To do struct list .")
+    }
+    
+}
+
+
+
+class ToDoClass: Do_able {
+    
+    var list: String
+    
+    
+    required init(list: String) {
+        
+        self.list = list
+    }
+    
+    
+    convenience init() {
+        
+        self.init(list : "To do class list .")
+    }
+    
+    
+    func doSomething() {
+        
+        print("Doing something with the class .")
+    }
+}
+
+
+
+let toDoStruct = ToDoStruct()
+
+let toDoClass = ToDoClass()
+
+print(toDoStruct)
+print(toDoClass)
+
+toDoStruct.doSomething()
+toDoClass.doSomething()
+
+print(toDoStruct.list)
+print(toDoClass.list)
+
+
+print("Debug")

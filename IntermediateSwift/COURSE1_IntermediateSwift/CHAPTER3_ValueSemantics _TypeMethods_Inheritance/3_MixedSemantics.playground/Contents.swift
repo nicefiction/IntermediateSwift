@@ -14,6 +14,7 @@ import Foundation
  What happens when we mix those two types together however ?
  Let's paste in some code :
  */
+
 struct Point {
     
     var x: Double
@@ -97,6 +98,7 @@ class View {
         self.frame = frame
     }
 }
+
 /**
  So let's say we are working on an app .
  The app is a drawing app ,
@@ -108,6 +110,7 @@ class View {
  We'll leave that original shape unchanged . It is immutable .
  Okay so let's represent this shape as a struct , good old value types :
  */
+
 struct Shape {
     
     let view: View
@@ -126,12 +129,14 @@ struct Shape {
         view.backgroundColor = color
     }
 }
+
 /**
  A shape needs to be drawn on screen
  and we'll assume that in our code base
  this is done by the View class .
  `class View { ... }`
  The View models our logic and how it is represented on a digital screen .
+ 
  `NOTE` : By the way ,
  I am oversimplifying this example quite a bit
  to show you some pitfalls ,
@@ -140,11 +145,12 @@ struct Shape {
  Okay
  so a shape needs to be drawn on screen ,
  and we'll use a View to do that .
- Now we can set up this shape’s View in an `init( )` method
+ Now we can set up this shape’s View in an `init()` method
  with parameters
  like the origin — x and y —
  and the height and width :
  */
+
 /*
  struct Shape {
      
@@ -165,6 +171,7 @@ struct Shape {
      }
  }
  */
+
 /**
  Now we have a basic shape
  that is represented by a value type .
@@ -172,67 +179,96 @@ struct Shape {
  that is a constant to ensure that it cannot be changed .
  Let's use this structure now to create an instance of a square :
  */
+
 let square = Shape(x : 0 ,
                    y : 0 ,
                    width : 100 ,
                    height : 100 ,
                    color : .red)
+
 /**
  `NOTE` : Notice here that I am not saying `color.red`
  because the compiler is smart enough to figure out that
- since this value has an argument type of color
+ since this value has an argument type of `Color`
  `.red` refers to that computed property .
- We don't need to say color.red .
+ We don't need to say `Color.red` .
  
  Now again
- to be sure that my shape — my square — cannot be changed ,
+ to be sure that my `Shape` — my `square` — cannot be changed ,
  I am assigning it to a constant :
- `let square = Shape(x : 0 , y : 0 , width : 100 , height : 100 , color : .red)`
- so a shape that we have created has a width and a height of 100 , and it is red .
+ 
+ `let square = Shape(x : 0 ,`
+                    `y : 0 ,`
+                    `width : 100 ,`
+                    `height : 100 ,`
+                    `color : .red)`
+ 
+ so a shape that we have created has a `width` and a `height` of `100` , and it is red .
  Now imagine that someone comes along in my code ,
  and changes the colour of the shape .
  */
+
 square.view.backgroundColor = .blue
+
 /**
  Well of course you can't do this , right ?
  Sadly
  — as you can see from the lack of errors —
  you can ,
- and herein lies the danger of creating value types that use reference types within .
+ ⚠️
+ and herein lies the danger of creating value types
+ that use reference types within .
  As we have explained before
  even though this instance of a struct
- `let square = Shape(x : 0 , y : 0 , width : 100 , height : 100 , color : .red)`
+ 
+ `let square = Shape(x : 0 ,`
+                    `y : 0 ,`
+                    `width : 100 ,`
+                    `height : 100 ,`
+                    `color : .red)`
+ 
  is assigned to a constant `let square`
  and despite the property — the stored property — being a constant :
+ 
  `struct Shape {`
+ 
     `let view: View`
  
     `...`
  `}`
+ 
  nothing prevents us from modifying the underlying reference type .
  Remember ,
  `view` is a reference type :
+ 
  `square.view.backgroundColor = .blue`
+ 
  It is a class :
+ 
  `class View { ... }`
+ 
  And as long as we have a reference to it ,
  we can change the values and nothing goes wrong
  because what is constant
- is the link
+ is the _link_
  to the object in memory ,
  though reference and not the actual object .
- Structs containing value types can lead to unexpected behaviours .
+    Structs containing value — OLIVIER : _reference_ ? — types
+ can lead to unexpected behaviours .
  You can mutate things
  as much as you want
  on the reference types
- and they don't trigger that copy behaviour that we have come to expect in Structs .
+ and they don't trigger that copy behaviour
+ that we have come to expect in Structs .
  
  
- The point of these last few videos have not been to necessarily teach you anything new
+ The point of these last few videos have not been
+ to necessarily teach you anything new
  but to highlight spots where you may unwittingly write code
- but you think behaves one way
+ you think behaves one way
  but in reality there is something totally different .
- Value types that contain reference types
+ ⚠️
+ `Value types` that contain `reference types`
  aren't 100% the immutable sleeve types
  that you have come to expect them to be .
  So tread carefully if your model design includes code like this ,

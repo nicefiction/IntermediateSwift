@@ -29,7 +29,7 @@ import Foundation
  let’s quickly recap what we know about initialisation :
  Initialisation , as we know , is
  ( 1 ) the process of preparing an instance of
- a Class , Structure , or Enumeration
+ a `Class` , `Structure` , or `Enumeration`
  for use by
  ( 2 ) setting up initial values to all stored properties
  and performing any other set up .
@@ -44,20 +44,23 @@ import Foundation
  
  What else do we know ?
  
- ( 1 ) We know that we can assign default values to stored properties ,
- or mark them optional if they are  variables
- which allows us to defer setting any values inside an init( ) method .
+ ( 1 ) We know that we can assign `default values` to stored properties ,
+ or mark them optional if they are variables
+ which allows us to defer setting any values inside an `init()` method .
  Aside from those two cases
  by the time we are done with initialisation
  all stored properties must have initial values .
  Finally ,
- ( 2 ) we also know that a Struct gets a default initialiser
- known as a member-wise initialiser
- and Enums with raw values
- also get a default initialiser
- that accepts a raw value .
+ ( 2 ) we also know that a `Struct` gets a `default initialiser`
+ known as a `member-wise initialiser`
+ and `Enums` with `raw values`
+ also get a `default initialiser`
+ that accepts a `raw value` .
  
  Okay , so far so good .
- In the next video we look at a minor variation on an init( ) method .
- We have encountered these before , but we never fully talked about them .
+ In the next video
+ we look at
+ a minor variation on an `init()` method .
+ We have encountered these before ,
+ but we never fully talked about them .
  */

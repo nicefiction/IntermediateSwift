@@ -106,5 +106,5 @@ class ViewController<View: ConfigurableView ,
  `view.configure(with : object) // ERROR : Cannot convert value of type 'DataSource.Object' to expected argument type 'View.Data' .`
  */
 /**
- 👉 Continue in PART 3
+ 👉 Continues in PART 3
  */

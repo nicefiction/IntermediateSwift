@@ -235,5 +235,5 @@ apartment = nil
  in order to get the same degree of safety .
  */
 /**
- 👉 Continue in PART 2
+ 👉 Continues in PART 2
  */

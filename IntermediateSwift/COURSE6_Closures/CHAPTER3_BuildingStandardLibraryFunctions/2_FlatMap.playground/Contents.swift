@@ -61,7 +61,7 @@ print("Content strings : \(contentStrings)")
  let’s say we want to add a feature to our blog .
  A tags page where a reader can click any tag and see all the blogPosts .
  We also want to transform the strings inside the tags property into uppercase words .
- So , we can `map()` over it
+    So , we can `map()` over it
  and try to transform the strings :
  */
 
@@ -73,10 +73,12 @@ let blogTagsLongform = blogPosts.map { (blogPost: BlogPost) -> [String] in
 
 // SHORTFORM :
 let blogTags = blogPosts.map { $0.tags }
+// let blogTags: [[String]]
 
 
 print("Blog tags longform : \(blogTagsLongform)")
-print("Blog tags shortform: \(blogTags)") // Prints [["first", "programming"], ["general"]]
+print("Blog tags shortform: \(blogTags)")
+// prints [["first" , "programming"] , ["general"]]
 
 /**
  Here , I am not making the strings uppercase
@@ -119,9 +121,6 @@ print("Blog tags shortform: \(blogTags)") // Prints [["first", "programming"], [
 // SHORTFORM :
 let flattenedTagArray = blogPosts.flatMap { $0.tags }
 
-print("flattenedTagArray = \(flattenedTagArray)")
-
-
 // LONGFORM :
  let flattenedTagArrayLongForm =
     blogPosts.flatMap { (blogPost: BlogPost) -> [String] in
@@ -138,13 +137,17 @@ print("flattenedTagArray = \(flattenedTagArray)")
 
 
  
+print("flattenedTagArray = \(flattenedTagArray)")
+// prints flattenedTagArray = ["first", "programming", "general"]
  print("flattenedTagArrayLongForm : \(flattenedTagArrayLongForm)")
+// prints flattenedTagArrayLongForm : ["first", "programming", "general"]
 
 
 // OLIVIER :
 let tagsUppercased = flattenedTagArray.map { $0.uppercased() }
 
 print("tagsUppercased = \(tagsUppercased)")
+// prints tagsUppercased = ["FIRST", "PROGRAMMING", "GENERAL"]
 
 /**
  when you OPTION click on `flattenedTagArray`

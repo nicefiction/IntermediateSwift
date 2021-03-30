@@ -319,5 +319,5 @@ extension Sequence where Iterator.Element == Weather {
 }
 
 /**
-👉 Continue in PART 2
+👉 Continues in PART 2
 */

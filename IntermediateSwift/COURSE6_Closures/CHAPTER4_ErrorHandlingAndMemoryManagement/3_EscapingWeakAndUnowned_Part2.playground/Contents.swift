@@ -177,7 +177,7 @@ t?.fibonacci()
  
  `deinit {`
  
- `print("\(value) is being deinitialized . Memory deallocated")`
+    `print("\(value) is being deinitialized . Memory deallocated")`
  `}`
  
  So here ,
@@ -391,7 +391,8 @@ class Fibonacci {
  this closure doesn't get executed .
  So , that is basically it .
  If we were capturing more than one reference ,
- we could add them to the `captured list` separated by commas . Just like an array .
+ we could add them to the `captured list`
+ separated by commas . Just like an array .
  */
 /**
  Before we conclude ,
@@ -510,7 +511,7 @@ class Fibonacci {
     
     
     
-    lazy var fibonacci: () -> Int = { [unowned self] in
+    lazy var fibonacci: () -> Int = { [unowned self] () -> Int in
         
         // Some temporary variables.
         var a = 0

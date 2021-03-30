@@ -119,5 +119,5 @@ cat.eat(DogFood())
  but that is not specific enough .
  */
 /**
- 👉 Continue in PART 4
+ 👉 Continues in PART 4
  */

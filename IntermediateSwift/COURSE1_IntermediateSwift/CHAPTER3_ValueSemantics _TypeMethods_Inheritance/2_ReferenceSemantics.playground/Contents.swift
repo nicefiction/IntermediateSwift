@@ -7,13 +7,17 @@ import Foundation
  reference types aren't copied
  and this leads to some very interesting behaviour .
  In this video , we examine
- why constants don't really mean immutable for a reference type .
+ why constants
+ don't really mean
+ immutable
+ for a reference type .
  */
 /**
  Reference types are simpler to understand
  but can lead to some headaches as well , which we'll see .
  We'll start with the basics by writing a very simple class :
  */
+
 class Robot {
     
     var model: String
@@ -26,17 +30,22 @@ class Robot {
 }
 
 
-var someRobot = Robot(model: "T1_999")
-let anotherRobot = someRobot
+var someRobot = Robot(model : "T1_999")
+var anotherRobot = someRobot
 
 someRobot.model = "T2_000"
+
 /**
  So now ,
  if we change the model value for someRobot
  and inspect the model value in anotherRobot .
  */
+
 print("someRobot : \(someRobot.model)")
+// prints someRobot : T2_000
 print("anotherRobot : \(anotherRobot.model)")
+// prints anotherRobot : T2_000
+
 /**
  You'll see that the value of model here has changed as well .
  Now this makes sense based on what we know about reference types .
@@ -50,19 +59,23 @@ print("anotherRobot : \(anotherRobot.model)")
  Okay ,
  now let's create another instance of robot :
  */
+
 let thirdRobot = Robot(model: "T3_000")
+
 /**
  Again based on what we know , since this is a constant ,
  we shouldn't be able to mess with thirdRobot , right ?
  Unfortunately not here .
  Here I can easily assign a new String to the model property of the instance ,
  even though we are doing it through a let constant .
- So if I say
+ So if I say ...
  */
+
 thirdRobot.model = "T4_000"
+
 /**
- I shouldn't have any issues .
- How is this possible ? Well ,
+ ... I shouldn't have any issues .
+ _How is this possible ?_ Well ,
  remember how we said
  that the variable doesn't contain the actual object
  but a reference to the object in memory ?
@@ -153,3 +166,4 @@ reference1.x = 44
 reference2.x = 22
 // reference1.z = 66 // ERROR : Cannot assign to property: 'z' is a 'let' constant .
 print("reference1 = \(reference1.x) , reference2 = \(reference2.x)")
+// prints reference1 = 22 , reference2 = 22
