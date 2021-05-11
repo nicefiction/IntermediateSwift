@@ -309,3 +309,20 @@ struct Animator_3<T> where T: Hashable , T: ShoppingItem {}
 struct Animator_4<T> where T: Hashable , T: Shape {}
 struct Animator_5<T: Hashable & ShoppingItem> {} // Protocol & Protocol
 struct Animator_6<T: Hashable & Shape> {} // Protocol & Class
+
+
+
+/**
+ `ASIDE`:
+ In Swift , we can use the `where clause`
+ (`1`) along with the `for loop` .
+ (`2`) in a `case label` of a `switch statement` ,
+ (`3`) a `catch clause` of a `do statement` ,
+ (`4`) or in the `case condition` of an `if` ,
+ (`5`) `while` ,
+ (`6`) `guard` ,
+ (`7`) `for-in statement`,
+ (`8`) or to define `type constraints` .
+ 
+ Source : https://medium.com/@shubhamkaliyar255/how-to-use-where-clause-in-for-in-loops-e61d0860debe
+ */

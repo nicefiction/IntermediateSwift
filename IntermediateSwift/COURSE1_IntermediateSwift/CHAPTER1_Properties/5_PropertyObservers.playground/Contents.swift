@@ -7,7 +7,7 @@ import PlaygroundSupport
  `5 Property Observers`
  INTRO — One of the last things we are going to look at regarding properties ,
  are observers .
- A property observer allows you
+ A `property observer` allows you
  to execute some code
  any time a value is set
  or about to be set .
@@ -23,6 +23,7 @@ import PlaygroundSupport
  if a property's value changes . So ,
  let's look at a very simple example :
  */
+
 class ViewController: UIViewController {
     
     let slider = UISlider()
@@ -45,7 +46,7 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         view.backgroundColor = UIColor(red : 30/255.0 ,
-                                       green : 36/255.0,
+                                       green : 36/255.0 ,
                                        blue : 40/255.0 ,
                                        alpha : 1.0)
         
@@ -81,6 +82,7 @@ class ViewController: UIViewController {
 
 let viewController = ViewController()
 PlaygroundPage.current.liveView = viewController.view
+
 /**
  Now , here is a new trick .
  You can actually do UI code ,
@@ -107,55 +109,47 @@ PlaygroundPage.current.liveView = viewController.view
  So , up at the top we have a slider , which is what you saw , ( which I can't even see anymore ) .
  And then inside the viewDidLoad( ) method we are doing something simple .
  We are just setting the backgroundColor on the view :
- */
-/*
-view.backgroundColor = UIColor(red : 30/255.0 ,
-                               green : 36/255.0,
-                               blue : 40/255.0 ,
-                               alpha : 1.0)
-*/
-/**
+
+`view.backgroundColor = UIColor(red : 30/255.0 ,`
+                               `green : 36/255.0 ,`
+                               `blue : 40/255.0 ,`
+                               `alpha : 1.0)`
+
  `NOTE` : You don't really need to know any of this .
  
  And then
  when we move the slider
  we are executing the code inside this function slide( ) :
- */
-/*
-@objc func slide(sender: UISlider) {
-    value = Double(sender.value)
-}
-*/
-/**
+ 
+`@objc func slide(sender: UISlider) {`
+    `value = Double(sender.value)`
+`}`
+
  This code is related to setting up the view programmatically ,
  we are positioning that slider and so on :
- */
-/*
-NSLayoutConstraint.activate([
-    slider.centerXAnchor.constraint(equalTo : view.centerXAnchor) ,
-    slider.centerYAnchor.constraint(equalTo : view.centerYAnchor) ,
-    slider.heightAnchor.constraint(equalToConstant : 30) ,
-    slider.widthAnchor.constraint(equalToConstant : 400)
-])
- */
-/**
+
+`NSLayoutConstraint.activate([`
+    `slider.centerXAnchor.constraint(equalTo : view.centerXAnchor) ,`
+    `slider.centerYAnchor.constraint(equalTo : view.centerYAnchor) ,`
+    `slider.heightAnchor.constraint(equalToConstant : 30) ,`
+    `slider.widthAnchor.constraint(equalToConstant : 400)`
+`])`
+
  Again , nothing important .
  The interesting part is this value property that we have created over here :
- */
-/*
-var value: Double = 0.0 {
+
+`var value: Double = 0.0 {`
     
-    willSet {
-        print("Old value: \(value)")
-    }
+    `willSet {`
+        `print("Old value: \(value)")`
+    `}`
     
-    didSet {
-        view.alpha = CGFloat(value)
-        print("New value: \(value)")
-    }
-}
-*/
-/**
+    `didSet {`
+        `view.alpha = CGFloat(value)`
+        `print("New value: \(value)")`
+    `}`
+`}`
+
  So, this is a variable stored property
  named
  value
@@ -183,14 +177,12 @@ var value: Double = 0.0 {
  `@objc func slide(sender: UISlider) { value = Double(sender.value) }`
  we are using that value
  to change the alpha property on our background view :
- */
-/*
-didSet {
-    view.alpha = CGFloat(value)
-    print("New value: \(value)")
-}
-*/
-/**
+
+`didSet {`
+    `view.alpha = CGFloat(value)`
+    `print("New value: \(value)")`
+`}`
+
  Alpha controls the view's opacity , where 0 is hidden , and 1 is fully visible .
  So , here when we set the value on the slider ,
  `view.alpha = CGFloat(value)`
@@ -203,14 +195,12 @@ didSet {
  when the underlying value on that value stored property changes using the didSet property observer ,
  we can effect other parts of our code .
  And here , we are choosing to effect the `view.alpha` property :
- */
-/*
-didSet {
-    view.alpha = CGFloat(value)
-    print("New value: \(value)")
-}
-*/
-/**
+
+`didSet {`
+    `view.alpha = CGFloat(value)`
+    `print("New value: \(value)")`
+`}`
+
  Property observers are really simple ,
  but they allow us
  to write code
@@ -229,44 +219,59 @@ didSet {
  Old value reflects the New value ,
  and so on .
  
- It is important to note that willSet and didSet are not called
- when setting properties during the initialisation process in an init( ) method , only after .
+ `NOTE`: It is important to note that
+ `willSet` and `didSet`
+ are not called
+ when setting properties
+ during the initialisation process
+ in an `init() method` ,
+ only after .
+ 
  `NOTE` : This ...
+ 
  `var value: Double = 0.00 { ... }`
+ 
  ... is an actual stored property .
  You can assign it values ,
  just like any other stored property .
  All we are doing here ,
+ 
  `willSet {  print("Old value: \(value)") }`
+ 
  `didSet {`
     `view.alpha = CGFloat(value)`
     `print("New value: \(value)")`
  `}`
+ 
  is ,
  observing these property value changes
  and then affecting other parts of our code .
  
- `Note` : You can add property observers to any stored property
+ `NOTE` : You can add property observers to any stored property
  except ones that are lazily loaded .
- So , you cannot add it to a lazy stored property ,
- nor can you add it to a computed property .
+ So , you cannot add it to a `lazy stored property` ,
+ nor can you add it to a `computed property` .
  
  Also `NOTE` , the usage here is purely for the sake of teaching .
  We could have easily changed the view's alpha property right here ...
+ 
  `didSet {`
     `view.alpha = CGFloat(value)`
     `print("New value: \(value)")`
  `}`
- ... inside the slide( ) method ,
+ 
+ ... inside the `slide( ) method` ,
+ 
  `@objc func slide(sender: UISlider) { value = Double(sender.value) }`
+ 
  rather than going through the property observer .
  But now you get what it does . In the future ,
  you’ll see that property observers allow us to do interesting things .
- */
+
  
-
-
-/**
+ 
+ 
+ 
  These variations on stored properties , and properties in general ,
  aren't concepts you need to utilise in every Class , Struct , or Enum ,
  but they are good to be familiar with .
@@ -281,20 +286,35 @@ didSet {
  */
 
 
-/* PAUL HUDSON */
+/* * * * * * *
+ * PAUL HUDSON
+ */
+
 var score: Int = 0 {
-    willSet(newScore) { // OLIVIER : newValue is the default name of the local binding .
+    
+    willSet(newScore) {
+        // OLIVIER : newValue is the default name of the local binding .
         print("The old score was \(score) . It will change to \(newScore) .")
     }
     
+    
     didSet {
+        
         print("The new score is now \(score) . The old score was \(oldValue) .")
     }
 }
 
+
 score = 1
+// The old score was 0 . It will change to 1 .
+// The new score is now 1 . The old score was 0 .
 score = 2
+// prints The old score was 1 . It will change to 2 .
+// prints The new score is now 2 . The old score was 1 .
 score = 3
+// prints The old score was 2 . It will change to 3 .
+// prints The new score is now 3 . The old score was 2 .
+
 
 
 /**
@@ -311,7 +331,7 @@ score = 3
  
  If you implement a `willSet observer` ,
  it is passed the new property value as a constant parameter .
- You can specify a name for this parameter as part of your willSet implementation .
+ You can specify a name for this parameter as part of your `willSet` implementation .
  If you don’t write the parameter name and parentheses within your implementation ,
  the parameter is made available with a default parameter name of `newValue` .
  
@@ -321,17 +341,28 @@ score = 3
  If you assign a value to a property within its own didSet observer ,
  the new value that you assign replaces the one that was just set .
  */
+
 class StepCounter {
+    
     var totalSteps: Int = 0 {
+        
         willSet(newValue) {
+            
             print("Your total number of steps was \(totalSteps) . This has changed to \(newValue) .")
         }
         
+        
         didSet {
+            
             print("You have done \(totalSteps) steps today .")
+            print("You have done \(oldValue) steps today .")
         }
     }
 }
 
+
 let stepCounter: StepCounter = StepCounter()
 stepCounter.totalSteps = 10
+// prints Your total number of steps was 0 . This has changed to 10 .
+// prints You have done 10 steps today .
+// prints You have done 0 steps today .

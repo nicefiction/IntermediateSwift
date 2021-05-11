@@ -79,6 +79,7 @@
 		09892DE825DD6F29008C6216 /* 4_ReturningFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ReturningFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DEA25DD7DA3008C6216 /* 5_CapturingVariables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_CapturingVariables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3F7882613A698002C673F /* 1_WhyDoWeNeedGuidelines.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WhyDoWeNeedGuidelines.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09A3F78A2613B030002C673F /* 2_NamingTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_NamingTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09AD348E25E1914600F737DB /* 3_Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B9819225FB77B30065057E /* 5_InitialisingSuperclasses_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_InitialisingSuperclasses_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09C8500225E13F85004EA214 /* 2_FlatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FlatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -87,6 +88,7 @@
 		09CA63A225E660CE00D8D530 /* 4_WeakReferences_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CA63A525E66B1500D8D530 /* 4_WeakReferences_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CA63A725E6A96200D8D530 /* 4_WeakReferences_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_WeakReferences_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CA9452264A50A0004A7B03 /* 1_AQuickPeek.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AQuickPeek.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1_AssociatedTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_AssociatedTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3_EscapingWeakAndUnowned_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_EscapingWeakAndUnowned_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1_UnderstandingAccessLevels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_UnderstandingAccessLevels.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -140,6 +142,7 @@
 				09A3F7872613A652002C673F /* COURSE2_APIDesignGuidelines */,
 				09093C1B259F037B0043EFD6 /* COURSE5_Generics */,
 				09892DE025DC734E008C6216 /* COURSE6_Closures */,
+				09CA944F264A4FF2004A7B03 /* COURSE8_Codable */,
 				090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */,
 				090505FB2591FDB000DA6F8E /* ContentView.swift */,
 				090505FD2591FDB500DA6F8E /* Assets.xcassets */,
@@ -313,8 +316,25 @@
 			isa = PBXGroup;
 			children = (
 				09A3F7882613A698002C673F /* 1_WhyDoWeNeedGuidelines.playground */,
+				09A3F78A2613B030002C673F /* 2_NamingTypes.playground */,
 			);
 			path = COURSE2_APIDesignGuidelines;
+			sourceTree = "<group>";
+		};
+		09CA944F264A4FF2004A7B03 /* COURSE8_Codable */ = {
+			isa = PBXGroup;
+			children = (
+				09CA9450264A500E004A7B03 /* CHAPTER1_Overview */,
+			);
+			path = COURSE8_Codable;
+			sourceTree = "<group>";
+		};
+		09CA9450264A500E004A7B03 /* CHAPTER1_Overview */ = {
+			isa = PBXGroup;
+			children = (
+				09CA9452264A50A0004A7B03 /* 1_AQuickPeek.playground */,
+			);
+			path = CHAPTER1_Overview;
 			sourceTree = "<group>";
 		};
 		09CB8AAE25AB14A400F8C799 /* CHAPTER3_GenericsAndProtocols */ = {

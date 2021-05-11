@@ -33,13 +33,15 @@ import Foundation
  But what about the internals of a protocol ?
  Can we define a protocol where the requirements themselves are generic ?
  We can , but not in the same way as we have seen so far .
- With protocols , we have a different concept called associatedtype .
+ With protocols , we have a different concept called `associatedtype` .
     So , open a new playground page
  and we are going to model a new data structure in this video .
  Except , we are not going to provide a full implementation like we just did .
  We'll start by defining an interface through a protocol :
  */
-protocol Stack0 {}
+
+// protocol Stack {}
+
 /**
  We call this protocol , `Stack` .
  A Stack is essentially an Array with limited functionality .
@@ -52,6 +54,7 @@ protocol Stack0 {}
  Let's defined this interface .
  So in here ,
  */
+
 protocol Stack {
     
     associatedtype Element
@@ -61,14 +64,16 @@ protocol Stack {
     
     var top: Element? { get }
 }
+
 /**
  first step is the `push( )` function .
  Assuming we set up the Stack using a struct — like an Array —
- then push( ) will be a `mutating` method . And we need to indicate that to the compiler :
+ then `push()` will be a `mutating` method . And we need to indicate that to the compiler :
  `mutating func push(_ element: Element)`
  The method takes a single argument — an element to push onto the stack .
+ 
  `NOTE` : Here is the tricky part .
- What type do we give this method ?
+ _What type do we give this method ?_
  Remember , we want this method to have a generic requirement .
  Any concrete type of `Stack` that we need to create needs to be able
  ( 1 ) to conform to this protocol
@@ -77,6 +82,7 @@ protocol Stack {
  has to contain one type only .
  What we need here , is , an associated type :
  `associatedtype Element`
+ 
  Right above the `push( )` function ,
  we write out the keyword `associatedtype`
  followed by a name we want to give this `associatedtye` .
@@ -90,7 +96,7 @@ protocol Stack {
  until we actually adopt the protocol .
  Okay , so let's add two other requirements :
  `mutating func pop() -> Element?`
- `pop( )` returns the last element we pushed onto the stack
+ `pop()` returns the last element we pushed onto the stack
  — which also mutates the stack .
  Finally , we have `peak` — which lets us look at the very last element without popping it —
  and we call this `top` — [ OLIVIER : a computed property ] .
@@ -102,6 +108,7 @@ protocol Stack {
  and indicating that Element — which is the associated type in our protocol —
  is a typealias for a concrete type inside this object :
  */
+
 struct IntStack: Stack {
     
     typealias Element = Int
@@ -132,36 +139,40 @@ struct IntStack: Stack {
         return intArray.last
     }
 }
+
 /**
  `Element` is always going to be an Integer inside this Struct .
- All the methods `push( )` and `pop( )` take Integers
+ All the methods `push()` and `pop()` take Integers
  instead of our generic requirement — `Element` .
  Let's provide a really quick implementation .
  We use an underlying Array for storage , and make it `private` :
  `private var intArray = Array<Int>()`
  This is an `Array` that is generic over `Int` .
  For the methods , we'll just use this Array .
- `push( )` appends the element to that Array that we just created .
- `pop( )` removes and returns the last element from the Array .
+ `push()` appends the element to that Array that we just created .
+ `pop()` removes and returns the last element from the Array .
  And finally , `top` just reads the last element in the Array .
  Okay ,
  now I said there were two ways of doing this ,
  and the second way is to simply
- `( 2 )` let the compiler infer the type for the `associatedtype` requirement .
+ (`2`) let the compiler infer the type for the `associatedtype` requirement .
  By specifying the argument type , or the return type for all the methods as Integer ,
  the compiler can infer that we have substituted `Int` for the `associatedtype`
  because those say `Element` over here :
+ 
  `protocol Stack {`
  
- `associatedtype: Element`
+    `associatedtype: Element`
  
- `mutating func push(_ element: Element)`
- `mutating func pop() -> Element?`
+    `mutating func push(_ element: Element)`
+    `mutating func pop() -> Element?`
  
- `var top: Element? { get }`
+    `var top: Element? { get }`
  `}`
- So , we can just get rid of this typealias declaration :
+ 
+ So , we can just get rid of this `typealias` declaration :
  */
+
 struct IntStack2: Stack {
     
     // typealias Element = Int
@@ -196,11 +207,12 @@ struct IntStack2: Stack {
         return intArray.last
     }
 }
+
 /**
  ... and everything should still work .
  So , this is how you give the protocol generic requirements .
  This seems pretty simple
  but we can actually do quite a bit with this .
  Before we go down that road though ,
- let's learn a bit more about type constraints .
+ let's learn a bit more about `type constraints` .
  */
