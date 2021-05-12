@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 The Decodable Protocol`
+ `2 The Decodable Protocol`: PART 1 OF 2
  INTRO — Let's peel back the magic in the previous video
  and understand how this was implemented
  using the `Decodable` and `CodkingKey protocols` .
@@ -436,3 +436,6 @@ struct Employee: Codable {
  Except now ,
  we know to some degree how this works .
  */
+/**
+👉 Continues in PART 2
+*/
