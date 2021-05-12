@@ -21,6 +21,7 @@
 		0901A3122594A5D400114E2A /* 1_InitialisationRecap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_InitialisationRecap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A85F264AF24E0023D9E5 /* 2_TheDecodableProtocol_PART2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_TheDecodableProtocol_PART2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A861264B97EB0023D9E5 /* 3_TheEncodableProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_TheEncodableProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0901A863264B9DF70023D9E5 /* 4_ImplementingEncodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ImplementingEncodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505F62591FDB000DA6F8E /* IntermediateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftApp.swift; sourceTree = "<group>"; };
 		090505FB2591FDB000DA6F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -339,6 +340,7 @@
 				09CA9457264A5B71004A7B03 /* 2_TheDecodableProtocol_PART1.playground */,
 				0901A85F264AF24E0023D9E5 /* 2_TheDecodableProtocol_PART2.playground */,
 				0901A861264B97EB0023D9E5 /* 3_TheEncodableProtocol.playground */,
+				0901A863264B9DF70023D9E5 /* 4_ImplementingEncodable.playground */,
 			);
 			path = CHAPTER1_Overview;
 			sourceTree = "<group>";
