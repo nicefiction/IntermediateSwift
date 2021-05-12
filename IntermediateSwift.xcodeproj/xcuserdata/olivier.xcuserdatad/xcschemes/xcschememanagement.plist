@@ -1180,6 +1180,27 @@
 			<key>orderHint</key>
 			<integer>64</integer>
 		</dict>
+		<key>3_TheEncodableProtocol (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
+		<key>3_TheEncodableProtocol (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>3_TheEncodableProtocol (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
 		<key>4_DesignatedAndConvenienceInitializers (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>

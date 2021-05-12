@@ -8,6 +8,16 @@ import Foundation
  and then parse the JSON :
  */
 
+let json = """
+{
+    "name" : "Dorothy" ,
+    "id" : 1 ,
+    "role" : "designer"
+}
+""".data(using : .utf8)
+
+
+
 struct Employee: Codable {
     
      // ///////////////////
