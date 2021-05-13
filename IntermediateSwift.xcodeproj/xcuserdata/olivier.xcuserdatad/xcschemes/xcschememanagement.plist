@@ -193,6 +193,48 @@
 			<key>orderHint</key>
 			<integer>52</integer>
 		</dict>
+		<key>1_ParsingDates (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
+		<key>1_ParsingDates (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>81</integer>
+		</dict>
+		<key>1_ParsingDates (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>1_ParsingDates_Part2 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
+		<key>1_ParsingDates_Part2 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
+		<key>1_ParsingDates_Part2 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>82</integer>
+		</dict>
 		<key>1_StaticProperties (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -464,7 +506,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>77</integer>
 		</dict>
 		<key>2_ClosureExpressionSyntax (Playground) 1.xcscheme</key>
 		<dict>
@@ -1479,7 +1521,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>78</integer>
 		</dict>
 		<key>4_TypeMethods (Playground) 1.xcscheme</key>
 		<dict>
