@@ -80,6 +80,7 @@
 		096BDD3925D3EB050023228A /* 5_ExtendingGenericTypes.playground_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096CF514264C713800CD0911 /* 1_ParsingDates_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ParsingDates_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096CF519264CF9D800CD0911 /* 1_ParsingDates_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ParsingDates_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		096CF51C264E3DF500CD0911 /* 2_ParsingURLsDataAndFloatingPointNumbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ParsingURLsDataAndFloatingPointNumbers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_FunctionsAsData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FunctionsAsParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ExtendingTheIntType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -302,6 +303,7 @@
 			children = (
 				096CF514264C713800CD0911 /* 1_ParsingDates_Part1.playground */,
 				096CF519264CF9D800CD0911 /* 1_ParsingDates_Part2.playground */,
+				096CF51C264E3DF500CD0911 /* 2_ParsingURLsDataAndFloatingPointNumbers.playground */,
 			);
 			path = CHAPTER2_ParsingToNonPrimitiveTypes;
 			sourceTree = "<group>";

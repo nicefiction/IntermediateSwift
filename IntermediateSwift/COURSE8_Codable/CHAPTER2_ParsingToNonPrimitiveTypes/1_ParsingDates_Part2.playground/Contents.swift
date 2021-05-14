@@ -328,7 +328,7 @@ book.publishDate // "Jun 26, 1997 at 12:00 AM"
     "title" : "Harry Potter and the sorcerer's stone",
     "url" : "https:\\/\\/openlibrary.org\\/books\\/OL26331930M\\/Harry_Potter_and_the_sorcerer's_stone",
     "publish_date" : "June 26, 1997",
-    "text" : "VGhpcyBpc24ndCByZWFsbHkgdGhlIGNvbnRlbnRzIG9mIHRoZSBib29r",
+    "text" : "Once upon a time .",
     "rating" : 4.9
  }
  """.data(using: .utf8)!
