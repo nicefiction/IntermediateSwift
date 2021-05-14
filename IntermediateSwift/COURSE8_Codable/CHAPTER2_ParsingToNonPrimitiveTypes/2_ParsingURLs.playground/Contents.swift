@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 Parsing URLs , Data , and Floating Point Numbers`
+ `2 Parsing URLs`
  INTRO — Similar to how we decoded dates ,
  in this video
  let's take a look at
@@ -15,13 +15,14 @@ import Foundation
 
 let json = """
 {
-   "title" : "Harry Potter and the sorcerer's stone",
-   "url" : "https:\\/\\/openlibrary.org\\/books\\/OL26331930M\\/Harry_Potter_and_the_sorcerer's_stone",
-   "publish_date" : "June 26, 1997",
-   "text" : "Once upon a time",
+   "title" : "Harry Potter and the sorcerer's stone" ,
+   "url" : "https:\\/\\/openlibrary.org\\/books\\/OL26331930M\\/Harry_Potter_and_the_sorcerer's_stone" ,
+   "publish_date" : "June 26, 1997" ,
+   "text" : "VGhpcyBpc24ndCByZWFsbHkgdGhlIGNvbnRlbnRzIG9mIHRoZSBib29r" ,
    "rating" : 4.9
 }
 """.data(using: .utf8)!
+
 
 /*
  struct Book: Codable {
@@ -31,6 +32,17 @@ let json = """
     let publishDate: Date
  }
  */
+
+
+extension Data {
+    
+    var stringDescription: String {
+        
+        return String(data : self ,
+                      encoding : .utf8)!
+    }
+}
+
 
 let decoder = JSONDecoder()
 let dateFormatter = DateFormatter()
@@ -73,7 +85,7 @@ struct Book: Codable {
 
    let title: String
    // let url: String
-    let url: URL
+   let url: URL
    let publishDate: Date
 }
 
