@@ -167,3 +167,41 @@ encodedSearchResult.stringDescription
  
  `{"id":2422333,"text_reviews_count":37786,"ratings_count":860687,"books_count":222}`
  */
+
+
+
+/**
+ Okay ,
+ so that is one situation
+ that we are going to run into with wrapper keys .
+ And now you know how to use `Codable` to encode and decode .
+ But we are not done with this example .
+ If you go back to the JSON string up at the top ,
+ 
+ `let json = """`
+ `{`
+     `"work" : {`
+         `"id" : 2422333,`
+         `"books_count" : 222,`
+         `"ratings_count" : 860687,`
+         `"text_reviews_count" : 37786,`
+         `"best_book" : {`
+             `"id" : 375802,`
+             `"title" : "Ender's Game (Ender's Saga, #1)",`
+             `"author" : {`
+                 `"id" : 589,`
+                 `"name" : "Orson Scott Card"`
+             `}`
+         `}`
+     `}`
+ `}`
+ `""".data(using: .utf8)!`
+ 
+ you'll notice that we didn't model all the data that is represented in here .
+ Inside of the nested dictionary ,
+ we have two more nested dictionaries .
+ In the next video though ,
+ let's talk about
+ how we handle that
+ in a way that is different from what we just did .
+ */

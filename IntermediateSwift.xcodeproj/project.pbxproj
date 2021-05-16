@@ -75,6 +75,7 @@
 		095FCD4025D29BD9002BEA48 /* 4_GenericsAndAssociatedTypes_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095FCD4325D2A0FD002BEA48 /* 4_GenericsAndAssociatedTypes_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_GenericsAndAssociatedTypes_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0962E6E8265008A400036B82 /* 1_WrapperKeys_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WrapperKeys_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0962E6EA2650118800036B82 /* 2_NestedObjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_NestedObjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0966E6C525E268D000C86795 /* 4_Reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0966E6C825E29A6700C86795 /* 1_ThrowingFromInsideAClosure_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ThrowingFromInsideAClosure_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096BDD3525D3D5BE0023228A /* 5_ExtendingGenericTypes.playground_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ExtendingGenericTypes.playground_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -323,6 +324,7 @@
 				096CF528264FA5BC00CD0911 /* 1_WrapperKeys_Part1.playground */,
 				096CF52B264FFE0D00CD0911 /* 1_WrapperKeys_Part2.playground */,
 				0962E6E8265008A400036B82 /* 1_WrapperKeys_Part3.playground */,
+				0962E6EA2650118800036B82 /* 2_NestedObjects.playground */,
 			);
 			path = CHAPTER3_ParsingDifferentJSONStructures;
 			sourceTree = "<group>";

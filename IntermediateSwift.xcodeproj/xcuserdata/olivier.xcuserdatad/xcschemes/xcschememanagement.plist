@@ -774,6 +774,27 @@
 			<key>orderHint</key>
 			<integer>79</integer>
 		</dict>
+		<key>2_NestedObjects (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>91</integer>
+		</dict>
+		<key>2_NestedObjects (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>92</integer>
+		</dict>
+		<key>2_NestedObjects (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>90</integer>
+		</dict>
 		<key>2_ParsingData (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -2107,7 +2128,7 @@
 		<key>IntermediateSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolBasedTypeConstraints (Playground) 1.xcscheme</key>
 		<dict>
