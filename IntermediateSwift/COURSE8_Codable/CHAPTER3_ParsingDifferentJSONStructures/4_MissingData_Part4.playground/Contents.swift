@@ -364,3 +364,33 @@ print(encodedSearchResult2.stringDescription)
  let's take a look at
  what happens when keys aren't defined beforehand .
  */
+/**
+ `QUIZ` :
+ */
+
+let statusJSON = """
+{
+    "results" : [
+        {
+            "code" : 200
+        } ,
+        {
+            "code" : 401
+        } ,
+        {
+            "code" : 320
+        }
+    ]
+}
+""".data(using: .utf8)!
+
+
+struct Status: Codable {
+    
+    let code: Int
+}
+
+
+let decoderFromQuiz = JSONDecoder()
+
+let result = try decoderFromQuiz.decode([String : [Status]].self , from : statusJSON)
