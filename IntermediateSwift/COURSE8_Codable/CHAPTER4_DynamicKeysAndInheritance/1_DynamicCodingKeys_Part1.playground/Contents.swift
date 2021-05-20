@@ -123,7 +123,7 @@ let json = """
 """.data(using: .utf8)!
 
 /**
- So , what is so different about this JSON ?
+ So , what is so different about this `json` ?
  Let's say you could query a Treehouse API
  to see what languages we offered content in ,
  and we send back a JSON response with a series of languages
@@ -131,10 +131,13 @@ let json = """
  In this JSON response ,
  the language name
  
- `"languages": { ... }`
+ `"swift": { ... } ,`
  
  is the key itself for any of the underlining information .
  So , at the top , we have a `wrapper key` named `"languages"` ,
+ 
+ `"languages": { ... }`
+ 
  but then , each subsequent key is the language name itself .
  
  `"python": { ... } ,`
@@ -195,12 +198,12 @@ struct Library {
  exist inside each nested dictionary .
  So , bringing this JSON snippet up on screen ,
 
- `"ruby": {`
-     `"designer": [ "Yukihiro Matsumoto" ] ,`
-     `"released": "1995"`
- `}`
+ `"swift": {`
+     `"designer": [ "Chris Lattner" , "Apple Inc" ] ,`
+     `"released": "June 2, 2014"`
+ `},`
  
- you can see that you have a key `"ruby"` ,
+ you can see that you have a key `"swift"` ,
  but then the keys inside this nested dictionary that we get as a value ,
  are `"designer"` and `"released"` .
  So , `designer `and `released` are modelled in the `Language` type ,
@@ -216,10 +219,10 @@ struct Library {
  So what we have here ,
  aside from dynamic keys , is ,
  that our `Language` type ,
- models data that is stored at different depths in the JSON structure .
- So , `"ruby"` is at a given level of depth .
+ models data that is stored at different depths in the `json` structure .
+ So , `"swift"` is at a given level of depth .
  
- `"ruby": { ... }`
+ `"swift": { ... }`
  
  That is a name value for the `name` stored property .
  
@@ -232,8 +235,8 @@ struct Library {
  
  is one level deeper :
  
- `"designer": [ "Yukihiro Matsumoto" ] ,`
- `"released": "1995"`
+ `"designer": [ "Chris Lattner" , "Apple Inc" ] ,`
+ `"released": "June 2, 2014"`
  
  For this reason ,
  it is tricky to initialise the `Language` type in a `decoder` in the type .
@@ -309,15 +312,13 @@ struct Library {
  doesn't actually contain the name of the programming language .
  */
 /**
- For the second — technically the first — `CodingKey` conforming type , i
- nstead of defining an `enum`
+ For the second — technically the first — `CodingKey` conforming type ,
+ instead of defining an `enum`
  we are going to use a `struct` :
  */
 
 /*
 struct Library {
-    
-    // MARK: NESTED TYPES
     
     struct LibraryCodingKeys: CodingKey {}
     
@@ -328,9 +329,6 @@ struct Library {
         case releaseDate
     }
     
-    
-    
-    // MARK: PROPERTIES
     
     let languages: [Language]
 }
@@ -377,34 +375,16 @@ struct Library {
 /*
 struct Library {
     
-    // MARK: NESTED TYPES
-    
     struct LibraryCodingKeys: CodingKey {
-        
-        // MARK: PROPERTIES
         
         var stringValue: String
         
-        
-        
-        // MARK: COMPUTED PROPERTIES
-        
         var intValue: Int? { return nil }
+   
+ 
+        init?(stringValue: String) { self.stringValue = stringValue }
         
-        
-        
-        // MARK: INITIALIZER METHODS
-        
-        init?(stringValue: String) {
-            
-            self.stringValue = stringValue
-        }
-        
-        
-        init?(intValue: Int) {
-            
-            return nil
-        }
+        init?(intValue: Int) { return nil }
     }
     
     
@@ -414,9 +394,6 @@ struct Library {
         case releaseDate
     }
     
-    
-    
-    // MARK: PROPERTIES
     
     let languages: [Language]
 }
@@ -433,14 +410,11 @@ struct Library {
  
  `var intValue: Int? { return nil }`
  
- because this is an optional int .
+ because this is an optional `Int?` .
  And then , the initialiser that takes an `intValue` is also a failable one ,
  so we can return `nil` :
  
- `init?(intValue: Int) {`
-     
-     return nil
- `}`
+ `init?(intValue: Int) { return nil }`
  
  Okay , and that is all we need for the type — the `LibraryCodingKeys` struct .
  Now , we can define both static and dynamic keys .
@@ -561,7 +535,7 @@ extension Library: Decodable {
  
  `let keyedDecodingContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)`
  
- This defines a container that wraps the entire JSON structure .
+ This defines a container that wraps the entire `json` structure .
  Now , all the data we want . is nested inside a dictionary
  that we access using the `"languages"` key , so let's get that :
  
@@ -603,10 +577,7 @@ extension Library: Decodable {
  to an instance of `LibraryCodingKeys`
  using that `stringValue` initialiser we defined .
  
- `init?(stringValue: String) {`
-     
-     self.stringValue = stringValue
- `}`
+ `init?(stringValue: String) { self.stringValue = stringValue }`
  
  Since all the initialiser does , is ,
  assign the `String` to the internal stored property `stringValue` ,
@@ -676,8 +647,8 @@ extension Library: Decodable {
  So we don't know what each key is ,
  but we can access it
  using the `key` variable we have defined .
- This key is of type of `LibraryCodingKeys` .
- Each key has , as a value , a dictionary ,
+ This `key` is of type of `LibraryCodingKeys` .
+ Each `key` has , as a value , a dictionary ,
  which you can inspect .
  Or you can wrap your mind around by looking at the `json` :
 
@@ -690,13 +661,12 @@ extension Library: Decodable {
  
  `"swift"`
  
- is a key ,
- that
+ is a `key` ,
+ that is the dictionary ,
  
  `"designer": [ "Chris Lattner" , "Apple Inc" ] ,`
  `"released": "June 2, 2014"`
  
- is the dictionary .
  To access the data that is in this dictionary ,
  we are going to use each `key` , defined here in the closure .
  
@@ -741,6 +711,15 @@ extension Library: Decodable {
  So this time , for the `CodingKey` conforming type ,
  we are going to pass in the `LanguageCodingKeys enum`
  and the key to get to this inner dictionary .
+ 
+ `struct Library {`
+    `...`
+    `enum LanguageCodingKeys: String ,`
+                             `CodingKey {`
+        `case designer`
+        `case released`
+ `}`
+ 
  From there , the rest is straightforward .
  First ,
  we'll get the `languageName` by accessing the `stringValue` property on the `key`

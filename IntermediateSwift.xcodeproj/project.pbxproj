@@ -95,6 +95,8 @@
 		097D20DE26539AEE00CE700A /* 4_MissingData_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_MissingData_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E12653A09100CE700A /* 1_DynamicCodingKeys_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_DynamicCodingKeys_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E52654F1FC00CE700A /* 1_DynamicCodingKeys_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_DynamicCodingKeys_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097D20E72654F64900CE700A /* 2_CodingPath_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CodingPath_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097D20EA265668AB00CE700A /* 2_CodingPath_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CodingPath_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_FunctionsAsData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FunctionsAsParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ExtendingTheIntType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -346,6 +348,8 @@
 			children = (
 				097D20E12653A09100CE700A /* 1_DynamicCodingKeys_Part1.playground */,
 				097D20E52654F1FC00CE700A /* 1_DynamicCodingKeys_Part2.playground */,
+				097D20E72654F64900CE700A /* 2_CodingPath_Part1.playground */,
+				097D20EA265668AB00CE700A /* 2_CodingPath_Part2.playground */,
 			);
 			path = CHAPTER4_DynamicKeysAndInheritance;
 			sourceTree = "<group>";
