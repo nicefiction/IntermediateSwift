@@ -80,15 +80,15 @@ extension Library: Decodable {
     init(from decoder: Decoder)
     throws {
         
-        let keyedDecodingContainer = try decoder.container(keyedBy : Library.LibraryCodingKeys.self)
+        let outerContainer = try decoder.container(keyedBy : Library.LibraryCodingKeys.self)
         
-        let languagesContainer = try keyedDecodingContainer.nestedContainer(keyedBy : Library.LibraryCodingKeys.self ,
-                                                                            forKey : Library.LibraryCodingKeys.languages)
+        let innerContainer = try outerContainer.nestedContainer(keyedBy : Library.LibraryCodingKeys.self ,
+                                                                forKey : Library.LibraryCodingKeys.languages)
         
-        self.languages = try languagesContainer.allKeys.map { (key: LibraryCodingKeys) in
+        self.languages = try innerContainer.allKeys.map { (key: LibraryCodingKeys) in
             
-            let languageContainer = try languagesContainer.nestedContainer(keyedBy : LanguageCodingKeys.self ,
-                                                                           forKey : key)
+            let languageContainer = try innerContainer.nestedContainer(keyedBy : LanguageCodingKeys.self ,
+                                                                       forKey : key)
             
             let languageName = key.stringValue
             let designer = try languageContainer.decode([String].self , forKey : LanguageCodingKeys.designer)

@@ -33,8 +33,6 @@ import Foundation
  In every example we have looked at so far , one thing was consistent .
  All the keys we used to decode values were defined beforehand .
  So , I have a new playground page here ,
- which you can get to if you go to the project navigator
- and look for Dynamic Keys .
  Now , just for a second , let's go back to our previous example , Wrapper Keys ,
  */
 
@@ -521,10 +519,10 @@ extension Library: Decodable {
     init(from decoder: Decoder)
     throws {
         
-        let keyedDecodingContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)
+        let outerContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)
         
-        let languagesContainer = try container.nestedContainer(keyedBy : LibraryCodingKeys.self ,
-                                                               forKey : LibraryCodingKeys.languages)
+        let innerContainer = try container.nestedContainer(keyedBy : LibraryCodingKeys.self ,
+                                                           forKey : LibraryCodingKeys.languages)
     }
 }
 */
@@ -533,14 +531,14 @@ extension Library: Decodable {
  So like before ,
  we create a `KeyedDecodingContainer` using our struct as the key type :
  
- `let keyedDecodingContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)`
+ `let outerContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)`
  
  This defines a container that wraps the entire `json` structure .
  Now , all the data we want . is nested inside a dictionary
  that we access using the `"languages"` key , so let's get that :
  
- `let languagesContainer = try container.nestedContainer(keyedBy : LibraryCodingKeys.self ,`
-                                                        `forKey : LibraryCodingKeys.languages)`
+ `let innerContainer = try container.nestedContainer(keyedBy : LibraryCodingKeys.self ,`
+                                                    `forKey : LibraryCodingKeys.languages)`
  So just to recap ,
  we are creating an innernested container .
  
@@ -563,10 +561,10 @@ extension Library: Decodable {
     ...
  `}`
  
- So , inside this `languagesContainer` ,
+ So , inside this `innerContainer` ,
  
- `let languagesContainer = try container.nestedContainer(keyedBy : LibraryCodingKeys.self ,`
-                                                        `forKey : LibraryCodingKeys.languages)`
+ `let innerContainer = try container.nestedContainer(keyedBy : LibraryCodingKeys.self ,`
+                                                    `forKey : LibraryCodingKeys.languages)`
  each key is the name of a programming language .
  But we don't know what these keys are .
  What we are going to do , is ,
@@ -596,12 +594,12 @@ extension Library: Decodable {
     init(from decoder: Decoder)
     throws {
         
-        let keyedDecodingContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)
+        let outerContainer = try decoder.container(keyedBy : LibraryCodingKeys.self)
         
-        let languagesContainer = keyedDecodingContainer.nestedContainer(keyedBy : LibraryCodingKeys.self ,
-                                                                        forKey : LibraryCodingKeys.languages)
+        let innerContainer = outerContainer.nestedContainer(keyedBy : LibraryCodingKeys.self ,
+                                                            forKey : LibraryCodingKeys.languages)
         
-        self.languages = try languagesContainer.allKeys.map { key in }
+        self.languages = try innerContainer.allKeys.map { key in }
     }
 }
  */
@@ -630,10 +628,10 @@ extension Library: Decodable {
      `"released": "1995"`
  `}`
  
- that is encoded inside the `languagesContainer` . And here ,
+ that is encoded inside the `innerContainer` . And here ,
  instead of saying `decode` , this time we are going to call `allKeys` .
  This returns all the keys that are defined
- inside the `languagesContainer` .
+ inside the `innerContainer` .
  And we don't know what these keys are , we don't care .
  We are going to map over them , and do something with each key .
  With each key ,
@@ -642,7 +640,7 @@ extension Library: Decodable {
  We can do all this at once by mapping over ,
  which is what we are doing here :
  
- `self.languages = try languagesContainer.allKeys.map { key in }`
+ `self.languages = try innerContainer.allKeys.map { key in }`
  
  So we don't know what each key is ,
  but we can access it
@@ -657,26 +655,27 @@ extension Library: Decodable {
      `"released": "June 2, 2014"`
  `},`
  
- So . this
+ So . this ...
  
  `"swift"`
  
- is a `key` ,
- that is the dictionary ,
+ ... is a `key` ,
+ that ...
  
  `"designer": [ "Chris Lattner" , "Apple Inc" ] ,`
  `"released": "June 2, 2014"`
  
+ ... is the dictionary ,
  To access the data that is in this dictionary ,
  we are going to use each `key` , defined here in the closure .
  
- `self.languages = try languagesContainer.allKeys.map { key in }`
+ `self.languages = try innerContainer.allKeys.map { key in }`
  
  We don't know what the key is ,
  but we can use it
  to create another keyed container
  to represent that final inner dictionary .
- So we'll say
+ So we'll say ,
  */
 
 extension Library: Decodable {
@@ -684,15 +683,16 @@ extension Library: Decodable {
     init(from decoder: Decoder)
     throws {
         
-        let keyedDecodingContainer = try decoder.container(keyedBy : Library.LibraryCodingKeys.self)
+        let outerContainer = try decoder.container(keyedBy : Library.LibraryCodingKeys.self)
         
-        let languagesContainer = try keyedDecodingContainer.nestedContainer(keyedBy : Library.LibraryCodingKeys.self ,
-                                                                            forKey : Library.LibraryCodingKeys.languages)
+        let innerContainer = try outerContainer.nestedContainer(keyedBy : Library.LibraryCodingKeys.self ,
+                                                                forKey : Library.LibraryCodingKeys.languages)
         
-        self.languages = try languagesContainer.allKeys.map { (key: LibraryCodingKeys) in
+        
+        self.languages = try innerContainer.allKeys.map { (key: LibraryCodingKeys) in
             
-            let languageContainer = try languagesContainer.nestedContainer(keyedBy : LanguageCodingKeys.self ,
-                                                                           forKey : key)
+            let languageContainer = try innerContainer.nestedContainer(keyedBy : LanguageCodingKeys.self ,
+                                                                       forKey : key)
             
             let languageName = key.stringValue
             let designer = try languageContainer.decode([String].self , forKey : LanguageCodingKeys.designer)
@@ -758,7 +758,7 @@ extension Library: Decodable {
  
  `self.languages` contains
  an array of `Language` .
- Okay , let's give this a try .
+    Okay , let's give this a try .
  So , we have a `decoder` ,
 
  `let decoder = JSONDecoder()`
