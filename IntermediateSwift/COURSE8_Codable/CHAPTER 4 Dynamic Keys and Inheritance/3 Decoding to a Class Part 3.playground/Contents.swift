@@ -106,8 +106,8 @@ let book = try decoder.decode(Book.self , from : json)
 
 let encoder = JSONEncoder()
 
-let encodedBook = try encoder.encode(book)
-print(encodedBook.stringDescription)
+// let encodedBook = try encoder.encode(book)
+// print(encodedBook.stringDescription)
 
 /**
  ... it is going to fail
@@ -194,18 +194,24 @@ class Book: Media {
  and passes that on to the parent classes initialiser to handle its stored properties .
  
  `try super.init(from : jsonContainer.superDecoder(forKey : BookCodingKeys.media)) // ⭐️`
- 
+ */
+
+let encodedBook = try encoder.encode(book)
+print(encodedBook.stringDescription)
+
+/*
+{
+    "media" : {
+        "id" : "ABCD",
+        "title" : "Some title"
+    },
+    
+    "isbn" : "978-3-16-148410-0"
+}
+ */
+
+/**
  Okay , so just like we encode into the `String`
- 
- `{`
-    `"media" : {`
-        `"id" : "ABCD",`
-        `"title" : "Some title"`
-    `},`
- 
-    `"isbn" : "978-3-16-148410-0"`
- `}`
- 
  we can now decode _from this String_ .
  So , this line of code here ,
  

@@ -93,18 +93,19 @@
 		096CF528264FA5BC00CD0911 /* 1_WrapperKeys_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WrapperKeys_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096CF52B264FFE0D00CD0911 /* 1_WrapperKeys_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WrapperKeys_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20DE26539AEE00CE700A /* 4_MissingData_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_MissingData_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		097D20E12653A09100CE700A /* 1_DynamicCodingKeys_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_DynamicCodingKeys_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		097D20E52654F1FC00CE700A /* 1_DynamicCodingKeys_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_DynamicCodingKeys_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		097D20E72654F64900CE700A /* 2_CodingPath_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CodingPath_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		097D20EA265668AB00CE700A /* 2_CodingPath_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CodingPath_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097D20E12653A09100CE700A /* 1 Dynamic Coding Keys  Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys  Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097D20E52654F1FC00CE700A /* 1 Dynamic Coding Keys Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys Part2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097D20E72654F64900CE700A /* 2 Coding Path Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Coding Path Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097D20EA265668AB00CE700A /* 2 Coding Path part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Coding Path part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE225DC7393008C6216 /* 1_FunctionsAsData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_FunctionsAsData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE425DD1999008C6216 /* 2_FunctionsAsParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FunctionsAsParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE625DD24A3008C6216 /* 3_ExtendingTheIntType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ExtendingTheIntType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE825DD6F29008C6216 /* 4_ReturningFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ReturningFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DEA25DD7DA3008C6216 /* 5_CapturingVariables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_CapturingVariables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		099B74A62656AC1B00189A78 /* 3_DecodingToAClass_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_DecodingToAClass_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		099B74A92657A1DC00189A78 /* 3_DecodingToAClass_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_DecodingToAClass_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		099B74AB2657B15000189A78 /* 3_DecodingToAClass_Part3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_DecodingToAClass_Part3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		099B74A62656AC1B00189A78 /* 3 Decoding to a Class Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Decoding to a Class Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		099B74A92657A1DC00189A78 /* 3 Decoding to a Class Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Decoding to a Class Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		099B74AB2657B15000189A78 /* 3 Decoding to a Class Part 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Decoding to a Class Part 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		099B74AE2657B99A00189A78 /* 1 Decoding Errors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Decoding Errors.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3F7882613A698002C673F /* 1_WhyDoWeNeedGuidelines.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WhyDoWeNeedGuidelines.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3F78A2613B030002C673F /* 2_NamingTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_NamingTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09AD348E25E1914600F737DB /* 3_Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -346,18 +347,18 @@
 			path = CHAPTER3_ParsingDifferentJSONStructures;
 			sourceTree = "<group>";
 		};
-		097D20E02653A05900CE700A /* CHAPTER4_DynamicKeysAndInheritance */ = {
+		097D20E02653A05900CE700A /* CHAPTER 4 Dynamic Keys and Inheritance */ = {
 			isa = PBXGroup;
 			children = (
-				097D20E12653A09100CE700A /* 1_DynamicCodingKeys_Part1.playground */,
-				097D20E52654F1FC00CE700A /* 1_DynamicCodingKeys_Part2.playground */,
-				097D20E72654F64900CE700A /* 2_CodingPath_Part1.playground */,
-				097D20EA265668AB00CE700A /* 2_CodingPath_Part2.playground */,
-				099B74A62656AC1B00189A78 /* 3_DecodingToAClass_Part1.playground */,
-				099B74A92657A1DC00189A78 /* 3_DecodingToAClass_Part2.playground */,
-				099B74AB2657B15000189A78 /* 3_DecodingToAClass_Part3.playground */,
+				097D20E12653A09100CE700A /* 1 Dynamic Coding Keys  Part 1.playground */,
+				097D20E52654F1FC00CE700A /* 1 Dynamic Coding Keys Part2.playground */,
+				097D20E72654F64900CE700A /* 2 Coding Path Part 1.playground */,
+				097D20EA265668AB00CE700A /* 2 Coding Path part 2.playground */,
+				099B74A62656AC1B00189A78 /* 3 Decoding to a Class Part 1.playground */,
+				099B74A92657A1DC00189A78 /* 3 Decoding to a Class Part 2.playground */,
+				099B74AB2657B15000189A78 /* 3 Decoding to a Class Part 3.playground */,
 			);
-			path = CHAPTER4_DynamicKeysAndInheritance;
+			path = "CHAPTER 4 Dynamic Keys and Inheritance";
 			sourceTree = "<group>";
 		};
 		09892DE025DC734E008C6216 /* COURSE6_Closures */ = {
@@ -383,6 +384,14 @@
 			path = CHAPTER1_FirstClassFunctions;
 			sourceTree = "<group>";
 		};
+		099B74AD2657B94700189A78 /* CHAPTER 5 Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+				099B74AE2657B99A00189A78 /* 1 Decoding Errors.playground */,
+			);
+			path = "CHAPTER 5 Error Handling";
+			sourceTree = "<group>";
+		};
 		09A3F7872613A652002C673F /* COURSE2_APIDesignGuidelines */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,7 +407,8 @@
 				09CA9450264A500E004A7B03 /* CHAPTER1_Overview */,
 				096CF512264C70ED00CD0911 /* CHAPTER2_ParsingToNonPrimitiveTypes */,
 				096CF527264FA58300CD0911 /* CHAPTER3_ParsingDifferentJSONStructures */,
-				097D20E02653A05900CE700A /* CHAPTER4_DynamicKeysAndInheritance */,
+				097D20E02653A05900CE700A /* CHAPTER 4 Dynamic Keys and Inheritance */,
+				099B74AD2657B94700189A78 /* CHAPTER 5 Error Handling */,
 			);
 			path = COURSE8_Codable;
 			sourceTree = "<group>";

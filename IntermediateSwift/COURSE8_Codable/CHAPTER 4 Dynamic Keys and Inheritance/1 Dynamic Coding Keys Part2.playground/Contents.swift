@@ -2,8 +2,7 @@ import Foundation
 
 
 /**
- `CHAPTER 4`: PART 2 OF 2
- `Dynamic Keys and Inheritance`
+ `1 Dynamic Coding Keys`: PART 2 OF 2
  Okay ,
  so we did a bunch of new things here ,
  */
