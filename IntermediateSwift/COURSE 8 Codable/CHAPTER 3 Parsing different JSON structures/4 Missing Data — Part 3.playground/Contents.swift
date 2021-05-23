@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `4 Missing Data`: PART 3 OF 4
+ `4 Missing Data`: PART 3 of 4
  There is one more situation we need to take in to account though .
  In some APIs
  when values are `null` ,

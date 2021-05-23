@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 The Decodable Protocol`: PART 2 OF 2
+ `2 The Decodable Protocol`: PART 2 of 2
  So , before we switch tracks here , and look at the counterpart to Decodable ,
  I'll show you how we know that this enum is what serves as sort of the key container .
  How the container is going to look inside this enum ,

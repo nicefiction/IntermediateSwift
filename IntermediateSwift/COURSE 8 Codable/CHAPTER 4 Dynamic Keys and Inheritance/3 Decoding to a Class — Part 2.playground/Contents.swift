@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `3 Decoding to a Class`: PART 2 OF 3
+ `3 Decoding to a Class`: PART 2 of 3
  Let's look at one nuance situation .
  If we take a look at the `json` `String` in the console , ...
  */

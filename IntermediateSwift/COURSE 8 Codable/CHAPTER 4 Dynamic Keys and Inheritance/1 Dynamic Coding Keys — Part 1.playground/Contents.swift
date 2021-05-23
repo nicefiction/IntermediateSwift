@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `CHAPTER 4`: PART 1 OF 2
+ `CHAPTER 4`: PART 1 of 2
  `Dynamic Keys and Inheritance`
  So far we have been working with the assumption
  that we know

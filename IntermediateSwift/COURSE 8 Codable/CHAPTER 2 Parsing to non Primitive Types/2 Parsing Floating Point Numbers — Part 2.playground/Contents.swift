@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 Parsing Floating Point Numbers`: PART 2 OF 2
+ `2 Parsing Floating Point Numbers`: PART 2 of 2
  The second thing you need to be aware of , is ,
  the absence of a value .
  So , let’s say that we have this book API ,

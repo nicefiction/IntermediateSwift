@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 The Decodable Protocol`: PART 1 OF 2
+ `2 The Decodable Protocol`: PART 1 of 2
  INTRO — Let's peel back the magic in the previous video
  and understand how this was implemented
  using the `Decodable` and `CodkingKey protocols` .

@@ -19,7 +19,7 @@ import Foundation
 
 
 /**
- `1 Wrapper Keys`: PART 1 OF 3
+ `1 Wrapper Keys`: PART 1 of 3
  INTRO — Often times
  the JSON data we desire to populate our model
  is not represented at the top level of the object

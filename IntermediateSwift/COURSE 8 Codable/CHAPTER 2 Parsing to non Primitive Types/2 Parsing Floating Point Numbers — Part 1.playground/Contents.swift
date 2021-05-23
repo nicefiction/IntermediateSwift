@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 Parsing Floating Point Numbers`: PART 1 OF 2
+ `2 Parsing Floating Point Numbers`: PART 1 of 2
  Okay , the last property we need to model , is , the rating for the book .
  So , let’s go back up to the type ,
  and we add that in as a `Double` value .

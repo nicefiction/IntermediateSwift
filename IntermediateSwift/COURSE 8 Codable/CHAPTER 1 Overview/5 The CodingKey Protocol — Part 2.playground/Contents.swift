@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `5 The CodingKey Protocol`: PART 2 OF 2
+ `5 The CodingKey Protocol`: PART 2 of 2
  Well , you'll remember that I said wherever possible ,
  we want to let `Codable` do all the work for us .
  There is really no need to provide an implementation ,

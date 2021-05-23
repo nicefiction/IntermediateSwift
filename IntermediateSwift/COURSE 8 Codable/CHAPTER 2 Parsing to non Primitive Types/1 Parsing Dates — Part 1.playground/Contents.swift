@@ -18,7 +18,7 @@ import Foundation
 
 
 /**
- `1 Parsing Dates`: PART 1 OF 2
+ `1 Parsing Dates`: PART 1 of 2
  INTRO — Dates in JSON are represented as String values
  but this doesn't mean we need to store them as strings in our models .
  In this video , let's take a look at

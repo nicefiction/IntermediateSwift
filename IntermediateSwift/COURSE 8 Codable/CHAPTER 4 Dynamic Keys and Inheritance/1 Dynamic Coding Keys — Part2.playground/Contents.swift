@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `1 Dynamic Coding Keys`: PART 2 OF 2
+ `1 Dynamic Coding Keys`: PART 2 of 2
  Okay ,
  so we did a bunch of new things here ,
  */

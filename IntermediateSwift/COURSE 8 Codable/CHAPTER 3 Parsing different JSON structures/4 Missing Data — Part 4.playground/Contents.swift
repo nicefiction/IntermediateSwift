@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `4 Missing Data`: PART 4 OF 4
+ `4 Missing Data`: PART 4 of 4
  There is also a counterpart method for the `encoder` that we can use .
  */
 

@@ -543,6 +543,48 @@
 			<key>orderHint</key>
 			<integer>47</integer>
 		</dict>
+		<key>1 Recap (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>107</integer>
+		</dict>
+		<key>1 Recap (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>108</integer>
+		</dict>
+		<key>1 Recap (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>106</integer>
+		</dict>
+		<key>1 Recap — Part 2 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>110</integer>
+		</dict>
+		<key>1 Recap — Part 2 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>111</integer>
+		</dict>
+		<key>1 Recap — Part 2 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>109</integer>
+		</dict>
 		<key>1 Throwing from inside a Closure — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>

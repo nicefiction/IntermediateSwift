@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `1 Parsing Dates`: PART 2 OF 2
+ `1 Parsing Dates`: PART 2 of 2
  _But what if the date is in a different format ?_
  There are several ways dates can be represented as a string ,
  an infinite number of ways .

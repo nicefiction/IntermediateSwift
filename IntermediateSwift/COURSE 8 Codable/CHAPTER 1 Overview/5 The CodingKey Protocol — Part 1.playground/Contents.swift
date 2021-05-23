@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `5 The CodingKey Protocol`: PART 1 OF 2
+ `5 The CodingKey Protocol`: PART 1 of 2
  INTRO — Both decoding and encoding rely on information about
  the key to stored property mapping being provided . By default
  `Codable` provides this information through a separate type —`CodingKey` .

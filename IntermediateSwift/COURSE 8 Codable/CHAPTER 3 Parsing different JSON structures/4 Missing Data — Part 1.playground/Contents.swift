@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `4 Missing Data`: PART 1 OF 4
+ `4 Missing Data`: PART 1 of 4
  INTRO — We have looked at several variations of JSON objects
  but we haven't taken into account the fact that data can be missing .
  In this video , let’s look at

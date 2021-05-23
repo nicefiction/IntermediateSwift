@@ -123,6 +123,8 @@
 		09D24FD825E79B9F0051652D /* 3 Escaping Weak and Unowned — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Escaping Weak and Unowned — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1 Understanding Access Levels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Understanding Access Levels.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF1265A41A7004C0DEE /* 3 EncodingError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 EncodingError.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6CF5265A4F60004C0DEE /* 1 Recap — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +415,7 @@
 				096CF527264FA58300CD0911 /* CHAPTER 3 Parsing different JSON structures */,
 				097D20E02653A05900CE700A /* CHAPTER 4 Dynamic Keys and Inheritance */,
 				099B74AD2657B94700189A78 /* CHAPTER 5 Error Handling */,
+				09FF6CF4265A4F13004C0DEE /* BEN SCHEIRMAN Advanced Codable */,
 			);
 			path = "COURSE 8 Codable";
 			sourceTree = "<group>";
@@ -457,6 +460,15 @@
 				095E5AEC25E8ECEA00981427 /* 2 Defining Access Levels.playground */,
 			);
 			path = "CHAPTER 6 Access Control";
+			sourceTree = "<group>";
+		};
+		09FF6CF4265A4F13004C0DEE /* BEN SCHEIRMAN Advanced Codable */ = {
+			isa = PBXGroup;
+			children = (
+				09FF6CF5265A4F60004C0DEE /* 1 Recap — Part 1.playground */,
+				09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */,
+			);
+			path = "BEN SCHEIRMAN Advanced Codable";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

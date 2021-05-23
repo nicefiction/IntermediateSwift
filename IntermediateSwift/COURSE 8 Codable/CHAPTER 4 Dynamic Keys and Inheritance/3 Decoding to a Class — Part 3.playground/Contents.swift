@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `3 Decoding to a Class`: PART 3 OF 3
+ `3 Decoding to a Class`: PART 3 of 3
  To wrap this up ,
  let's look at how we could decode a string of JSON that
  where the response looks like this

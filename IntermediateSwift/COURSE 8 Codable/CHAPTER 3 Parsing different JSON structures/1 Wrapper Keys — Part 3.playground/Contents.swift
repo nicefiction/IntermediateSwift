@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `1 Wrapper Keys`: PART 3 OF 3
+ `1 Wrapper Keys`: PART 3 of 3
  */
 
 let json = """

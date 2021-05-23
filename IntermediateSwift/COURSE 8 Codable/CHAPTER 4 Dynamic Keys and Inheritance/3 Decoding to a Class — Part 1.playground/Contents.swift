@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `3 Decoding to a Class`: PART 1 OF 3
+ `3 Decoding to a Class`: PART 1 of 3
  INTRO — When we use structs as our `Codable` conforming types ,
  we only have to worry about the type itself .
  When we use classes to model data

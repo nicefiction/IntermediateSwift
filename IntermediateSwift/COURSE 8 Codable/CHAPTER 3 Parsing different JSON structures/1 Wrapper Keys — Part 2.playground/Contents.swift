@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `1 Wrapper Keys`: PART 2 OF 3
+ `1 Wrapper Keys`: PART 2 of 3
  We can actually get a much cleaner implementation
  if we are willing to provide a protocol implementation ourselves .
  So , let’s get rid of all the code ,
