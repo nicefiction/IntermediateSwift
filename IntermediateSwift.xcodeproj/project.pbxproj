@@ -54,7 +54,7 @@
 		09251496259B410400345B77 /* 3 Mixed Semantics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Mixed Semantics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09251498259C6C0600345B77 /* 4 Type Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Type Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925149A259C746A00345B77 /* 5 Final Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Final Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		0937DD4C265909E600A975FA /* 2 Decoding Error Context.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Decoding Error Context.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0937DD4C265909E600A975FA /* 2 DecodingError Context.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 DecodingError Context.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24D25A84E5400127166 /* 2 LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 LinkedLists.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24F25A863DB00127166 /* 3 LinkedList Operations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 LinkedList Operations.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		094C3DFF25DF881000432889 /* 2 Closure Expression Syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Closure Expression Syntax.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -122,6 +122,7 @@
 		09CB8AAF25AB14DD00F8C799 /* 1 Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3 Escaping Weak and Unowned — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Escaping Weak and Unowned — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1 Understanding Access Levels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Understanding Access Levels.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6CF1265A41A7004C0DEE /* 3 EncodingError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 EncodingError.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,7 +390,8 @@
 			isa = PBXGroup;
 			children = (
 				099B74AE2657B99A00189A78 /* 1 Decoding Errors.playground */,
-				0937DD4C265909E600A975FA /* 2 Decoding Error Context.playground */,
+				0937DD4C265909E600A975FA /* 2 DecodingError Context.playground */,
+				09FF6CF1265A41A7004C0DEE /* 3 EncodingError.playground */,
 			);
 			path = "CHAPTER 5 Error Handling";
 			sourceTree = "<group>";

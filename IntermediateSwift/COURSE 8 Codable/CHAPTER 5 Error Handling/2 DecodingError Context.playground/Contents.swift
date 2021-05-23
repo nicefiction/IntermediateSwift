@@ -2,7 +2,7 @@ import Foundation
 
 
 /**
- `2 Decoding Error Context`
+ `2 DecodingError Context`
  INTRO — All decoding errors carry
  as an associated value
  a `Context` object .
