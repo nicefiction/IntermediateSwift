@@ -125,6 +125,8 @@
 		09FF6CF1265A41A7004C0DEE /* 3 EncodingError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 EncodingError.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF5265A4F60004C0DEE /* 1 Recap — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6CFA265A55F1004C0DEE /* 2 Changing Hierarchies — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Changing Hierarchies — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6CFD265A5AA9004C0DEE /* 2 Changing Hierarchies — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Changing Hierarchies — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +469,8 @@
 			children = (
 				09FF6CF5265A4F60004C0DEE /* 1 Recap — Part 1.playground */,
 				09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */,
+				09FF6CFA265A55F1004C0DEE /* 2 Changing Hierarchies — Part 1.playground */,
+				09FF6CFD265A5AA9004C0DEE /* 2 Changing Hierarchies — Part 2.playground */,
 			);
 			path = "BEN SCHEIRMAN Advanced Codable";
 			sourceTree = "<group>";

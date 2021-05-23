@@ -16,9 +16,9 @@ import Foundation
 
 let json = """
 {
-    "id" = 123 ,
-    "name" = "avond brood" ,
-    "bakery" = "BioPlanet"
+    "id" : 123 ,
+    "name" : "avond brood" ,
+    "bakery" : "BioPlanet"
 }
 """.data(using: .utf8)!
 
