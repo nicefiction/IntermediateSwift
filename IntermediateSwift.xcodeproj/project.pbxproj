@@ -25,6 +25,7 @@
 		0901A865264BABA80023D9E5 /* 5 The CodingKey Protocol — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 The CodingKey Protocol — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A868264C5E3C0023D9E5 /* 5 The CodingKey Protocol — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 The CodingKey Protocol — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090348BC26513E8E000BC6DC /* 3 List of Objects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 List of Objects.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0903E6AA265A90E700B29153 /* 3 Heterogeneous Arrays — Part 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Heterogeneous Arrays — Part 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505F62591FDB000DA6F8E /* IntermediateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftApp.swift; sourceTree = "<group>"; };
 		090505FB2591FDB000DA6F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +128,8 @@
 		09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CFA265A55F1004C0DEE /* 2 Changing Hierarchies — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Changing Hierarchies — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CFD265A5AA9004C0DEE /* 2 Changing Hierarchies — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Changing Hierarchies — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6CFF265A6208004C0DEE /* 3 Heterogeneous Arrays — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Heterogeneous Arrays — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FF6D02265A73D9004C0DEE /* 3 Heterogeneous Arrays — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Heterogeneous Arrays — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +474,9 @@
 				09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */,
 				09FF6CFA265A55F1004C0DEE /* 2 Changing Hierarchies — Part 1.playground */,
 				09FF6CFD265A5AA9004C0DEE /* 2 Changing Hierarchies — Part 2.playground */,
+				09FF6CFF265A6208004C0DEE /* 3 Heterogeneous Arrays — Part 1.playground */,
+				09FF6D02265A73D9004C0DEE /* 3 Heterogeneous Arrays — Part 2.playground */,
+				0903E6AA265A90E700B29153 /* 3 Heterogeneous Arrays — Part 3.playground */,
 			);
 			path = "BEN SCHEIRMAN Advanced Codable";
 			sourceTree = "<group>";

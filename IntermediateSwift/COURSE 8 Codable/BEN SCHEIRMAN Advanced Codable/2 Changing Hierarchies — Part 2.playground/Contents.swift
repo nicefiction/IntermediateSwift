@@ -4,7 +4,7 @@ import Foundation
 /**
  `2 Changing Hierarchies`PART 2 of 2
  
- Advanced Codable youtube video , [10:30 - 10:29]
+ Advanced Codable youtube video , [10:30 - 12:58]
  SOURCE :  https://youtu.be/LoRhAEf050E
  
  JSON Basics ,
