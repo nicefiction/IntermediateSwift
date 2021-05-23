@@ -5331,6 +5331,27 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>4 Property Wrappers (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>114</integer>
+		</dict>
+		<key>4 Property Wrappers (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>115</integer>
+		</dict>
+		<key>4 Property Wrappers (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>113</integer>
+		</dict>
 		<key>4 Protocol Based Type Constraints (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
