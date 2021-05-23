@@ -24,7 +24,7 @@ import Foundation
  so that we could focus on encoding and decoding .
  But as you might have realised
  from the number of times we have typed out
- that exclamation point after the `try` statement ,
+ that exclamation point after the `try!` statement ,
  there are several places where encoding and decoding can go wrong .
  Codable breaks up errors in to two types :
  (`1`) decoding errors , defined by the `DecodingError` type ,
@@ -32,8 +32,7 @@ import Foundation
     This is better than one catch-all type ,
  because that would mean having to catch every kind of error ,
  regardless of whether we are serialising or deserialising .
- In practice
- that would mean
+ In practice that would mean
  that developers often just write one generic `catch` statement
  or ignore errors all together .
  We have some experience with `DecodingError` .
@@ -67,7 +66,8 @@ import Foundation
 /**
  `DecodingError` is not a complex type at all ,
  and only defines four types of errors :
- `{1}` So the first one is `dataCorrupted` .
+ `⭐️ 1`
+ So the first one is `dataCorrupted` .
  This error is thrown when the data is corrupted .
  If you run into this error
  there is a high chance that your JSON is not valid .
@@ -252,36 +252,39 @@ do {
  There we go . Okay , so ,
  the remaining decoding errors are pretty straight forward .
  
- {`2`}
+ `⭐️ 2`
  ` keyNotFound` indicates that a key that we are searching for
  was not found in the `json` structure .
  This can occur in three ways ,
  all of which we have covered so far .
  
-    {`2.1`} So first , the key exists ,
- but there is a mismatch between the String representation of the key
- defined through our `CodingKey` conforming type and the actual `json` .
- We can resolve this by
- either specifying `.convertFromSnakeCase` at the `decoder` level , ...
+    {`⭐️ 2.1`}
+    So first , the key exists ,
+    but there is a mismatch between the String representation of the key
+    defined through our `CodingKey` conforming type and the actual `json` .
+    We can resolve this by
+    either specifying `.convertFromSnakeCase` at the `decoder` level , ...
  
- `decoder.keyDecodingStrategy = .convertFromSnakeCase`
+    `decoder.keyDecodingStrategy = .convertFromSnakeCase`
  
- ... or implementing a custom `CodingKey` conforming type
- where we have more control over our key specifications .
+    ... or implementing a custom `CodingKey` conforming type
+    where we have more control over our key specifications .
  
-    {`2.2`} The second situation you might run into , is ,
- one where the JSON response from the server includes the key
- only some of the time .
- When it is not specified — unless you handle it —
- you'll run into a `keyNotFound` error .
- You have seen this before .
- You would handle this situation by asking the `decoder` to only _decode if present_ .
+    {`⭐️ 2.2`}
+    The second situation you might run into , is ,
+    one where the JSON response from the server includes the key
+    only some of the time .
+    When it is not specified — unless you handle it —
+    you'll run into a `keyNotFound` error .
+    You have seen this before .
+    You would handle this situation by asking the `decoder` to only _decode if present_ .
  
-    {`2.3`} Lastly ,
- you might run into a situation where the key actually doesn't exist ,
- which would mean that you need to change your model .
+    {`⭐️ 2.3`}
+    Lastly ,
+    you might run into a situation where the key actually doesn't exist ,
+    which would mean that you need to change your model .
 
- {`3`}
+ `⭐️ 3`
  The next error that we can run into is a `typeMismatchError` ,
  and this occurs if you are trying to decode into a type
  that does not match what the `decoder` expects .
@@ -289,7 +292,7 @@ do {
  but you are asking it to convert it to a `Double` value ,
  that wouldn't work . Or a `String` and `Int` .
 
- {`4`}
+ `⭐️ 4`
  And lastly ,
  you can run into a `valueNotFoundError` .
  And this is simple , we would model this with an optional type .

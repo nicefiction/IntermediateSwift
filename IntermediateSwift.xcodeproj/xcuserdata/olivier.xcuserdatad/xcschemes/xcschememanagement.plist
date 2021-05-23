@@ -65,7 +65,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>174</integer>
+			<integer>33</integer>
 		</dict>
 		<key>1 A Quick Recap (Playground) 1.xcscheme</key>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>345</integer>
+			<integer>7</integer>
 		</dict>
 		<key>1 Associated Types (Playground) 1.xcscheme</key>
 		<dict>
@@ -149,7 +149,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>396</integer>
+			<integer>84</integer>
 		</dict>
 		<key>1 Decoding Errors (Playground) 1.xcscheme</key>
 		<dict>
@@ -177,7 +177,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>89</integer>
 		</dict>
 		<key>1 Dynamic Coding Keys  Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -226,7 +226,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>63</integer>
 		</dict>
 		<key>1 Dynamic Coding Keys — Part2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -247,7 +247,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>73</integer>
 		</dict>
 		<key>1 Extending a Native Type (Playground) 1.xcscheme</key>
 		<dict>
@@ -289,7 +289,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>564</integer>
+			<integer>8</integer>
 		</dict>
 		<key>1 Functions as Data (Playground) 1.xcscheme</key>
 		<dict>
@@ -331,7 +331,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>315</integer>
+			<integer>36</integer>
 		</dict>
 		<key>1 Generic Types in the StandardLibrary (Playground) 1.xcscheme</key>
 		<dict>
@@ -373,7 +373,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>435</integer>
+			<integer>94</integer>
 		</dict>
 		<key>1 Initialisation Recap (Playground) 1.xcscheme</key>
 		<dict>
@@ -415,7 +415,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>600</integer>
+			<integer>17</integer>
 		</dict>
 		<key>1 Manual Retain Release (Playground) 1.xcscheme</key>
 		<dict>
@@ -457,7 +457,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>546</integer>
+			<integer>52</integer>
 		</dict>
 		<key>1 Map (Playground) 1.xcscheme</key>
 		<dict>
@@ -499,7 +499,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>288</integer>
+			<integer>37</integer>
 		</dict>
 		<key>1 Parsing Dates — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -520,7 +520,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>195</integer>
+			<integer>55</integer>
 		</dict>
 		<key>1 Parsing Dates — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -541,7 +541,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>198</integer>
+			<integer>9</integer>
 		</dict>
 		<key>1 Throwing from inside a Closure — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -583,7 +583,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>285</integer>
+			<integer>49</integer>
 		</dict>
 		<key>1 Throwing from inside a Closure — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -604,7 +604,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>369</integer>
+			<integer>27</integer>
 		</dict>
 		<key>1 Throwing from inside a Closure — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -625,7 +625,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>372</integer>
+			<integer>38</integer>
 		</dict>
 		<key>1 Type Properties (Playground) 1.xcscheme</key>
 		<dict>
@@ -667,7 +667,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>621</integer>
+			<integer>56</integer>
 		</dict>
 		<key>1 Understanding Access Levels (Playground) 1.xcscheme</key>
 		<dict>
@@ -709,7 +709,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>540</integer>
+			<integer>78</integer>
 		</dict>
 		<key>1 Value Semantics (Playground) 1.xcscheme</key>
 		<dict>
@@ -772,7 +772,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>579</integer>
+			<integer>11</integer>
 		</dict>
 		<key>1 Why do we need Guidelines (Playground) 1.xcscheme</key>
 		<dict>
@@ -793,7 +793,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>531</integer>
+			<integer>69</integer>
 		</dict>
 		<key>1 Wrapper Keys — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -814,7 +814,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>213</integer>
+			<integer>92</integer>
 		</dict>
 		<key>1 Wrapper Keys — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -835,7 +835,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>216</integer>
+			<integer>76</integer>
 		</dict>
 		<key>1 Wrapper Keys — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -856,7 +856,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>219</integer>
+			<integer>4</integer>
 		</dict>
 		<key>1 Writing Repetitive Code (Playground) 1.xcscheme</key>
 		<dict>
@@ -919,7 +919,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>447</integer>
+			<integer>10</integer>
 		</dict>
 		<key>1_AQuickPeek (Playground) 1.xcscheme</key>
 		<dict>
@@ -1668,7 +1668,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>549</integer>
+			<integer>0</integer>
 		</dict>
 		<key>2 Closure Expression Syntax (Playground) 1.xcscheme</key>
 		<dict>
@@ -1710,7 +1710,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>306</integer>
+			<integer>48</integer>
 		</dict>
 		<key>2 Coding Path Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -1801,7 +1801,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>54</integer>
 		</dict>
 		<key>2 Coding Path — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -1829,7 +1829,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>67</integer>
 		</dict>
 		<key>2 Computed Properties (Playground) 1.xcscheme</key>
 		<dict>
@@ -1871,7 +1871,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>624</integer>
+			<integer>42</integer>
 		</dict>
 		<key>2 Constraints with Where Clauses (Playground) 1.xcscheme</key>
 		<dict>
@@ -1934,7 +1934,28 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>387</integer>
+			<integer>60</integer>
+		</dict>
+		<key>2 Decoding Error Context (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>103</integer>
+		</dict>
+		<key>2 Decoding Error Context (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
+		<key>2 Decoding Error Context (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>102</integer>
 		</dict>
 		<key>2 Defining Access Levels (Playground) 1.xcscheme</key>
 		<dict>
@@ -1997,7 +2018,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>537</integer>
+			<integer>2</integer>
 		</dict>
 		<key>2 Failable and Throwing Initialisers (Playground) 1.xcscheme</key>
 		<dict>
@@ -2039,7 +2060,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>603</integer>
+			<integer>81</integer>
 		</dict>
 		<key>2 FlatMap (Playground) 1.xcscheme</key>
 		<dict>
@@ -2081,7 +2102,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>291</integer>
+			<integer>66</integer>
 		</dict>
 		<key>2 Functions as Parameters (Playground) 1.xcscheme</key>
 		<dict>
@@ -2123,7 +2144,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>318</integer>
+			<integer>88</integer>
 		</dict>
 		<key>2 LinkedLists (Playground) 1.xcscheme</key>
 		<dict>
@@ -2186,7 +2207,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>432</integer>
+			<integer>51</integer>
 		</dict>
 		<key>2 Naming Types (Playground) 1.xcscheme</key>
 		<dict>
@@ -2207,7 +2228,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>534</integer>
+			<integer>82</integer>
 		</dict>
 		<key>2 Nested Objects (Playground) 1.xcscheme</key>
 		<dict>
@@ -2228,7 +2249,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>222</integer>
+			<integer>75</integer>
 		</dict>
 		<key>2 Parsing Data (Playground) 1.xcscheme</key>
 		<dict>
@@ -2249,7 +2270,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>204</integer>
+			<integer>93</integer>
 		</dict>
 		<key>2 Parsing Floating Point Numbers — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2270,7 +2291,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>207</integer>
+			<integer>14</integer>
 		</dict>
 		<key>2 Parsing Floating Point Numbers — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2291,7 +2312,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>210</integer>
+			<integer>6</integer>
 		</dict>
 		<key>2 Parsing URLs (Playground) 1.xcscheme</key>
 		<dict>
@@ -2312,7 +2333,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>201</integer>
+			<integer>101</integer>
 		</dict>
 		<key>2 Protocol Conformance using Extensions (Playground) 1.xcscheme</key>
 		<dict>
@@ -2354,7 +2375,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>567</integer>
+			<integer>47</integer>
 		</dict>
 		<key>2 Reference Semantics (Playground) 1.xcscheme</key>
 		<dict>
@@ -2396,7 +2417,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>585</integer>
+			<integer>43</integer>
 		</dict>
 		<key>2 Rethrowing an Error — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2417,7 +2438,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>375</integer>
+			<integer>70</integer>
 		</dict>
 		<key>2 Rethrowing an Error — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2438,7 +2459,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>378</integer>
+			<integer>46</integer>
 		</dict>
 		<key>2 The Decodable Protocol — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2459,7 +2480,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>177</integer>
+			<integer>58</integer>
 		</dict>
 		<key>2 The Decodable Protocol — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2501,7 +2522,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>171</integer>
+			<integer>31</integer>
 		</dict>
 		<key>2 Writing Generic Functions (Playground) 1.xcscheme</key>
 		<dict>
@@ -2564,7 +2585,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>444</integer>
+			<integer>23</integer>
 		</dict>
 		<key>2_AutomaticReferenceCounting (Playground) 1.xcscheme</key>
 		<dict>
@@ -3320,7 +3341,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>300</integer>
+			<integer>57</integer>
 		</dict>
 		<key>3 Constraining AssociatedTypes — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3362,7 +3383,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>402</integer>
+			<integer>72</integer>
 		</dict>
 		<key>3 Constraining AssociatedTypes — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3404,7 +3425,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>405</integer>
+			<integer>22</integer>
 		</dict>
 		<key>3 Constraining AssociatedTypes — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3446,7 +3467,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>408</integer>
+			<integer>20</integer>
 		</dict>
 		<key>3 Constraining AssociatedTypes — Part 4 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3488,7 +3509,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>411</integer>
+			<integer>61</integer>
 		</dict>
 		<key>3 Decoding to a Class Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3579,7 +3600,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>64</integer>
 		</dict>
 		<key>3 Decoding to a Class — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3607,7 +3628,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>87</integer>
+			<integer>95</integer>
 		</dict>
 		<key>3 Decoding to a Class — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3635,7 +3656,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>91</integer>
 		</dict>
 		<key>3 Escaping Weak and Unowned — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3656,7 +3677,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>381</integer>
+			<integer>68</integer>
 		</dict>
 		<key>3 Escaping Weak and Unowned — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -3677,7 +3698,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>384</integer>
+			<integer>62</integer>
 		</dict>
 		<key>3 Extending the Int Type (Playground) 1.xcscheme</key>
 		<dict>
@@ -3740,7 +3761,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>312</integer>
+			<integer>29</integer>
 		</dict>
 		<key>3 Filter (Playground) 1.xcscheme</key>
 		<dict>
@@ -3782,7 +3803,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>294</integer>
+			<integer>53</integer>
 		</dict>
 		<key>3 Initializer Delegation (Playground) 1.xcscheme</key>
 		<dict>
@@ -3845,7 +3866,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>597</integer>
+			<integer>99</integer>
 		</dict>
 		<key>3 LinkedList Operations (Playground) 1.xcscheme</key>
 		<dict>
@@ -3887,7 +3908,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>441</integer>
+			<integer>25</integer>
 		</dict>
 		<key>3 List of Objects (Playground) 1.xcscheme</key>
 		<dict>
@@ -3929,7 +3950,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>129</integer>
+			<integer>65</integer>
 		</dict>
 		<key>3 Memory Leaks (Playground) 1.xcscheme</key>
 		<dict>
@@ -3971,7 +3992,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>552</integer>
+			<integer>83</integer>
 		</dict>
 		<key>3 Mixed Semantics (Playground) 1.xcscheme</key>
 		<dict>
@@ -4013,7 +4034,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>588</integer>
+			<integer>87</integer>
 		</dict>
 		<key>3 Multiple Type Parameters (Playground) 1.xcscheme</key>
 		<dict>
@@ -4055,7 +4076,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>456</integer>
+			<integer>79</integer>
 		</dict>
 		<key>3 Protocol Extensions (Playground) 1.xcscheme</key>
 		<dict>
@@ -4097,7 +4118,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>570</integer>
+			<integer>74</integer>
 		</dict>
 		<key>3 Reading Modes (Playground) 1.xcscheme</key>
 		<dict>
@@ -4139,7 +4160,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>627</integer>
+			<integer>86</integer>
 		</dict>
 		<key>3 The Encodable Protocol (Playground) 1.xcscheme</key>
 		<dict>
@@ -4160,7 +4181,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>183</integer>
+			<integer>71</integer>
 		</dict>
 		<key>3_ClosureExpressionShorthand (Playground) 1.xcscheme</key>
 		<dict>
@@ -4699,7 +4720,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>609</integer>
+			<integer>18</integer>
 		</dict>
 		<key>4 Generics and AssociatedTypes — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -4741,7 +4762,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>414</integer>
+			<integer>96</integer>
 		</dict>
 		<key>4 Generics and AssociatedTypes — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -4783,7 +4804,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>417</integer>
+			<integer>44</integer>
 		</dict>
 		<key>4 Generics and AssociatedTypes — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -4825,7 +4846,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>420</integer>
+			<integer>77</integer>
 		</dict>
 		<key>4 Generics and AssociatedTypes — Part 4 (Playground) 1.xcscheme</key>
 		<dict>
@@ -4867,7 +4888,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>423</integer>
+			<integer>35</integer>
 		</dict>
 		<key>4 Implementing Encodable (Playground) 1.xcscheme</key>
 		<dict>
@@ -4888,7 +4909,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>186</integer>
+			<integer>5</integer>
 		</dict>
 		<key>4 Lazy Stored Properties (Playground) 1.xcscheme</key>
 		<dict>
@@ -4930,7 +4951,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>630</integer>
+			<integer>34</integer>
 		</dict>
 		<key>4 Method Dispatch in a Protocol Extension — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -4972,7 +4993,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>573</integer>
+			<integer>28</integer>
 		</dict>
 		<key>4 Method Dispatch in a Protocol Extension — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5014,7 +5035,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>576</integer>
+			<integer>80</integer>
 		</dict>
 		<key>4 Missing Data — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5035,7 +5056,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>228</integer>
+			<integer>50</integer>
 		</dict>
 		<key>4 Missing Data — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5056,7 +5077,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>231</integer>
+			<integer>16</integer>
 		</dict>
 		<key>4 Missing Data — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5077,7 +5098,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>234</integer>
+			<integer>41</integer>
 		</dict>
 		<key>4 Missing Data — Part 4 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5098,7 +5119,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>237</integer>
+			<integer>15</integer>
 		</dict>
 		<key>4 Protocol Based Type Constraints (Playground) 1.xcscheme</key>
 		<dict>
@@ -5140,7 +5161,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>459</integer>
+			<integer>39</integer>
 		</dict>
 		<key>4 Reduce (Playground) 1.xcscheme</key>
 		<dict>
@@ -5182,7 +5203,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>297</integer>
+			<integer>19</integer>
 		</dict>
 		<key>4 Returning Functions (Playground) 1.xcscheme</key>
 		<dict>
@@ -5224,7 +5245,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>324</integer>
+			<integer>85</integer>
 		</dict>
 		<key>4 Type Methods (Playground) 1.xcscheme</key>
 		<dict>
@@ -5266,7 +5287,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>591</integer>
+			<integer>12</integer>
 		</dict>
 		<key>4 Weak References — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5308,7 +5329,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>555</integer>
+			<integer>45</integer>
 		</dict>
 		<key>4 Weak References — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5350,7 +5371,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>558</integer>
+			<integer>13</integer>
 		</dict>
 		<key>4 Weak References — Part 3 (Playground) 1.xcscheme</key>
 		<dict>
@@ -5392,7 +5413,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>561</integer>
+			<integer>21</integer>
 		</dict>
 		<key>4_DesignatedAndConvenienceInitializers (Playground) 1.xcscheme</key>
 		<dict>
@@ -5931,7 +5952,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>327</integer>
+			<integer>98</integer>
 		</dict>
 		<key>5 Class Based Type Constraints (Playground) 1.xcscheme</key>
 		<dict>
@@ -5973,7 +5994,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>462</integer>
+			<integer>32</integer>
 		</dict>
 		<key>5 Extending Generic Types — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -6036,7 +6057,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>390</integer>
+			<integer>100</integer>
 		</dict>
 		<key>5 Extending Generic Types — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -6099,7 +6120,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>393</integer>
+			<integer>59</integer>
 		</dict>
 		<key>5 Final Classes (Playground) 1.xcscheme</key>
 		<dict>
@@ -6141,7 +6162,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>594</integer>
+			<integer>26</integer>
 		</dict>
 		<key>5 Initialising Superclasses — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -6183,7 +6204,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>612</integer>
+			<integer>3</integer>
 		</dict>
 		<key>5 Initialising Superclasses — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -6225,7 +6246,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>615</integer>
+			<integer>40</integer>
 		</dict>
 		<key>5 Property Observers (Playground) 1.xcscheme</key>
 		<dict>
@@ -6267,7 +6288,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>633</integer>
+			<integer>90</integer>
 		</dict>
 		<key>5 The CodingKey Protocol — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -6288,7 +6309,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>189</integer>
+			<integer>24</integer>
 		</dict>
 		<key>5 The CodingKey Protocol — Part 2 (Playground) 1.xcscheme</key>
 		<dict>
@@ -6309,7 +6330,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>192</integer>
+			<integer>97</integer>
 		</dict>
 		<key>5_CapturingVariables (Playground) 1.xcscheme</key>
 		<dict>
@@ -6645,7 +6666,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>618</integer>
+			<integer>30</integer>
 		</dict>
 		<key>6_RequiredInitialisers (Playground) 1.xcscheme</key>
 		<dict>
