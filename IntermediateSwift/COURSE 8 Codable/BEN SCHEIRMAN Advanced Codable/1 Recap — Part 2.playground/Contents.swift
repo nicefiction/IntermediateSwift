@@ -4,10 +4,10 @@ import Foundation
 /**
  `1 Recap`PART 2 of 2
  
- Advanced Codable youtube video , [0:00 - 2:45]
+ `Advanced Codable youtube video` , [0:00 - 2:45]
  SOURCE :  https://youtu.be/LoRhAEf050E
  
- JSON Basics ,
+ `JSON Basics` ,
  SOURCE : https://benscheirman.com/2017/06/swift-json/
  */
 /**

@@ -57,6 +57,7 @@
 		09251496259B410400345B77 /* 3 Mixed Semantics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Mixed Semantics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09251498259C6C0600345B77 /* 4 Type Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Type Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925149A259C746A00345B77 /* 5 Final Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Final Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0930B0DB265B9C4200404379 /* 2 The Core Data Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 The Core Data Stack.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0937DD4C265909E600A975FA /* 2 DecodingError Context.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 DecodingError Context.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24D25A84E5400127166 /* 2 LinkedLists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 LinkedLists.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24F25A863DB00127166 /* 3 LinkedList Operations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 LinkedList Operations.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -171,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				0903E6B0265AFB8200B29153 /* 1 What is Core Data.playground */,
+				0930B0DB265B9C4200404379 /* 2 The Core Data Stack.playground */,
 			);
 			path = "CHAPTER 1 Understanding the Core Data stack";
 			sourceTree = "<group>";

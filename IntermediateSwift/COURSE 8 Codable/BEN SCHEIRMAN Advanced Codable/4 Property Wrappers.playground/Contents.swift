@@ -4,16 +4,17 @@ import Foundation
 /**
  `4 Property Wrappers`
  
- Advanced Codable youtube video , [26:47 - 30:00]
+ `Advanced Codable youtube video` , [26:47 - 30:00]
  SOURCE :  https://youtu.be/LoRhAEf050E
  
- JSON Basics ,
+ `JSON Basics` ,
  SOURCE : https://benscheirman.com/2017/06/swift-json/
  
- Property Wrappers ,
+ `Property Wrappers` ,
  SOURCE : https://www.swiftbysundell.com/articles/property-wrappers-in-swift/
+ SOURCE : https://www.avanderlee.com/swift/property-wrappers/
  
- Source code Github ,
+ `Source code Github` ,
  SOURCE :  https://github.com/subdigital/advanced-codable-talk
  */
 

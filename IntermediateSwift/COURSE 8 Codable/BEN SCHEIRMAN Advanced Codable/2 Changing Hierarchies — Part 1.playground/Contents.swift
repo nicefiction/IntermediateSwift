@@ -4,10 +4,10 @@ import Foundation
 /**
  `2 Changing Hierarchies`PART 1 of 2
  
- Advanced Codable youtube video , [6:30 - 10:29]
+ `Advanced Codable youtube video` , [6:30 - 10:29]
  SOURCE :  https://youtu.be/LoRhAEf050E
  
- JSON Basics ,
+ `JSON Basics` ,
  SOURCE : https://benscheirman.com/2017/06/swift-json/
  */
 /**
