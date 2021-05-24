@@ -27,6 +27,7 @@
 		090348BC26513E8E000BC6DC /* 3 List of Objects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 List of Objects.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0903E6AA265A90E700B29153 /* 3 Heterogeneous Arrays — Part 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Heterogeneous Arrays — Part 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0903E6AC265AE72900B29153 /* 4 Property Wrappers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Property Wrappers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0903E6B0265AFB8200B29153 /* 1 What is Core Data.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 What is Core Data.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505F62591FDB000DA6F8E /* IntermediateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftApp.swift; sourceTree = "<group>"; };
 		090505FB2591FDB000DA6F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +159,22 @@
 			path = "CHAPTER 2 Object Initialisation";
 			sourceTree = "<group>";
 		};
+		0903E6AE265AFB1100B29153 /* COURSE 10 Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				0903E6AF265AFB2E00B29153 /* CHAPTER 1 Understanding the Core Data stack */,
+			);
+			path = "COURSE 10 Core Data";
+			sourceTree = "<group>";
+		};
+		0903E6AF265AFB2E00B29153 /* CHAPTER 1 Understanding the Core Data stack */ = {
+			isa = PBXGroup;
+			children = (
+				0903E6B0265AFB8200B29153 /* 1 What is Core Data.playground */,
+			);
+			path = "CHAPTER 1 Understanding the Core Data stack";
+			sourceTree = "<group>";
+		};
 		090505ED2591FDB000DA6F8E = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +199,7 @@
 				09093C1B259F037B0043EFD6 /* COURSE 5 Generics */,
 				09892DE025DC734E008C6216 /* COURSE 6 Closures */,
 				09CA944F264A4FF2004A7B03 /* COURSE 8 Codable */,
+				0903E6AE265AFB1100B29153 /* COURSE 10 Core Data */,
 				090505F92591FDB000DA6F8E /* IntermediateSwiftApp.swift */,
 				090505FB2591FDB000DA6F8E /* ContentView.swift */,
 				090505FD2591FDB500DA6F8E /* Assets.xcassets */,

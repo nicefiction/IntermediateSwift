@@ -2,6 +2,29 @@ import Foundation
 
 
 /**
+ `COURSE 8`
+ `Parsing JSON Using Codable`
+ Parsing JSON is one of the more common tasks
+ you will undertake in Swift ,
+ whether it is for an iOS app
+ or server side development .
+ Swift 4 introduced the `Codable` protocol
+ along with a set of related types
+ to provide a built in solution for this.
+ Over this course ,
+ let's explore
+ how to use these types
+ to parse JSON of varying complexity .
+ 
+ What you will learn :
+ `•` Serialization
+ `•` Deserialisation
+ `•` Parsing JSON into models
+ */
+
+
+
+/**
  `CHAPTER 1`
  `An Overview of Codable`
  Before we dig into any of the mechanics of what makes Codable work ,
