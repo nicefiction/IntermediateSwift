@@ -11,6 +11,7 @@
 		090505FC2591FDB000DA6F8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090505FB2591FDB000DA6F8E /* ContentView.swift */; };
 		090505FE2591FDB500DA6F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090505FD2591FDB500DA6F8E /* Assets.xcassets */; };
 		090506012591FDB500DA6F8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090506002591FDB500DA6F8E /* Preview Assets.xcassets */; };
+		09882897265CD724008B240F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09882896265CD724008B240F /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,8 @@
 		097D20E52654F1FC00CE700A /* 1 Dynamic Coding Keys — Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys — Part2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E72654F64900CE700A /* 2 Coding Path — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Coding Path — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20EA265668AB00CE700A /* 2 Coding Path — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Coding Path — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09882894265CD64E008B240F /* 3 The Documents Directory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 The Documents Directory.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09882896265CD724008B240F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		09892DE225DC7393008C6216 /* 1 Functions as Data.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Functions as Data.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE425DD1999008C6216 /* 2 Functions as Parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Functions as Parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE625DD24A3008C6216 /* 3 Extending the Int Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Extending the Int Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -164,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				0903E6AF265AFB2E00B29153 /* CHAPTER 1 Understanding the Core Data stack */,
+				09882896265CD724008B240F /* CoreDataStack.swift */,
 			);
 			path = "COURSE 10 Core Data";
 			sourceTree = "<group>";
@@ -173,6 +177,7 @@
 			children = (
 				0903E6B0265AFB8200B29153 /* 1 What is Core Data.playground */,
 				0930B0DB265B9C4200404379 /* 2 The Core Data Stack.playground */,
+				09882894265CD64E008B240F /* 3 The Documents Directory.playground */,
 			);
 			path = "CHAPTER 1 Understanding the Core Data stack";
 			sourceTree = "<group>";
@@ -572,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09882897265CD724008B240F /* CoreDataStack.swift in Sources */,
 				090505FC2591FDB000DA6F8E /* ContentView.swift in Sources */,
 				090505FA2591FDB000DA6F8E /* IntermediateSwiftApp.swift in Sources */,
 			);

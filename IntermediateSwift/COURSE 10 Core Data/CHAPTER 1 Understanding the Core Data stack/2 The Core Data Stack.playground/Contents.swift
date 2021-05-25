@@ -9,7 +9,7 @@ import Foundation
  
  (`1`) If you are coming from a different domain like web development ,
  you might be familiar with `Object Relational Mapping` frameworks ,
- or `ORM`s — like Django’s ORM , or Active Record in Rails .
+ or `ORM`s — like Django’s ORM , or `Active Record` in Rails .
  Core data is not an ORM ,
  An ORM framework converts between a type system and data .
  So , a Swift ORM would let you query your data
@@ -185,9 +185,9 @@ class Department {
  The `Persistent Store Coordinator` and the `Persistent Store` together
  are responsible for
  mapping between
- the data in the store
- and corresponding objects in a context .
- Okay , a bit complicated ,
+ the data in the `Store`
+ and corresponding objects in a `Context` .
+    Okay , a bit complicated ,
  but now that you know what the Core data stack looks like at a high level ,
  let's build an app .
  Because Core data is relatively complex ,
