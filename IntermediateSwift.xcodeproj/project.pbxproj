@@ -129,6 +129,7 @@
 		09CB8AAF25AB14DD00F8C799 /* 1 Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3 Escaping Weak and Unowned — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Escaping Weak and Unowned — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1 Understanding Access Levels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Understanding Access Levels.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09FE7A82265E1B6F003423B2 /* 4 The Managed Object Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 The Managed Object Model.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF1265A41A7004C0DEE /* 3 EncodingError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 EncodingError.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF5265A4F60004C0DEE /* 1 Recap — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF8265A5194004C0DEE /* 1 Recap — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Recap — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -178,6 +179,7 @@
 				0903E6B0265AFB8200B29153 /* 1 What is Core Data.playground */,
 				0930B0DB265B9C4200404379 /* 2 The Core Data Stack.playground */,
 				09882894265CD64E008B240F /* 3 The Documents Directory.playground */,
+				09FE7A82265E1B6F003423B2 /* 4 The Managed Object Model.playground */,
 			);
 			path = "CHAPTER 1 Understanding the Core Data stack";
 			sourceTree = "<group>";
