@@ -1,4 +1,5 @@
 import Foundation
+import CoreData
 
 
 /**
@@ -70,17 +71,23 @@ import Foundation
  we ensure that it is always backed up .
  So , let’s create a `lazy stored property`
  that maintains a reference to this location via a `URL` :
- 
- `class CoreDataStack {`
-     
-     // Creates a destination to store the data :
-     lazy var applicationDocumentsDirectory: URL = {
-         
-         let urls = FileManager.default.urls(for : FileManager.SearchPathDirectory.documentDirectory ,
-                                             in : .userDomainMask)
-     }() // ERROR : Missing return in a closure expected to return URL
- `}`
- 
+*/
+
+class CoreDataStack {
+    
+    // Creates a destination to store the data :
+    private(set) lazy var applicationDocumentsDirectory: URL = {
+        
+        let urls = FileManager.default.urls(for : FileManager.SearchPathDirectory.documentDirectory ,
+                                            in : FileManager.SearchPathDomainMask.userDomainMask)
+        
+        let endIndex = urls.index(before : urls.endIndex)
+        
+        return urls[endIndex]
+    }()
+}
+
+/**
  To the `lazy stored property`
  we assign our usual pattern of an immediately executing `closure` .
  
