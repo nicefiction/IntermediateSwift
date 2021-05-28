@@ -110,6 +110,7 @@
 		09892DE625DD24A3008C6216 /* 3 Extending the Int Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Extending the Int Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DE825DD6F29008C6216 /* 4 Returning Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Returning Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09892DEA25DD7DA3008C6216 /* 5 Capturing Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Capturing Variables.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0991B01D2660B81700BDC466 /* 6 The Managed Object Context.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6 The Managed Object Context.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099B74A62656AC1B00189A78 /* 3 Decoding to a Class — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Decoding to a Class — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099B74A92657A1DC00189A78 /* 3 Decoding to a Class — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Decoding to a Class — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099B74AB2657B15000189A78 /* 3 Decoding to a Class — Part 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Decoding to a Class — Part 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -182,6 +183,7 @@
 				09882894265CD64E008B240F /* 3 The Documents Directory.playground */,
 				09FE7A82265E1B6F003423B2 /* 4 The Managed Object Model.playground */,
 				09FE7A84265FA62F003423B2 /* 5 The Persistent Store Coordinator.playground */,
+				0991B01D2660B81700BDC466 /* 6 The Managed Object Context.playground */,
 			);
 			path = "CHAPTER 1 Understanding the Core Data stack";
 			sourceTree = "<group>";
