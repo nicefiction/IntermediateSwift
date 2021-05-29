@@ -11,6 +11,7 @@
 		090505FC2591FDB000DA6F8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090505FB2591FDB000DA6F8E /* ContentView.swift */; };
 		090505FE2591FDB500DA6F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090505FD2591FDB500DA6F8E /* Assets.xcassets */; };
 		090506012591FDB500DA6F8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090506002591FDB500DA6F8E /* Preview Assets.xcassets */; };
+		0975FAF12662017E00F93442 /* PersistentStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975FAF02662017E00F93442 /* PersistentStoreContainer.swift */; };
 		09882897265CD724008B240F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09882896265CD724008B240F /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,8 @@
 		096CF525264E585100CD0911 /* 2 Parsing Floating Point Numbers — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Parsing Floating Point Numbers — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096CF528264FA5BC00CD0911 /* 1 Wrapper Keys — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Wrapper Keys — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096CF52B264FFE0D00CD0911 /* 1 Wrapper Keys — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Wrapper Keys — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0975FAEE2662008B00F93442 /* 7 The Persistent Store Container.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7 The Persistent Store Container.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0975FAF02662017E00F93442 /* PersistentStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStoreContainer.swift; sourceTree = "<group>"; };
 		097D20DE26539AEE00CE700A /* 4 Missing Data — Part 4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Missing Data — Part 4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E12653A09100CE700A /* 1 Dynamic Coding Keys — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E52654F1FC00CE700A /* 1 Dynamic Coding Keys — Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys — Part2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -171,6 +174,7 @@
 			children = (
 				0903E6AF265AFB2E00B29153 /* CHAPTER 1 Understanding the Core Data stack */,
 				09882896265CD724008B240F /* CoreDataStack.swift */,
+				0975FAF02662017E00F93442 /* PersistentStoreContainer.swift */,
 			);
 			path = "COURSE 10 Core Data";
 			sourceTree = "<group>";
@@ -184,6 +188,7 @@
 				09FE7A82265E1B6F003423B2 /* 4 The Managed Object Model.playground */,
 				09FE7A84265FA62F003423B2 /* 5 The Persistent Store Coordinator.playground */,
 				0991B01D2660B81700BDC466 /* 6 The Managed Object Context.playground */,
+				0975FAEE2662008B00F93442 /* 7 The Persistent Store Container.playground */,
 			);
 			path = "CHAPTER 1 Understanding the Core Data stack";
 			sourceTree = "<group>";
@@ -585,6 +590,7 @@
 			files = (
 				09882897265CD724008B240F /* CoreDataStack.swift in Sources */,
 				090505FC2591FDB000DA6F8E /* ContentView.swift in Sources */,
+				0975FAF12662017E00F93442 /* PersistentStoreContainer.swift in Sources */,
 				090505FA2591FDB000DA6F8E /* IntermediateSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

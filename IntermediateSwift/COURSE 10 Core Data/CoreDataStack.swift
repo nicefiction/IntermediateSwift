@@ -65,4 +65,3 @@ class CoreDataStack {
         return managedObjectContext
     }()
 }
-
