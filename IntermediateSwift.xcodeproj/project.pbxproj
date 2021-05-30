@@ -11,6 +11,7 @@
 		090505FC2591FDB000DA6F8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090505FB2591FDB000DA6F8E /* ContentView.swift */; };
 		090505FE2591FDB500DA6F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090505FD2591FDB500DA6F8E /* Assets.xcassets */; };
 		090506012591FDB500DA6F8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090506002591FDB500DA6F8E /* Preview Assets.xcassets */; };
+		091D8239266357F500FBBD57 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 091D8237266357F500FBBD57 /* ToDoList.xcdatamodeld */; };
 		0975FAF12662017E00F93442 /* PersistentStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975FAF02662017E00F93442 /* PersistentStoreContainer.swift */; };
 		09882897265CD724008B240F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09882896265CD724008B240F /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		090F11A525D903670087D565 /* 3 Protocol Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Protocol Extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A725D90AF30087D565 /* 4 Method Dispatch in a Protocol Extension — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Method Dispatch in a Protocol Extension — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A925D936B90087D565 /* 4 Method Dispatch in a Protocol Extension — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Method Dispatch in a Protocol Extension — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		091D8238266357F500FBBD57 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		092514872594A92500345B77 /* 2 Failable and Throwing Initialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Failable and Throwing Initialisers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514892595D0AA00345B77 /* 3 Initializer Delegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Initializer Delegation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925148B2597275700345B77 /* 4 Designated and Convenience Initializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Designated and Convenience Initializers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -101,6 +103,7 @@
 		096CF52B264FFE0D00CD0911 /* 1 Wrapper Keys — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Wrapper Keys — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0975FAEE2662008B00F93442 /* 7 The Persistent Store Container.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7 The Persistent Store Container.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0975FAF02662017E00F93442 /* PersistentStoreContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStoreContainer.swift; sourceTree = "<group>"; };
+		0975FAF426620FD800F93442 /* 1 Creating the Data Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Creating the Data Model.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20DE26539AEE00CE700A /* 4 Missing Data — Part 4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Missing Data — Part 4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E12653A09100CE700A /* 1 Dynamic Coding Keys — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E52654F1FC00CE700A /* 1 Dynamic Coding Keys — Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys — Part2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -173,8 +176,10 @@
 			isa = PBXGroup;
 			children = (
 				0903E6AF265AFB2E00B29153 /* CHAPTER 1 Understanding the Core Data stack */,
+				0975FAF326620FA600F93442 /* CHAPTER 2 Inserting and Saving Data Using a Context */,
 				09882896265CD724008B240F /* CoreDataStack.swift */,
 				0975FAF02662017E00F93442 /* PersistentStoreContainer.swift */,
+				091D8237266357F500FBBD57 /* ToDoList.xcdatamodeld */,
 			);
 			path = "COURSE 10 Core Data";
 			sourceTree = "<group>";
@@ -393,6 +398,14 @@
 			path = "CHAPTER 3 Parsing different JSON structures";
 			sourceTree = "<group>";
 		};
+		0975FAF326620FA600F93442 /* CHAPTER 2 Inserting and Saving Data Using a Context */ = {
+			isa = PBXGroup;
+			children = (
+				0975FAF426620FD800F93442 /* 1 Creating the Data Model.playground */,
+			);
+			path = "CHAPTER 2 Inserting and Saving Data Using a Context";
+			sourceTree = "<group>";
+		};
 		097D20E02653A05900CE700A /* CHAPTER 4 Dynamic Keys and Inheritance */ = {
 			isa = PBXGroup;
 			children = (
@@ -591,6 +604,7 @@
 				09882897265CD724008B240F /* CoreDataStack.swift in Sources */,
 				090505FC2591FDB000DA6F8E /* ContentView.swift in Sources */,
 				0975FAF12662017E00F93442 /* PersistentStoreContainer.swift in Sources */,
+				091D8239266357F500FBBD57 /* ToDoList.xcdatamodeld in Sources */,
 				090505FA2591FDB000DA6F8E /* IntermediateSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -780,6 +794,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		091D8237266357F500FBBD57 /* ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				091D8238266357F500FBBD57 /* ToDoList.xcdatamodel */,
+			);
+			currentVersion = 091D8238266357F500FBBD57 /* ToDoList.xcdatamodel */;
+			path = ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 090505EE2591FDB000DA6F8E /* Project object */;
 }

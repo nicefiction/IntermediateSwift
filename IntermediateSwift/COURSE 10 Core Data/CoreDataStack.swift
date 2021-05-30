@@ -5,7 +5,7 @@ import CoreData
 
 
 
-class CoreDataStack {
+class CoreDataStackTheory {
     
     // Creates a destination to store the data :
     private(set) lazy var applicationDocumentsDirectory: URL = {
@@ -22,7 +22,7 @@ class CoreDataStack {
     // Creates the Managed Object Model :
     private(set) lazy var managedObjectModel: NSManagedObjectModel = {
         
-        let modelURL = Bundle.main.url(forResource : "toDoList" ,
+        let modelURL = Bundle.main.url(forResource : "ToDoList" ,
                                        withExtension : "momd")!
         
         return NSManagedObjectModel(contentsOf: modelURL)!
