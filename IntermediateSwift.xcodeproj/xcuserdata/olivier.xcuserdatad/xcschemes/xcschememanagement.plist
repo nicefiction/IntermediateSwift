@@ -5037,6 +5037,27 @@
 			<key>orderHint</key>
 			<integer>64</integer>
 		</dict>
+		<key>4 Fluent Usage (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>124</integer>
+		</dict>
+		<key>4 Fluent Usage (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>125</integer>
+		</dict>
+		<key>4 Fluent Usage (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>123</integer>
+		</dict>
 		<key>4 Generics and AssociatedTypes — Part 1 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>

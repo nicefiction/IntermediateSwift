@@ -3,7 +3,8 @@ import Foundation
 
 /**
  `3 Guidelines for Naming Methods`
- INTRO — There are far more rules for naming methods
+ INTRO — There are far more rules
+ for naming methods
  than types
  so
  let's start simple
@@ -19,7 +20,7 @@ import Foundation
  Let's start simple by breaking down component parts of a function
  to make sure we are on the same page . 
  Here we have a function from the Swift standard library
- that is part of the collection protocol :
+ that is part of the `Collection protocol` :
  
  `func index(_ i : Self.Index ,`
             `offsetBy n : Self.IndexDistance)`
@@ -40,7 +41,7 @@ import Foundation
  More often though ,
  it is just the `base name` and the `first argument`
  that comprise the `function name` .
- After the `base name`
+    After the `base name`
  we have a list of parameters or arguments that the function accepts :
  
  `func index(_ i : Self.Index ,`
@@ -63,12 +64,7 @@ import Foundation
  — the one that you see when you call the function —
  while `n` is the `local name`
  that we use inside of the body of the function
- to refer to the argument :
- 
- `func index(_ i : Self.Index ,`
-            `offsetBy n : Self.IndexDistance)`
- `-> Self.Index { ... }`
- 
+ to refer to the argument .
  You don't have to specify both the `local` and `external name` .
  When you specify just a single argument label for an argument ,
  Swift uses that single label
@@ -93,8 +89,10 @@ import Foundation
  With functions and methods ,
  a distinction needs to be made between
  where the function is defined and where it is used .
- The function should read well when we _use it_ ,
- not necessarily when we _define it_ .
+ The function should read well
+ when we _use it_ ,
+ not necessarily
+ when we _define it_ .
  When we design our functions ,
  we should always check how they read and use sites .
  Let's say we wanted to define a function that inserted an element into an array
@@ -107,8 +105,6 @@ import Foundation
  at the use site . Calling the method
  and passing in some values
  gets us this :
- 
- `func insert(element: Element , position: Int) { ... }`
  
  `insert(element : "a" , position : 1) // use site`
  
@@ -147,11 +143,12 @@ import Foundation
  
  `func insert(_ element: Element , position: Int)`
  
+ So now the method just reads _insert_ .
+ 
  `insert("a" , position : 1) {...}`
  
- So now the method just reads _insert_ .
  This reads much better .
- And here ,
+    And here ,
  it is a fairly obvious case of where we could omit a needless word .
  This guideline is tough though ,
  especially because it needs to strike a careful balance with the next one .
@@ -162,7 +159,8 @@ import Foundation
  (`2`) Rule number two states
  that we need to include all the words needed
  to avoid ambiguity .
- Let's define a counterpart for `insert()` ,`remove()` .
+ Let's define a counterpart for `insert()` ,
+ `remove()` .
  It removes an element from an Array given an index .
  Hot off the heels of defining our first method we decide
  that we don't need an argument label here
@@ -181,7 +179,6 @@ import Foundation
  The problem is compounded
  when the arguments are assigned to constants or variables ,
  
- `func remove(_ index: Int)`
  `let unrelatedVariableName = 1`
  
  and passed through :
@@ -195,16 +192,18 @@ import Foundation
  when we specify removing the element at a given index :
  
  `func remove(at index: Int)`
+ 
  `remove(at : 1)`
 
  For each of these guidelines ,
  it really comes down to a case by case evaluation of the method or function .
  In both the cases we looked at however ,
  we had one aspect of Swift that helped us in someway , `type information` .
- In the case of the `insert()` method , let's say on an `Array of Strings` ,
+ In the case of the `insert()` method ,
  
  `func insert(_ element: Element , position: Int) { ... }`
  
+ let's say on an `Array of Strings` ,
  despite there being no argument label for the first argument.
  The fact that the type of argument is `String`
  indicates to us that we are inserting a String value into the existing Array .
@@ -258,7 +257,9 @@ import Foundation
  So instead ,
  we precede each weakly typed parameter
  with a noun describing its role .
+ 
  Let me repeat that ,
+ 
  with the case of `ambiguous type information` ,
  we precede each `weakly typed parameter`
  with a noun
@@ -320,6 +321,8 @@ import Foundation
  
  `func updateValue(_ value: Any , forKey key: String)`
  */
+
+
 /**
  This takes getting used to
  but there are further rules that we'll go over that should help make more sense .

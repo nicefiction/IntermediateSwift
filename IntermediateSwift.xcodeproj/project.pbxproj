@@ -135,6 +135,7 @@
 		09CA9457264A5B71004A7B03 /* 2 The Decodable Protocol — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 The Decodable Protocol — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CB8AAF25AB14DD00F8C799 /* 1 Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CD024826655E98004D6F22 /* 3 Guidelines for Naming Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Guidelines for Naming Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Fluent Usage.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3 Escaping Weak and Unowned — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Escaping Weak and Unowned — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1 Understanding Access Levels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Understanding Access Levels.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FE7A82265E1B6F003423B2 /* 4 The Managed Object Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 The Managed Object Model.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -460,6 +461,7 @@
 				09A3F7882613A698002C673F /* 1 Why do we need Guidelines.playground */,
 				09A3F78A2613B030002C673F /* 2 Naming Types.playground */,
 				09CD024826655E98004D6F22 /* 3 Guidelines for Naming Methods.playground */,
+				09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */,
 			);
 			path = "COURSE 2 API Design Guidelines";
 			sourceTree = "<group>";
