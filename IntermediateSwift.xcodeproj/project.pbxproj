@@ -51,6 +51,7 @@
 		090F11A725D90AF30087D565 /* 4 Method Dispatch in a Protocol Extension — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Method Dispatch in a Protocol Extension — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090F11A925D936B90087D565 /* 4 Method Dispatch in a Protocol Extension — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Method Dispatch in a Protocol Extension — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		091D8238266357F500FBBD57 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		0920CFD526678A1A0009CABF /* 5 Prepositional vs Grammatical Phrases.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Prepositional vs Grammatical Phrases.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514872594A92500345B77 /* 2 Failable and Throwing Initialisers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Failable and Throwing Initialisers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		092514892595D0AA00345B77 /* 3 Initializer Delegation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Initializer Delegation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0925148B2597275700345B77 /* 4 Designated and Convenience Initializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Designated and Convenience Initializers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -462,6 +463,7 @@
 				09A3F78A2613B030002C673F /* 2 Naming Types.playground */,
 				09CD024826655E98004D6F22 /* 3 Guidelines for Naming Methods.playground */,
 				09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */,
+				0920CFD526678A1A0009CABF /* 5 Prepositional vs Grammatical Phrases.playground */,
 			);
 			path = "COURSE 2 API Design Guidelines";
 			sourceTree = "<group>";
