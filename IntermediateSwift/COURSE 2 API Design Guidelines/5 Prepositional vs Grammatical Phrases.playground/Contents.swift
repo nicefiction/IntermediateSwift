@@ -54,7 +54,7 @@ import Foundation
  
  `to` is the ``preposition`
  describing _where_ Nick went .
- Why does this matter ?
+    Why does this matter ?
  Well , when writing out a method
  when the `first argument` forms
  part of a `prepositional phrase`
@@ -81,7 +81,7 @@ import Foundation
  Here we have what is a `prepositional phrase` .
  👇
  So the rule is ,
- that we give it an `argument label` that begins at the preposition :
+ that we give it an `argument label` that begins at the `preposition` :
  
  `func move(toPosition position: Int) { ... }`
  
@@ -116,11 +116,11 @@ import Foundation
  `removeBoxes()` also takes a `single value` .
  Sometimes however ,
  more than the first argument can represent parts of a single abstraction .
- Let's modify our `move()` function so that ,
+ Let's modify our `move()` function
  
  `func move(toPosition position: Int) { ... }`
  
- instead of taking a single integer value that corresponds to a `position` on our board ,
+ iso that instead of taking a single integer value that corresponds to a `position` on our board ,
  it takes a standard x and y coordinate like a 2D map :
  
  `func move(toX x: Int , y: Int) { ... }`

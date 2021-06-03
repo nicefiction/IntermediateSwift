@@ -139,6 +139,7 @@
 		09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Fluent Usage.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3 Escaping Weak and Unowned — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Escaping Weak and Unowned — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1 Understanding Access Levels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Understanding Access Levels.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09D99D8326692ECE00EADF2F /* 6 Recap Naming Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6 Recap Naming Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FE7A82265E1B6F003423B2 /* 4 The Managed Object Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 The Managed Object Model.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FE7A84265FA62F003423B2 /* 5 The Persistent Store Coordinator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 The Persistent Store Coordinator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09FF6CF1265A41A7004C0DEE /* 3 EncodingError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 EncodingError.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -464,6 +465,7 @@
 				09CD024826655E98004D6F22 /* 3 Guidelines for Naming Methods.playground */,
 				09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */,
 				0920CFD526678A1A0009CABF /* 5 Prepositional vs Grammatical Phrases.playground */,
+				09D99D8326692ECE00EADF2F /* 6 Recap Naming Methods.playground */,
 			);
 			path = "COURSE 2 API Design Guidelines";
 			sourceTree = "<group>";
