@@ -126,6 +126,7 @@
 		09A3F78A2613B030002C673F /* 2 Naming Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Naming Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09AD348E25E1914600F737DB /* 3 Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Filter.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B9819225FB77B30065057E /* 5 Initialising Superclasses — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Initialising Superclasses — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09C6C2592669E6550077D4AF /* 7 Side-Effects and Mutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7 Side-Effects and Mutation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09C8500225E13F85004EA214 /* 2 FlatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 FlatMap.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CA639E25E64C9100D8D530 /* 2 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CA63A025E658DA00D8D530 /* 3 Memory Leaks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Memory Leaks.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -466,6 +467,7 @@
 				09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */,
 				0920CFD526678A1A0009CABF /* 5 Prepositional vs Grammatical Phrases.playground */,
 				09D99D8326692ECE00EADF2F /* 6 Recap Naming Methods.playground */,
+				09C6C2592669E6550077D4AF /* 7 Side-Effects and Mutation.playground */,
 			);
 			path = "COURSE 2 API Design Guidelines";
 			sourceTree = "<group>";

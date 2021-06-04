@@ -102,7 +102,7 @@ import Foundation
  much like we did with `addSubview()` ,
  the word `constraints` is not added to the method’s base name .
  Why ?
- This is because of the guideline to omit needless words .
+ This is because of the guideline to _omit needless words_ .
  The argument has a type of an array of NSLayoutConstraint ,
  which is a very specific type .
  We don't typically subclass constraints to make our own .
