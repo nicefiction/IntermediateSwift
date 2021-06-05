@@ -110,6 +110,7 @@
 		097D20E52654F1FC00CE700A /* 1 Dynamic Coding Keys — Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Dynamic Coding Keys — Part2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20E72654F64900CE700A /* 2 Coding Path — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Coding Path — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		097D20EA265668AB00CE700A /* 2 Coding Path — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Coding Path — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		097FD429266B4FCD00E574B4 /* 8 Conventions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "8 Conventions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09882894265CD64E008B240F /* 3 The Documents Directory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 The Documents Directory.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09882896265CD724008B240F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		09892DE225DC7393008C6216 /* 1 Functions as Data.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Functions as Data.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -468,6 +469,7 @@
 				0920CFD526678A1A0009CABF /* 5 Prepositional vs Grammatical Phrases.playground */,
 				09D99D8326692ECE00EADF2F /* 6 Recap Naming Methods.playground */,
 				09C6C2592669E6550077D4AF /* 7 Side-Effects and Mutation.playground */,
+				097FD429266B4FCD00E574B4 /* 8 Conventions.playground */,
 			);
 			path = "COURSE 2 API Design Guidelines";
 			sourceTree = "<group>";

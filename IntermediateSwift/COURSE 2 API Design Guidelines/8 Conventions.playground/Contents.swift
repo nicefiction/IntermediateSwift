@@ -29,14 +29,15 @@ import Foundation
  `2. parameters` .
  We have covered a lot of ground with `argument labels` ,
  there is just a few random things in this set of guidelines :
- `2.1`  We always want to choose parameter names that serve `documentation` .
+    `2.1`  We always want to choose parameter names that serve `documentation` .
  So here `parameter name` refers to what we have been calling the `local argument name` .
  Even though this does not show up at the use site , at the point of definition
- the choice of name for the `paramete`r should clearly document its role in the function .
+ the choice of name for the `parameter` should clearly document its role in the function .
  This is why earlier , we chose _index_ over using the letter _i_ .
- `2.2` In swift , parameters can take `default values` ,
+    `2.2` In Swift , parameters can take `default values` ,
  and you are encouraged to use this feature where possible
- to simplify function signature and make it more readable .
+ to simplify function signature
+ and make it more readable .
  In Objective C — and in other languages —
  it is common to define method families
  where you have one version of a method
