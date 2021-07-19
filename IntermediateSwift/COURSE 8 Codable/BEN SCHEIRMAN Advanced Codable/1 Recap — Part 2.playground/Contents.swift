@@ -54,8 +54,8 @@ struct Bread: Codable {
         
         var jsonContainer = encoder.container(keyedBy : CodingKeys.self)
         
-        try jsonContainer.encode(id , forKey : CodingKeys.id)
-        try jsonContainer.encode(name , forKey : CodingKeys.name)
+        try jsonContainer.encode(id ,     forKey : CodingKeys.id)
+        try jsonContainer.encode(name ,   forKey : CodingKeys.name)
         try jsonContainer.encode(bakery , forKey : CodingKeys.bakery)
     }
 }

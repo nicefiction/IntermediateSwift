@@ -258,15 +258,15 @@ struct Employee: Codable { // ERROR : Type 'Employee' does not conform to protoc
 
  Our JSON , if we go back to it ,
  
- `struct Employee: Codable {`
-    
-    `let name: String`
-    `let id: Int`
-    `let role: String`
- `}`
+ `let json = """`
+ `{`
+     `"name" : "Dorothy" ,`
+     `"id" : 1 ,`
+     `"role" : "designer"`
+ `""".data(using : .utf8)`
  
  resembles a _dictionary_
- and our decodable type also has keys ,
+ and our `Decodable` type also has keys ,
  so what we want is a `KeyedDecodingContainer` .
  We are going to ask the `decoder`
  to create an instance
@@ -350,8 +350,7 @@ struct Employee: Codable { // ERROR : Type 'Employee' does not conform to protoc
 
 struct Employee: Codable {
     
-     // ///////////////////
-    //  MARK: NESTED TYPES
+    // MARK: -NESTED TYPES -
     
     enum CodingKeys: String ,
                      CodingKey {
@@ -362,8 +361,7 @@ struct Employee: Codable {
                
     
     
-     // /////////////////
-    //  MARK: PROPERTIES
+     // MARK: - PROPERTIES -
     
     let name: String
     let id: Int
@@ -371,8 +369,7 @@ struct Employee: Codable {
     
     
     
-     // /////////////////////////
-    //  MARK: INITIALZER METHODS
+     // MARK: - INITIALZER METHODS -
     
     init(from decoder: Decoder)
     throws {

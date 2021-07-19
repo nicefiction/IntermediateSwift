@@ -20,7 +20,7 @@
 		0901A30925922B7000114E2A /* 2 Computed Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 Computed Properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A30B25933DB900114E2A /* 3 Reading Modes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Reading Modes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A30D2593CEB100114E2A /* 4 Lazy Stored Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Lazy Stored Properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		0901A30F2594867800114E2A /* 5 Property Observers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Property Observers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0901A30F2594867800114E2A /* 5 Property Observers — Part 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Property Observers — Part 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A3122594A5D400114E2A /* 1 Initialisation Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Initialisation Recap.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A85F264AF24E0023D9E5 /* 2 The Decodable Protocol — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 The Decodable Protocol — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0901A861264B97EB0023D9E5 /* 3 The Encodable Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 The Encodable Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -139,6 +139,7 @@
 		09CB8AAF25AB14DD00F8C799 /* 1 Associated Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Associated Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CD024826655E98004D6F22 /* 3 Guidelines for Naming Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Guidelines for Naming Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CD024A26662E3B004D6F22 /* 4 Fluent Usage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 Fluent Usage.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09D0E44326A5716500C71C28 /* 5 Property Observers — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 Property Observers — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FD825E79B9F0051652D /* 3 Escaping Weak and Unowned — Part 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 Escaping Weak and Unowned — Part 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D24FDB25E7F2320051652D /* 1 Understanding Access Levels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 Understanding Access Levels.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D99D8326692ECE00EADF2F /* 6 Recap Naming Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6 Recap Naming Methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -266,7 +267,8 @@
 				0901A30925922B7000114E2A /* 2 Computed Properties.playground */,
 				0901A30B25933DB900114E2A /* 3 Reading Modes.playground */,
 				0901A30D2593CEB100114E2A /* 4 Lazy Stored Properties.playground */,
-				0901A30F2594867800114E2A /* 5 Property Observers.playground */,
+				0901A30F2594867800114E2A /* 5 Property Observers — Part 1.playground */,
+				09D0E44326A5716500C71C28 /* 5 Property Observers — Part 2.playground */,
 			);
 			path = "CHAPTER 1 Properties";
 			sourceTree = "<group>";
