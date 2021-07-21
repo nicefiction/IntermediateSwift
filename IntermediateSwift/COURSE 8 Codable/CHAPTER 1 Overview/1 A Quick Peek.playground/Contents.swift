@@ -122,10 +122,10 @@ let json: Data? = """
  defined as a `multi-line string literal` .
  (`!`) This isn't actually how JSON would be transmitted in a networking response ,
  so right after , we have some code
- that is converting the string literal to a data object
+ that is converting the string literal to a `Data` object
  using the `UTF-8 string encoding` .
  This JSON represents some information about a particular employee in some database .
- Now , in a code base , we won't be working with string or data instances .
+ Now , in a code base , we won't be working with `String` or `Data` instances .
  And instead we would have a model that represents this .
  So we have one right here :
  */

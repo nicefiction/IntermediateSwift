@@ -205,16 +205,17 @@ PlaygroundPage.current.liveView = viewController.view
  but they allow us
  to write code
  that is dependent on a property being changed .
- In addition to didSet ,
- which is called immediately after the property's value has been set ,
- we also have willSet , which is called right before the property value is set .
+ In addition to `didSet` ,
+ which is called _immediately after_ the property's value has been set .
+ We also have `willSet` ,
+ which is called _right before_ the property value is set .
  And you can see how these two differ
  by inspecting the output of the print statements .
  So , down here you can see , we'll go up to the very top ,
  (...) and you'll see that the Old value ,
- which was on willSet the first time we called was 0 ,
+ which was on `willSet` the first time we called was 0 ,
  and then the second we start sliding the slider around ,
- a New value is assigned in didSet .
+ a New value is assigned in `didSet` .
  And then again , when we move it ,
  Old value reflects the New value ,
  and so on .
@@ -225,7 +226,7 @@ PlaygroundPage.current.liveView = viewController.view
  when setting properties
  during the initialisation process
  in an `init() method` ,
- only after .
+ only _after_ .
  
  `NOTE` : This ...
  
@@ -267,11 +268,8 @@ PlaygroundPage.current.liveView = viewController.view
  rather than going through the property observer .
  But now you get what it does . In the future ,
  you’ll see that property observers allow us to do interesting things .
-
- 
- 
- 
- 
+*/
+ /**
  These variations on stored properties , and properties in general ,
  aren't concepts you need to utilise in every Class , Struct , or Enum ,
  but they are good to be familiar with .
